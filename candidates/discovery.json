@@ -1,6 +1,1403 @@
 {
  "pipeline": "pipelines/h1_robust_snr.py",
- "threshold": 65.96865226921959,
- "stars_searched": 300,
- "candidates": []
+ "threshold_mode": "5pct",
+ "threshold": 16.657854814484146,
+ "stars_searched": 1499,
+ "signals_over_threshold": 90,
+ "after_catalog_crossmatch": 90,
+ "survivors_after_vetting": 29,
+ "candidates": [
+  {
+   "tic": 712930936,
+   "sector": 98,
+   "signal": {
+    "period": 4.901263330974518,
+    "t0": 3995.498875139044,
+    "duration": 0.08,
+    "depth": 0.07507755325535916,
+    "score": 1211.2893445409227
+   },
+   "vetting": {
+    "tic": 712930936,
+    "sector": 98,
+    "transits_observed": 8,
+    "odd_even": {
+     "odd_depth": 0.0796052676325203,
+     "even_depth": 0.08078264130940538,
+     "difference_sigma": 1.0297043254804201
+    },
+    "secondary": {
+     "secondary_depth": -0.00017896763608904465,
+     "secondary_sigma": -0.8092132186145462
+    },
+    "centroid": {
+     "x_sigma": 0.4373905499842042,
+     "y_sigma": 1.7810754541398075,
+     "max_sigma": 1.7810754541398075
+    },
+    "flags": [],
+    "passes": true
+   }
+  },
+  {
+   "tic": 685183728,
+   "sector": 97,
+   "signal": {
+    "period": 0.5942644449150226,
+    "t0": 3937.8140267029394,
+    "duration": 0.16,
+    "depth": 0.011929060556269643,
+    "score": 50.389266544001444
+   },
+   "vetting": {
+    "tic": 685183728,
+    "sector": 97,
+    "transits_observed": 59,
+    "odd_even": {
+     "odd_depth": -0.00031653219678362543,
+     "even_depth": -0.0005755772018365413,
+     "difference_sigma": 1.3844160749594216
+    },
+    "secondary": {
+     "secondary_depth": -0.0002334693781048669,
+     "secondary_sigma": -2.577991048130782
+    },
+    "centroid": {
+     "x_sigma": 1.5998607756348127,
+     "y_sigma": 1.614453674125358,
+     "max_sigma": 1.614453674125358
+    },
+    "flags": [],
+    "passes": true
+   }
+  },
+  {
+   "tic": 293973585,
+   "sector": 96,
+   "signal": {
+    "period": 0.5647988561530002,
+    "t0": 3910.138859558105,
+    "duration": 0.16,
+    "depth": 0.0013627442131369228,
+    "score": 43.49524781428253
+   },
+   "vetting": {
+    "tic": 293973585,
+    "sector": 96,
+    "transits_observed": 32,
+    "odd_even": {
+     "odd_depth": 0.0016024457190702002,
+     "even_depth": 0.0016898118832725517,
+     "difference_sigma": 1.3149177751244998
+    },
+    "secondary": {
+     "secondary_depth": 3.152163396991092e-05,
+     "secondary_sigma": 0.9404253288294937
+    },
+    "centroid": {
+     "x_sigma": 0.21681872251970036,
+     "y_sigma": 0.06174772770332202,
+     "max_sigma": 0.21681872251970036
+    },
+    "flags": [],
+    "passes": true
+   }
+  },
+  {
+   "tic": 281634577,
+   "sector": 97,
+   "signal": {
+    "period": 0.587202033528197,
+    "t0": 3937.605264322625,
+    "duration": 0.16,
+    "depth": 0.00025339636433214775,
+    "score": 27.21328989292772
+   },
+   "vetting": {
+    "tic": 281634577,
+    "sector": 97,
+    "transits_observed": 62,
+    "odd_even": {
+     "odd_depth": 0.00036061461850112053,
+     "even_depth": 0.00032244030282257974,
+     "difference_sigma": 1.6577776360842318
+    },
+    "secondary": {
+     "secondary_depth": 2.0105950243154425e-05,
+     "secondary_sigma": 1.7741259945567
+    },
+    "centroid": {
+     "x_sigma": 0.8931482754343747,
+     "y_sigma": 0.9110274776981651,
+     "max_sigma": 0.9110274776981651
+    },
+    "flags": [],
+    "passes": true
+   }
+  },
+  {
+   "tic": 427334322,
+   "sector": 98,
+   "signal": {
+    "period": 0.927368623179076,
+    "t0": 3995.429170108028,
+    "duration": 0.16,
+    "depth": 0.0005024567003046507,
+    "score": 26.248371761795262
+   },
+   "vetting": {
+    "tic": 427334322,
+    "sector": 98,
+    "transits_observed": 35,
+    "odd_even": {
+     "odd_depth": 0.0004797085155071601,
+     "even_depth": 0.0005359741977191135,
+     "difference_sigma": 1.2432583270296385
+    },
+    "secondary": {
+     "secondary_depth": -1.805730736426092e-05,
+     "secondary_sigma": -0.8434826135273096
+    },
+    "centroid": {
+     "x_sigma": 0.8377499499252226,
+     "y_sigma": 2.583312522921937,
+     "max_sigma": 2.583312522921937
+    },
+    "flags": [],
+    "passes": true
+   }
+  },
+  {
+   "tic": 40280027,
+   "sector": 97,
+   "signal": {
+    "period": 0.5452051161492569,
+    "t0": 3937.750964276871,
+    "duration": 0.16,
+    "depth": 0.008304165247308997,
+    "score": 21.39288807199973
+   },
+   "vetting": {
+    "tic": 40280027,
+    "sector": 97,
+    "transits_observed": 66,
+    "odd_even": {
+     "odd_depth": 0.010962418735977697,
+     "even_depth": 0.010111691138200762,
+     "difference_sigma": 0.8065417371699598
+    },
+    "secondary": {
+     "secondary_depth": 0.00013484990706413846,
+     "secondary_sigma": 0.2745592846258568
+    },
+    "centroid": {
+     "x_sigma": 0.2170582529537012,
+     "y_sigma": 0.23420538228054996,
+     "max_sigma": 0.23420538228054996
+    },
+    "flags": [],
+    "passes": true
+   }
+  }
+ ],
+ "rejected": [
+  {
+   "tic": 219236719,
+   "period": 1.5049101852574578,
+   "flags": [
+    "odd and even depths differ (likely eclipsing binary at twice the period)"
+   ]
+  },
+  {
+   "tic": 55756819,
+   "period": 0.514544223893408,
+   "flags": [
+    "centroid shifts in transit (signal may come from a neighbouring star)"
+   ]
+  },
+  {
+   "tic": 260297476,
+   "period": 0.5260641002980768,
+   "flags": [
+    "centroid shifts in transit (signal may come from a neighbouring star)"
+   ]
+  },
+  {
+   "tic": 41171402,
+   "period": 3.3044442379690864,
+   "flags": [
+    "centroid shifts in transit (signal may come from a neighbouring star)"
+   ]
+  },
+  {
+   "tic": 427463438,
+   "period": 0.6103019930565581,
+   "flags": [
+    "secondary eclipse detected (likely eclipsing binary)"
+   ]
+  },
+  {
+   "tic": 388850451,
+   "period": 0.5898700897410937,
+   "flags": [
+    "centroid shifts in transit (signal may come from a neighbouring star)"
+   ]
+  },
+  {
+   "tic": 229071932,
+   "period": 0.7193292854845154,
+   "flags": [
+    "secondary eclipse detected (likely eclipsing binary)"
+   ]
+  },
+  {
+   "tic": 459988909,
+   "period": 0.5280759031936801,
+   "flags": [
+    "centroid shifts in transit (signal may come from a neighbouring star)"
+   ]
+  },
+  {
+   "tic": 142267235,
+   "period": 0.6681944191483402,
+   "flags": [
+    "secondary eclipse detected (likely eclipsing binary)"
+   ]
+  },
+  {
+   "tic": 345749387,
+   "period": 0.523158450517237,
+   "flags": [
+    "odd and even depths differ (likely eclipsing binary at twice the period)",
+    "secondary eclipse detected (likely eclipsing binary)"
+   ]
+  },
+  {
+   "tic": 93421921,
+   "period": 0.5668577537827758,
+   "flags": [
+    "secondary eclipse detected (likely eclipsing binary)"
+   ]
+  },
+  {
+   "tic": 50794268,
+   "period": 4.104420766390656,
+   "flags": [
+    "odd and even depths differ (likely eclipsing binary at twice the period)",
+    "centroid shifts in transit (signal may come from a neighbouring star)"
+   ]
+  },
+  {
+   "tic": 197952393,
+   "period": 0.5812460987640269,
+   "flags": [
+    "secondary eclipse detected (likely eclipsing binary)",
+    "centroid shifts in transit (signal may come from a neighbouring star)"
+   ]
+  },
+  {
+   "tic": 235078291,
+   "period": 0.5659600674565088,
+   "flags": [
+    "odd and even depths differ (likely eclipsing binary at twice the period)"
+   ]
+  },
+  {
+   "tic": 141153555,
+   "period": 0.5831351764370963,
+   "flags": [
+    "secondary eclipse detected (likely eclipsing binary)",
+    "centroid shifts in transit (signal may come from a neighbouring star)"
+   ]
+  },
+  {
+   "tic": 177118920,
+   "period": 0.6538813839513861,
+   "flags": [
+    "secondary eclipse detected (likely eclipsing binary)",
+    "centroid shifts in transit (signal may come from a neighbouring star)"
+   ]
+  },
+  {
+   "tic": 24249276,
+   "period": 13.651104831367507,
+   "flags": [
+    "odd and even depths differ (likely eclipsing binary at twice the period)",
+    "centroid shifts in transit (signal may come from a neighbouring star)"
+   ]
+  },
+  {
+   "tic": 268639292,
+   "period": 13.566905687970026,
+   "flags": [
+    "centroid shifts in transit (signal may come from a neighbouring star)"
+   ]
+  },
+  {
+   "tic": 307919961,
+   "period": 13.970188766155935,
+   "flags": [
+    "centroid shifts in transit (signal may come from a neighbouring star)"
+   ]
+  },
+  {
+   "tic": 170803906,
+   "period": 13.85903523379968,
+   "flags": [
+    "centroid shifts in transit (signal may come from a neighbouring star)"
+   ]
+  },
+  {
+   "tic": 37115731,
+   "period": 0.5646905021299424,
+   "flags": [
+    "centroid shifts in transit (signal may come from a neighbouring star)"
+   ]
+  },
+  {
+   "tic": 426055864,
+   "period": 0.6007611110497544,
+   "flags": [
+    "centroid shifts in transit (signal may come from a neighbouring star)"
+   ]
+  },
+  {
+   "tic": 365642947,
+   "period": 4.232467737733945,
+   "flags": [
+    "odd and even depths differ (likely eclipsing binary at twice the period)",
+    "secondary eclipse detected (likely eclipsing binary)",
+    "centroid shifts in transit (signal may come from a neighbouring star)"
+   ]
+  },
+  {
+   "tic": 449427666,
+   "period": 0.7297515544101029,
+   "flags": [
+    "secondary eclipse detected (likely eclipsing binary)"
+   ]
+  },
+  {
+   "tic": 364425576,
+   "period": 0.851225638455007,
+   "flags": [
+    "secondary eclipse detected (likely eclipsing binary)"
+   ]
+  },
+  {
+   "tic": 67199759,
+   "period": 0.7347202085393648,
+   "flags": [
+    "secondary eclipse detected (likely eclipsing binary)"
+   ]
+  },
+  {
+   "tic": 248351360,
+   "period": 13.528413549716511,
+   "flags": [
+    "secondary eclipse detected (likely eclipsing binary)",
+    "centroid shifts in transit (signal may come from a neighbouring star)"
+   ]
+  },
+  {
+   "tic": 111227981,
+   "period": 13.598591856126905,
+   "flags": [
+    "odd and even depths differ (likely eclipsing binary at twice the period)",
+    "centroid shifts in transit (signal may come from a neighbouring star)"
+   ]
+  },
+  {
+   "tic": 237984921,
+   "period": 12.994707260214458,
+   "flags": [
+    "odd and even depths differ (likely eclipsing binary at twice the period)",
+    "centroid shifts in transit (signal may come from a neighbouring star)"
+   ]
+  },
+  {
+   "tic": 408017373,
+   "period": 0.7458304144735408,
+   "flags": [
+    "secondary eclipse detected (likely eclipsing binary)"
+   ]
+  },
+  {
+   "tic": 805901810,
+   "period": 11.560478036339418,
+   "flags": [
+    "centroid shifts in transit (signal may come from a neighbouring star)"
+   ]
+  },
+  {
+   "tic": 111267897,
+   "period": 13.556997657377519,
+   "flags": [
+    "centroid shifts in transit (signal may come from a neighbouring star)"
+   ]
+  },
+  {
+   "tic": 255633670,
+   "period": 13.03332216637971,
+   "flags": [
+    "odd and even depths differ (likely eclipsing binary at twice the period)",
+    "centroid shifts in transit (signal may come from a neighbouring star)"
+   ]
+  },
+  {
+   "tic": 268633141,
+   "period": 13.521777810527874,
+   "flags": [
+    "odd and even depths differ (likely eclipsing binary at twice the period)",
+    "centroid shifts in transit (signal may come from a neighbouring star)"
+   ]
+  },
+  {
+   "tic": 138734026,
+   "period": 13.939041161728136,
+   "flags": [
+    "odd and even depths differ (likely eclipsing binary at twice the period)"
+   ]
+  },
+  {
+   "tic": 316937412,
+   "period": 12.16651856311893,
+   "flags": [
+    "odd and even depths differ (likely eclipsing binary at twice the period)",
+    "centroid shifts in transit (signal may come from a neighbouring star)"
+   ]
+  },
+  {
+   "tic": 141089491,
+   "period": 12.98519330674593,
+   "flags": [
+    "centroid shifts in transit (signal may come from a neighbouring star)"
+   ]
+  },
+  {
+   "tic": 279361853,
+   "period": 0.6183809800875696,
+   "flags": [
+    "centroid shifts in transit (signal may come from a neighbouring star)"
+   ]
+  },
+  {
+   "tic": 279511436,
+   "period": 0.5903329078792211,
+   "flags": [
+    "secondary eclipse detected (likely eclipsing binary)"
+   ]
+  },
+  {
+   "tic": 280794673,
+   "period": 13.012798732457615,
+   "flags": [
+    "centroid shifts in transit (signal may come from a neighbouring star)"
+   ]
+  },
+  {
+   "tic": 306928146,
+   "period": 0.6236237570126859,
+   "flags": [
+    "secondary eclipse detected (likely eclipsing binary)",
+    "centroid shifts in transit (signal may come from a neighbouring star)"
+   ]
+  },
+  {
+   "tic": 200053056,
+   "period": 0.9079840281650475,
+   "flags": [
+    "odd and even depths differ (likely eclipsing binary at twice the period)",
+    "secondary eclipse detected (likely eclipsing binary)",
+    "centroid shifts in transit (signal may come from a neighbouring star)"
+   ]
+  },
+  {
+   "tic": 277297977,
+   "period": 0.7802327301127572,
+   "flags": [
+    "odd and even depths differ (likely eclipsing binary at twice the period)"
+   ]
+  },
+  {
+   "tic": 257397172,
+   "period": 13.514025864100923,
+   "flags": [
+    "secondary eclipse detected (likely eclipsing binary)",
+    "centroid shifts in transit (signal may come from a neighbouring star)"
+   ]
+  },
+  {
+   "tic": 350294980,
+   "period": 13.807600055288892,
+   "flags": [
+    "odd and even depths differ (likely eclipsing binary at twice the period)",
+    "secondary eclipse detected (likely eclipsing binary)"
+   ]
+  },
+  {
+   "tic": 439403005,
+   "period": 13.94016369639843,
+   "flags": [
+    "odd and even depths differ (likely eclipsing binary at twice the period)",
+    "centroid shifts in transit (signal may come from a neighbouring star)"
+   ]
+  },
+  {
+   "tic": 300289672,
+   "period": 12.992238098765618,
+   "flags": [
+    "odd and even depths differ (likely eclipsing binary at twice the period)",
+    "centroid shifts in transit (signal may come from a neighbouring star)"
+   ]
+  },
+  {
+   "tic": 123289946,
+   "period": 0.655205564664753,
+   "flags": [
+    "odd and even depths differ (likely eclipsing binary at twice the period)"
+   ]
+  },
+  {
+   "tic": 209458370,
+   "period": 13.734652594319401,
+   "flags": [
+    "centroid shifts in transit (signal may come from a neighbouring star)"
+   ]
+  },
+  {
+   "tic": 264631371,
+   "period": 0.9243026204170516,
+   "flags": [
+    "odd and even depths differ (likely eclipsing binary at twice the period)",
+    "centroid shifts in transit (signal may come from a neighbouring star)"
+   ]
+  },
+  {
+   "tic": 158637316,
+   "period": 0.5969124321661339,
+   "flags": [
+    "odd and even depths differ (likely eclipsing binary at twice the period)"
+   ]
+  },
+  {
+   "tic": 66534494,
+   "period": 13.961053033380702,
+   "flags": [
+    "odd and even depths differ (likely eclipsing binary at twice the period)",
+    "centroid shifts in transit (signal may come from a neighbouring star)"
+   ]
+  },
+  {
+   "tic": 197959960,
+   "period": 13.004330623106986,
+   "flags": [
+    "centroid shifts in transit (signal may come from a neighbouring star)"
+   ]
+  },
+  {
+   "tic": 161638009,
+   "period": 0.6302264741125656,
+   "flags": [
+    "odd and even depths differ (likely eclipsing binary at twice the period)",
+    "secondary eclipse detected (likely eclipsing binary)",
+    "centroid shifts in transit (signal may come from a neighbouring star)"
+   ]
+  },
+  {
+   "tic": 32551996,
+   "period": 13.62761823730176,
+   "flags": [
+    "centroid shifts in transit (signal may come from a neighbouring star)"
+   ]
+  },
+  {
+   "tic": 41993954,
+   "period": 13.941342501653837,
+   "flags": [
+    "odd and even depths differ (likely eclipsing binary at twice the period)",
+    "centroid shifts in transit (signal may come from a neighbouring star)"
+   ]
+  },
+  {
+   "tic": 436579862,
+   "period": 0.7742801551238192,
+   "flags": [
+    "secondary eclipse detected (likely eclipsing binary)"
+   ]
+  },
+  {
+   "tic": 24909587,
+   "period": 13.530214045176768,
+   "flags": [
+    "centroid shifts in transit (signal may come from a neighbouring star)"
+   ]
+  },
+  {
+   "tic": 350345049,
+   "period": 0.5240354577221897,
+   "flags": [
+    "odd and even depths differ (likely eclipsing binary at twice the period)"
+   ]
+  },
+  {
+   "tic": 287963977,
+   "period": 13.788554727261305,
+   "flags": [
+    "fewer than two transits observed",
+    "centroid shifts in transit (signal may come from a neighbouring star)"
+   ]
+  },
+  {
+   "tic": 198008808,
+   "period": 0.5932912622787496,
+   "flags": [
+    "secondary eclipse detected (likely eclipsing binary)",
+    "centroid shifts in transit (signal may come from a neighbouring star)"
+   ]
+  }
+ ],
+ "auto_vetting_survivors": [
+  {
+   "tic": 712930936,
+   "sector": 98,
+   "signal": {
+    "period": 4.901263330974518,
+    "t0": 3995.498875139044,
+    "duration": 0.08,
+    "depth": 0.07507755325535916,
+    "score": 1211.2893445409227
+   },
+   "vetting": {
+    "tic": 712930936,
+    "sector": 98,
+    "transits_observed": 8,
+    "odd_even": {
+     "odd_depth": 0.0796052676325203,
+     "even_depth": 0.08078264130940538,
+     "difference_sigma": 1.0297043254804201
+    },
+    "secondary": {
+     "secondary_depth": -0.00017896763608904465,
+     "secondary_sigma": -0.8092132186145462
+    },
+    "centroid": {
+     "x_sigma": 0.4373905499842042,
+     "y_sigma": 1.7810754541398075,
+     "max_sigma": 1.7810754541398075
+    },
+    "flags": [],
+    "passes": true
+   }
+  },
+  {
+   "tic": 167890999,
+   "sector": 96,
+   "signal": {
+    "period": 3.681663058302951,
+    "t0": 3912.582532777039,
+    "duration": 0.16,
+    "depth": 0.016840316952356726,
+    "score": 102.59581666251644
+   },
+   "vetting": {
+    "tic": 167890999,
+    "sector": 96,
+    "transits_observed": 5,
+    "odd_even": {
+     "odd_depth": 0.020689784994051164,
+     "even_depth": 0.018959955762059444,
+     "difference_sigma": 2.0218369723163354
+    },
+    "secondary": {
+     "secondary_depth": -0.0012366430377142024,
+     "secondary_sigma": -8.455703249190194
+    },
+    "centroid": {
+     "x_sigma": 2.6200888549138965,
+     "y_sigma": 1.2256342053411278,
+     "max_sigma": 2.6200888549138965
+    },
+    "flags": [],
+    "passes": true
+   }
+  },
+  {
+   "tic": 393803502,
+   "sector": 98,
+   "signal": {
+    "period": 0.5491941923613863,
+    "t0": 3995.3396743510516,
+    "duration": 0.16,
+    "depth": 0.03495027491924548,
+    "score": 91.03093418922283
+   },
+   "vetting": {
+    "tic": 393803502,
+    "sector": 98,
+    "transits_observed": 59,
+    "odd_even": {
+     "odd_depth": -0.004490224440456436,
+     "even_depth": -0.004270922400057886,
+     "difference_sigma": 0.2547942025024019
+    },
+    "secondary": {
+     "secondary_depth": -0.0033314578025910313,
+     "secondary_sigma": -7.696744440674081
+    },
+    "centroid": {
+     "x_sigma": 0.30274302095597305,
+     "y_sigma": 1.462449066360281,
+     "max_sigma": 1.462449066360281
+    },
+    "flags": [],
+    "passes": true
+   }
+  },
+  {
+   "tic": 138760334,
+   "sector": 98,
+   "signal": {
+    "period": 0.5351631844105492,
+    "t0": 3995.2346917347163,
+    "duration": 0.16,
+    "depth": 0.025192254492838795,
+    "score": 84.65463987270432
+   },
+   "vetting": {
+    "tic": 138760334,
+    "sector": 98,
+    "transits_observed": 60,
+    "odd_even": {
+     "odd_depth": -0.005885392739179429,
+     "even_depth": -0.0049379129603525085,
+     "difference_sigma": 1.856164258681087
+    },
+    "secondary": {
+     "secondary_depth": -0.005247511158788631,
+     "secondary_sigma": -21.080679573267734
+    },
+    "centroid": {
+     "x_sigma": 2.0431599708617685,
+     "y_sigma": 0.329670391022741,
+     "max_sigma": 2.0431599708617685
+    },
+    "flags": [],
+    "passes": true
+   }
+  },
+  {
+   "tic": 220399293,
+   "sector": 97,
+   "signal": {
+    "period": 0.501630251700882,
+    "t0": 3937.6098452600568,
+    "duration": 0.16,
+    "depth": 0.0014131450019217251,
+    "score": 53.0949705051526
+   },
+   "vetting": {
+    "tic": 220399293,
+    "sector": 97,
+    "transits_observed": 73,
+    "odd_even": {
+     "odd_depth": 0.002080406592721684,
+     "even_depth": 0.002068755336389283,
+     "difference_sigma": 0.20448326500969088
+    },
+    "secondary": {
+     "secondary_depth": -4.6827861958531614e-05,
+     "secondary_sigma": -1.416191453974942
+    },
+    "centroid": {
+     "x_sigma": 0.16029549248476319,
+     "y_sigma": 0.8214027627506072,
+     "max_sigma": 0.8214027627506072
+    },
+    "flags": [],
+    "passes": true
+   }
+  },
+  {
+   "tic": 685183728,
+   "sector": 97,
+   "signal": {
+    "period": 0.5942644449150226,
+    "t0": 3937.8140267029394,
+    "duration": 0.16,
+    "depth": 0.011929060556269643,
+    "score": 50.389266544001444
+   },
+   "vetting": {
+    "tic": 685183728,
+    "sector": 97,
+    "transits_observed": 59,
+    "odd_even": {
+     "odd_depth": -0.00031653219678362543,
+     "even_depth": -0.0005755772018365413,
+     "difference_sigma": 1.3844160749594216
+    },
+    "secondary": {
+     "secondary_depth": -0.0002334693781048669,
+     "secondary_sigma": -2.577991048130782
+    },
+    "centroid": {
+     "x_sigma": 1.5998607756348127,
+     "y_sigma": 1.614453674125358,
+     "max_sigma": 1.614453674125358
+    },
+    "flags": [],
+    "passes": true
+   }
+  },
+  {
+   "tic": 293973585,
+   "sector": 96,
+   "signal": {
+    "period": 0.5647988561530002,
+    "t0": 3910.138859558105,
+    "duration": 0.16,
+    "depth": 0.0013627442131369228,
+    "score": 43.49524781428253
+   },
+   "vetting": {
+    "tic": 293973585,
+    "sector": 96,
+    "transits_observed": 32,
+    "odd_even": {
+     "odd_depth": 0.0016024457190702002,
+     "even_depth": 0.0016898118832725517,
+     "difference_sigma": 1.3149177751244998
+    },
+    "secondary": {
+     "secondary_depth": 3.152163396991092e-05,
+     "secondary_sigma": 0.9404253288294937
+    },
+    "centroid": {
+     "x_sigma": 0.21681872251970036,
+     "y_sigma": 0.06174772770332202,
+     "max_sigma": 0.21681872251970036
+    },
+    "flags": [],
+    "passes": true
+   }
+  },
+  {
+   "tic": 141271498,
+   "sector": 96,
+   "signal": {
+    "period": 0.5063823758541095,
+    "t0": 3910.062082604713,
+    "duration": 0.16,
+    "depth": 0.0022407263624018643,
+    "score": 37.27966302020598
+   },
+   "vetting": {
+    "tic": 141271498,
+    "sector": 96,
+    "transits_observed": 37,
+    "odd_even": {
+     "odd_depth": 0.0035089323719059706,
+     "even_depth": 0.0034793844817188058,
+     "difference_sigma": 0.24741441654623408
+    },
+    "secondary": {
+     "secondary_depth": 0.00010745960924363196,
+     "secondary_sigma": 1.7012734362729536
+    },
+    "centroid": {
+     "x_sigma": 0.9092181909315773,
+     "y_sigma": 0.0,
+     "max_sigma": 0.9092181909315773
+    },
+    "flags": [],
+    "passes": true
+   }
+  },
+  {
+   "tic": 111267727,
+   "sector": 97,
+   "signal": {
+    "period": 13.929089740857643,
+    "t0": 3949.3642097583233,
+    "duration": 0.16,
+    "depth": 0.06140259372872101,
+    "score": 33.46885981824423
+   },
+   "vetting": {
+    "tic": 111267727,
+    "sector": 97,
+    "transits_observed": 4,
+    "odd_even": {
+     "odd_depth": 0.04428932006173403,
+     "even_depth": 0.06899850878111946,
+     "difference_sigma": 1.7709417038001636
+    },
+    "secondary": {
+     "secondary_depth": 0.0012508722740472988,
+     "secondary_sigma": 1.0034486096883704
+    },
+    "centroid": {
+     "x_sigma": 2.125498222530711,
+     "y_sigma": 1.6058660719527384,
+     "max_sigma": 2.125498222530711
+    },
+    "flags": [],
+    "passes": true
+   }
+  },
+  {
+   "tic": 167808083,
+   "sector": 98,
+   "signal": {
+    "period": 0.5486204210535963,
+    "t0": 3995.5486855821564,
+    "duration": 0.16,
+    "depth": 0.0010360839049415181,
+    "score": 30.25601578587823
+   },
+   "vetting": {
+    "tic": 167808083,
+    "sector": 98,
+    "transits_observed": 58,
+    "odd_even": {
+     "odd_depth": -0.0007103727048184405,
+     "even_depth": -0.0009061197059949677,
+     "difference_sigma": 2.2460667190071537
+    },
+    "secondary": {
+     "secondary_depth": -0.0012428979332758106,
+     "secondary_sigma": -27.835841401064876
+    },
+    "centroid": {
+     "x_sigma": 0.3683337199143566,
+     "y_sigma": 1.1530943470996131,
+     "max_sigma": 1.1530943470996131
+    },
+    "flags": [],
+    "passes": true
+   }
+  },
+  {
+   "tic": 281634577,
+   "sector": 97,
+   "signal": {
+    "period": 0.587202033528197,
+    "t0": 3937.605264322625,
+    "duration": 0.16,
+    "depth": 0.00025339636433214775,
+    "score": 27.21328989292772
+   },
+   "vetting": {
+    "tic": 281634577,
+    "sector": 97,
+    "transits_observed": 62,
+    "odd_even": {
+     "odd_depth": 0.00036061461850112053,
+     "even_depth": 0.00032244030282257974,
+     "difference_sigma": 1.6577776360842318
+    },
+    "secondary": {
+     "secondary_depth": 2.0105950243154425e-05,
+     "secondary_sigma": 1.7741259945567
+    },
+    "centroid": {
+     "x_sigma": 0.8931482754343747,
+     "y_sigma": 0.9110274776981651,
+     "max_sigma": 0.9110274776981651
+    },
+    "flags": [],
+    "passes": true
+   }
+  },
+  {
+   "tic": 427334322,
+   "sector": 98,
+   "signal": {
+    "period": 0.927368623179076,
+    "t0": 3995.429170108028,
+    "duration": 0.16,
+    "depth": 0.0005024567003046507,
+    "score": 26.248371761795262
+   },
+   "vetting": {
+    "tic": 427334322,
+    "sector": 98,
+    "transits_observed": 35,
+    "odd_even": {
+     "odd_depth": 0.0004797085155071601,
+     "even_depth": 0.0005359741977191135,
+     "difference_sigma": 1.2432583270296385
+    },
+    "secondary": {
+     "secondary_depth": -1.805730736426092e-05,
+     "secondary_sigma": -0.8434826135273096
+    },
+    "centroid": {
+     "x_sigma": 0.8377499499252226,
+     "y_sigma": 2.583312522921937,
+     "max_sigma": 2.583312522921937
+    },
+    "flags": [],
+    "passes": true
+   }
+  },
+  {
+   "tic": 355403614,
+   "sector": 96,
+   "signal": {
+    "period": 13.069264747393822,
+    "t0": 3908.748456831943,
+    "duration": 0.16,
+    "depth": 0.14062113577076918,
+    "score": 25.850941912116323
+   },
+   "vetting": {
+    "tic": 355403614,
+    "sector": 96,
+    "transits_observed": 2,
+    "odd_even": {
+     "odd_depth": 0.30530866970902626,
+     "even_depth": 0.05881985379780319,
+     "difference_sigma": 1.0226177123202014
+    },
+    "secondary": {
+     "secondary_depth": -0.0015539937311479513,
+     "secondary_sigma": -0.831508465325528
+    },
+    "centroid": {
+     "x_sigma": 2.7250025823115682,
+     "y_sigma": 2.6655834283112845,
+     "max_sigma": 2.7250025823115682
+    },
+    "flags": [],
+    "passes": true
+   }
+  },
+  {
+   "tic": 369396275,
+   "sector": 96,
+   "signal": {
+    "period": 0.5191003940018256,
+    "t0": 3908.7920282392975,
+    "duration": 0.16,
+    "depth": 0.002537095854026825,
+    "score": 22.941990406485395
+   },
+   "vetting": {
+    "tic": 369396275,
+    "sector": 96,
+    "transits_observed": 42,
+    "odd_even": {
+     "odd_depth": 0.0035711545289565105,
+     "even_depth": 0.003628485666281822,
+     "difference_sigma": 0.2394588589643366
+    },
+    "secondary": {
+     "secondary_depth": 0.00020420154013689462,
+     "secondary_sigma": 1.6622048184199865
+    },
+    "centroid": {
+     "x_sigma": 0.28791994078924027,
+     "y_sigma": 0.1806144299127664,
+     "max_sigma": 0.28791994078924027
+    },
+    "flags": [],
+    "passes": true
+   }
+  },
+  {
+   "tic": 167695881,
+   "sector": 97,
+   "signal": {
+    "period": 13.98198111240492,
+    "t0": 3946.239088105321,
+    "duration": 0.08,
+    "depth": 0.03109785124620821,
+    "score": 22.68945504485987
+   },
+   "vetting": {
+    "tic": 167695881,
+    "sector": 97,
+    "transits_observed": 4,
+    "odd_even": {
+     "odd_depth": 0.040961084873324505,
+     "even_depth": 0.027103681791855738,
+     "difference_sigma": 2.4888018391596214
+    },
+    "secondary": {
+     "secondary_depth": -0.00021118571289235888,
+     "secondary_sigma": -0.2478563232652958
+    },
+    "centroid": {
+     "x_sigma": 0.2757253576185392,
+     "y_sigma": 2.7352970863302106,
+     "max_sigma": 2.7352970863302106
+    },
+    "flags": [],
+    "passes": true
+   }
+  },
+  {
+   "tic": 408164528,
+   "sector": 98,
+   "signal": {
+    "period": 7.196945805937134,
+    "t0": 4002.955232288917,
+    "duration": 0.16,
+    "depth": 0.4097937810351635,
+    "score": 22.309304403532504
+   },
+   "vetting": {
+    "tic": 408164528,
+    "sector": 98,
+    "transits_observed": 4,
+    "odd_even": {
+     "odd_depth": 0.45714780236636976,
+     "even_depth": NaN,
+     "difference_sigma": NaN
+    },
+    "secondary": {
+     "secondary_depth": 0.025600405114284297,
+     "secondary_sigma": 2.7740026236595
+    },
+    "centroid": {
+     "x_sigma": 0.8205469122102037,
+     "y_sigma": 0.7724704005591004,
+     "max_sigma": 0.8205469122102037
+    },
+    "flags": [],
+    "passes": true
+   }
+  },
+  {
+   "tic": 167551757,
+   "sector": 98,
+   "signal": {
+    "period": 0.5587130121509913,
+    "t0": 3995.6949803266425,
+    "duration": 0.16,
+    "depth": 0.0014803212730983496,
+    "score": 22.027415060998894
+   },
+   "vetting": {
+    "tic": 167551757,
+    "sector": 98,
+    "transits_observed": 56,
+    "odd_even": {
+     "odd_depth": 0.0017335864976532056,
+     "even_depth": 0.0014466170711648907,
+     "difference_sigma": 1.8741890851109093
+    },
+    "secondary": {
+     "secondary_depth": -0.0013099627401804703,
+     "secondary_sigma": -8.392022003708695
+    },
+    "centroid": {
+     "x_sigma": 0.0,
+     "y_sigma": 0.5240114407231348,
+     "max_sigma": 0.5240114407231348
+    },
+    "flags": [],
+    "passes": true
+   }
+  },
+  {
+   "tic": 165211367,
+   "sector": 98,
+   "signal": {
+    "period": 0.6496082719153418,
+    "t0": 3995.27312587178,
+    "duration": 0.04,
+    "depth": 0.0022912088113965137,
+    "score": 21.711988626856975
+   },
+   "vetting": {
+    "tic": 165211367,
+    "sector": 98,
+    "transits_observed": 48,
+    "odd_even": {
+     "odd_depth": 0.0020114177893403307,
+     "even_depth": 0.0019107184045066283,
+     "difference_sigma": 0.5265894787863902
+    },
+    "secondary": {
+     "secondary_depth": -0.0019634858105036512,
+     "secondary_sigma": -20.865983104214582
+    },
+    "centroid": {
+     "x_sigma": 2.066027058947971,
+     "y_sigma": 1.954683440188851,
+     "max_sigma": 2.066027058947971
+    },
+    "flags": [],
+    "passes": true
+   }
+  },
+  {
+   "tic": 40280027,
+   "sector": 97,
+   "signal": {
+    "period": 0.5452051161492569,
+    "t0": 3937.750964276871,
+    "duration": 0.16,
+    "depth": 0.008304165247308997,
+    "score": 21.39288807199973
+   },
+   "vetting": {
+    "tic": 40280027,
+    "sector": 97,
+    "transits_observed": 66,
+    "odd_even": {
+     "odd_depth": 0.010962418735977697,
+     "even_depth": 0.010111691138200762,
+     "difference_sigma": 0.8065417371699598
+    },
+    "secondary": {
+     "secondary_depth": 0.00013484990706413846,
+     "secondary_sigma": 0.2745592846258568
+    },
+    "centroid": {
+     "x_sigma": 0.2170582529537012,
+     "y_sigma": 0.23420538228054996,
+     "max_sigma": 0.23420538228054996
+    },
+    "flags": [],
+    "passes": true
+   }
+  },
+  {
+   "tic": 276663914,
+   "sector": 98,
+   "signal": {
+    "period": 0.6958366159509949,
+    "t0": 3995.58552813422,
+    "duration": 0.16,
+    "depth": 0.0027015366124457344,
+    "score": 20.315120388499885
+   },
+   "vetting": {
+    "tic": 276663914,
+    "sector": 98,
+    "transits_observed": 47,
+    "odd_even": {
+     "odd_depth": -0.0010831811386251555,
+     "even_depth": -0.0007718309051769623,
+     "difference_sigma": 0.5362413530076041
+    },
+    "secondary": {
+     "secondary_depth": -0.004351309348398447,
+     "secondary_sigma": -14.290717376729793
+    },
+    "centroid": {
+     "x_sigma": 0.30673812220518076,
+     "y_sigma": 0.7811777136036518,
+     "max_sigma": 0.7811777136036518
+    },
+    "flags": [],
+    "passes": true
+   }
+  }
+ ],
+ "quick_look_rejected": [
+  {
+   "tic": 167890999,
+   "period": 3.681663058302951,
+   "reasons": [
+    "brightens at phase 0.5 (sinusoidal variability, not a transit)"
+   ]
+  },
+  {
+   "tic": 393803502,
+   "period": 0.5491941923613863,
+   "reasons": [
+    "brightens at phase 0.5 (sinusoidal variability, not a transit)"
+   ]
+  },
+  {
+   "tic": 138760334,
+   "period": 0.5351631844105492,
+   "reasons": [
+    "brightens at phase 0.5 (sinusoidal variability, not a transit)"
+   ]
+  },
+  {
+   "tic": 220399293,
+   "period": 0.501630251700882,
+   "reasons": [
+    "period at the 0.5-day search floor (systematic)"
+   ]
+  },
+  {
+   "tic": 141271498,
+   "period": 0.5063823758541095,
+   "reasons": [
+    "period at the 0.5-day search floor (systematic)"
+   ]
+  },
+  {
+   "tic": 111267727,
+   "period": 13.929089740857643,
+   "reasons": [
+    "period near TESS's 13.7-day orbit (systematic)"
+   ]
+  },
+  {
+   "tic": 167808083,
+   "period": 0.5486204210535963,
+   "reasons": [
+    "brightens at phase 0.5 (sinusoidal variability, not a transit)"
+   ]
+  },
+  {
+   "tic": 355403614,
+   "period": 13.069264747393822,
+   "reasons": [
+    "deeper than 10% (likely an eclipsing binary)",
+    "fewer than three transits"
+   ]
+  },
+  {
+   "tic": 369396275,
+   "period": 0.5191003940018256,
+   "reasons": [
+    "period at the 0.5-day search floor (systematic)"
+   ]
+  },
+  {
+   "tic": 167695881,
+   "period": 13.98198111240492,
+   "reasons": [
+    "period near TESS's 13.7-day orbit (systematic)"
+   ]
+  },
+  {
+   "tic": 408164528,
+   "period": 7.196945805937134,
+   "reasons": [
+    "deeper than 10% (likely an eclipsing binary)"
+   ]
+  },
+  {
+   "tic": 167551757,
+   "period": 0.5587130121509913,
+   "reasons": [
+    "brightens at phase 0.5 (sinusoidal variability, not a transit)"
+   ]
+  },
+  {
+   "tic": 165211367,
+   "period": 0.6496082719153418,
+   "reasons": [
+    "brightens at phase 0.5 (sinusoidal variability, not a transit)"
+   ]
+  },
+  {
+   "tic": 276663914,
+   "period": 0.6958366159509949,
+   "reasons": [
+    "brightens at phase 0.5 (sinusoidal variability, not a transit)"
+   ]
+  }
+ ]
 }
