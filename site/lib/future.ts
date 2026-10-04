@@ -6,7 +6,7 @@ export const STAKES: Stake[] = [
   {
     figure: "$28B",
     lead: true,
-    line: "of US research a year can't be reproduced. Planet lab re-checks every result on data its agents never saw, before anyone builds on it.",
+    line: "of US research a year can't be reproduced. Planet lab re-checks every result on data its agents never saw.",
     sources: [{ label: "Freedman et al. 2015", href: "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002165" }],
   },
   {
