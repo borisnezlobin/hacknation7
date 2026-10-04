@@ -1,7 +1,7 @@
 {
  "id": "demo",
  "fps": 30,
- "durationInFrames": 1766,
+ "durationInFrames": 1783,
  "scenes": [
   {
    "id": "transit",
@@ -648,14 +648,14 @@
   {
    "id": "discovery",
    "from": 1251,
-   "durationInFrames": 166,
+   "durationInFrames": 183,
    "lines": [
     {
      "id": "demo-discovery",
-     "text": "Then they searched fifteen hundred unlabelled stars, looking for worlds no one has found.",
+     "text": "Then they searched fifteen hundred unlabelled stars, and flagged new planet candidates for follow-up.",
      "audio": "audio/narration/demo-discovery.wav",
      "from": 6,
-     "durationInFrames": 145,
+     "durationInFrames": 162,
      "words": [
       [
        "Then",
@@ -665,67 +665,67 @@
       [
        "they",
        5,
-       8
+       10
       ],
       [
        "searched",
-       8,
-       19
+       10,
+       20
       ],
       [
        "fifteen",
-       19,
-       23
+       20,
+       26
       ],
       [
        "hundred",
-       23,
-       40
+       26,
+       42
       ],
       [
        "unlabelled",
-       40,
-       62
+       42,
+       64
       ],
       [
        "stars,",
-       62,
-       73
+       64,
+       74
       ],
       [
-       "looking",
-       79,
-       93
+       "and",
+       92,
+       107
       ],
       [
-       "for",
-       93,
-       100
+       "flagged",
+       107,
+       110
       ],
       [
-       "worlds",
-       100,
-       112
-      ],
-      [
-       "no",
-       112,
+       "new",
+       110,
        121
       ],
       [
-       "one",
+       "planet",
        121,
-       127
+       136
       ],
       [
-       "has",
-       127,
-       131
+       "candidates",
+       136,
+       144
       ],
       [
-       "found.",
-       131,
-       139
+       "for",
+       144,
+       154
+      ],
+      [
+       "follow-up.",
+       154,
+       161
       ]
      ]
     }
@@ -733,7 +733,7 @@
   },
   {
    "id": "ending",
-   "from": 1417,
+   "from": 1434,
    "durationInFrames": 349,
    "lines": [
     {
@@ -1027,42 +1027,42 @@
   {
    "text": "Then they searched fifteen hundred unlabelled stars,",
    "from": 1257,
-   "to": 1336
+   "to": 1339
   },
   {
-   "text": "looking for worlds no one has found.",
-   "from": 1336,
-   "to": 1404
+   "text": "and flagged new planet candidates for follow-up.",
+   "from": 1349,
+   "to": 1426
   },
   {
    "text": "Better searches mean more worlds to study,",
-   "from": 1426,
-   "to": 1496
+   "from": 1443,
+   "to": 1513
   },
   {
    "text": "maybe habitable ones.",
-   "from": 1496,
-   "to": 1545
+   "from": 1513,
+   "to": 1562
   },
   {
    "text": "And a lab that needed a building",
-   "from": 1545,
-   "to": 1593
+   "from": 1562,
+   "to": 1610
   },
   {
    "text": "now fits in a dorm room,",
-   "from": 1593,
-   "to": 1642
+   "from": 1610,
+   "to": 1659
   },
   {
    "text": "ready for any science you can score,",
-   "from": 1642,
-   "to": 1708
+   "from": 1659,
+   "to": 1725
   },
   {
    "text": "from planets to medicine.",
-   "from": 1708,
-   "to": 1752
+   "from": 1725,
+   "to": 1769
   }
  ]
 }
