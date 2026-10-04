@@ -48,7 +48,7 @@ def discovery_line(lab: dict) -> str:
         return "Then they searched fifteen hundred unlabelled stars, looking for worlds no one has found."
     count = len(candidates)
     noun = "candidate" if count == 1 else "candidates"
-    return "Then they searched fifteen hundred unlabelled stars, and flagged new planet candidates for follow-up."
+    return f"Then they searched fifteen hundred unlabelled stars, and flagged {spoken(count)} new transit {noun} for follow-up."
 
 
 def faint_recovered(run: dict) -> int:
