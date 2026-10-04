@@ -35,166 +35,7 @@
      "y_sigma": 1.7810754541398075,
      "max_sigma": 1.7810754541398075
     },
-    "flags": [],
-    "passes": true
-   }
-  },
-  {
-   "tic": 685183728,
-   "sector": 97,
-   "signal": {
-    "period": 0.5942644449150226,
-    "t0": 3937.8140267029394,
-    "duration": 0.16,
-    "depth": 0.011929060556269643,
-    "score": 50.389266544001444
-   },
-   "vetting": {
-    "tic": 685183728,
-    "sector": 97,
-    "transits_observed": 59,
-    "odd_even": {
-     "odd_depth": -0.00031653219678362543,
-     "even_depth": -0.0005755772018365413,
-     "difference_sigma": 1.3844160749594216
-    },
-    "secondary": {
-     "secondary_depth": -0.0002334693781048669,
-     "secondary_sigma": -2.577991048130782
-    },
-    "centroid": {
-     "x_sigma": 1.5998607756348127,
-     "y_sigma": 1.614453674125358,
-     "max_sigma": 1.614453674125358
-    },
-    "flags": [],
-    "passes": true
-   }
-  },
-  {
-   "tic": 293973585,
-   "sector": 96,
-   "signal": {
-    "period": 0.5647988561530002,
-    "t0": 3910.138859558105,
-    "duration": 0.16,
-    "depth": 0.0013627442131369228,
-    "score": 43.49524781428253
-   },
-   "vetting": {
-    "tic": 293973585,
-    "sector": 96,
-    "transits_observed": 32,
-    "odd_even": {
-     "odd_depth": 0.0016024457190702002,
-     "even_depth": 0.0016898118832725517,
-     "difference_sigma": 1.3149177751244998
-    },
-    "secondary": {
-     "secondary_depth": 3.152163396991092e-05,
-     "secondary_sigma": 0.9404253288294937
-    },
-    "centroid": {
-     "x_sigma": 0.21681872251970036,
-     "y_sigma": 0.06174772770332202,
-     "max_sigma": 0.21681872251970036
-    },
-    "flags": [],
-    "passes": true
-   }
-  },
-  {
-   "tic": 281634577,
-   "sector": 97,
-   "signal": {
-    "period": 0.587202033528197,
-    "t0": 3937.605264322625,
-    "duration": 0.16,
-    "depth": 0.00025339636433214775,
-    "score": 27.21328989292772
-   },
-   "vetting": {
-    "tic": 281634577,
-    "sector": 97,
-    "transits_observed": 62,
-    "odd_even": {
-     "odd_depth": 0.00036061461850112053,
-     "even_depth": 0.00032244030282257974,
-     "difference_sigma": 1.6577776360842318
-    },
-    "secondary": {
-     "secondary_depth": 2.0105950243154425e-05,
-     "secondary_sigma": 1.7741259945567
-    },
-    "centroid": {
-     "x_sigma": 0.8931482754343747,
-     "y_sigma": 0.9110274776981651,
-     "max_sigma": 0.9110274776981651
-    },
-    "flags": [],
-    "passes": true
-   }
-  },
-  {
-   "tic": 427334322,
-   "sector": 98,
-   "signal": {
-    "period": 0.927368623179076,
-    "t0": 3995.429170108028,
-    "duration": 0.16,
-    "depth": 0.0005024567003046507,
-    "score": 26.248371761795262
-   },
-   "vetting": {
-    "tic": 427334322,
-    "sector": 98,
-    "transits_observed": 35,
-    "odd_even": {
-     "odd_depth": 0.0004797085155071601,
-     "even_depth": 0.0005359741977191135,
-     "difference_sigma": 1.2432583270296385
-    },
-    "secondary": {
-     "secondary_depth": -1.805730736426092e-05,
-     "secondary_sigma": -0.8434826135273096
-    },
-    "centroid": {
-     "x_sigma": 0.8377499499252226,
-     "y_sigma": 2.583312522921937,
-     "max_sigma": 2.583312522921937
-    },
-    "flags": [],
-    "passes": true
-   }
-  },
-  {
-   "tic": 40280027,
-   "sector": 97,
-   "signal": {
-    "period": 0.5452051161492569,
-    "t0": 3937.750964276871,
-    "duration": 0.16,
-    "depth": 0.008304165247308997,
-    "score": 21.39288807199973
-   },
-   "vetting": {
-    "tic": 40280027,
-    "sector": 97,
-    "transits_observed": 66,
-    "odd_even": {
-     "odd_depth": 0.010962418735977697,
-     "even_depth": 0.010111691138200762,
-     "difference_sigma": 0.8065417371699598
-    },
-    "secondary": {
-     "secondary_depth": 0.00013484990706413846,
-     "secondary_sigma": 0.2745592846258568
-    },
-    "centroid": {
-     "x_sigma": 0.2170582529537012,
-     "y_sigma": 0.23420538228054996,
-     "max_sigma": 0.23420538228054996
-    },
+    "dip_width_fraction": 0.04,
     "flags": [],
     "passes": true
    }
@@ -1397,6 +1238,48 @@
    "period": 0.6958366159509949,
    "reasons": [
     "brightens at phase 0.5 (sinusoidal variability, not a transit)"
+   ]
+  }
+ ],
+ "retracted_after_review": [
+  {
+   "tic": 685183728,
+   "period": 0.5942644449150226,
+   "dip_width_fraction": 1.0,
+   "flags": [
+    "dip lasts too much of the orbit for a transit (likely a contact binary or variable star)"
+   ]
+  },
+  {
+   "tic": 293973585,
+   "period": 0.5647988561530002,
+   "dip_width_fraction": 0.42,
+   "flags": [
+    "dip lasts too much of the orbit for a transit (likely a contact binary or variable star)"
+   ]
+  },
+  {
+   "tic": 281634577,
+   "period": 0.587202033528197,
+   "dip_width_fraction": 0.44,
+   "flags": [
+    "dip lasts too much of the orbit for a transit (likely a contact binary or variable star)"
+   ]
+  },
+  {
+   "tic": 427334322,
+   "period": 0.927368623179076,
+   "dip_width_fraction": 0.46,
+   "flags": [
+    "dip lasts too much of the orbit for a transit (likely a contact binary or variable star)"
+   ]
+  },
+  {
+   "tic": 40280027,
+   "period": 0.5452051161492569,
+   "dip_width_fraction": 0.46,
+   "flags": [
+    "dip lasts too much of the orbit for a transit (likely a contact binary or variable star)"
    ]
   }
  ]

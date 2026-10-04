@@ -17,14 +17,24 @@ const MAX_SHOWN = 4;
 type FoldedCurve = { hours: number[]; flux: (number | null)[] };
 type Candidate = { tic: number; period: number; depth_ppm: number; lightcurve: FoldedCurve };
 
-const CANDIDATES = (LAB.candidates as unknown as Candidate[]).slice(0, MAX_SHOWN);
+function hasCenteredDip(candidate: Candidate): boolean {
+  const flux = candidate.lightcurve.flux;
+  const values = flux.filter((value): value is number => value !== null).sort((a, b) => a - b);
+  const median = values[Math.floor(values.length / 2)];
+  const low = values[0];
+  const high = values[values.length - 1];
+  const lowAt = flux.indexOf(low) / flux.length;
+  return lowAt > 0.4 && lowAt < 0.6 && high - median < 0.7 * (median - low);
+}
+
+const CANDIDATES = (LAB.candidates as unknown as Candidate[]).filter(hasCenteredDip).slice(0, MAX_SHOWN);
 
 function CandidateDip({ candidate, x, y, reveal }: { candidate: Candidate; x: number; y: number; reveal: number }) {
   const values = candidate.lightcurve.flux.filter((value): value is number => value !== null);
   const low = Math.min(...values);
   const high = Math.max(...values);
   const points = candidate.lightcurve.flux
-    .map((value, index) => (value === null ? null : `${x + (index / candidate.lightcurve.flux.length) * 420},${y + ((high - value) / (high - low || 1)) * 90}`))
+    .map((value, index) => (value === null ? null : `${x + (index / candidate.lightcurve.flux.length) * 360},${y + ((high - value) / (high - low || 1)) * 90}`))
     .filter(Boolean)
     .slice(0, Math.floor(candidate.lightcurve.flux.length * reveal));
   return <polyline points={points.join(" ")} fill="none" stroke="var(--violet-deep)" strokeWidth={4} strokeLinejoin="round" />;
@@ -71,16 +81,16 @@ export function DiscoveryScene({ scene }: { scene: TimelineScene }) {
         <Caption text={`${UNLABELLED.toLocaleString("en-US")} unlabelled stars`} x={FIELD.left} y={FIELD.top - 110} frame={frame} at={line.from} size="title" />
         {CANDIDATES.map((candidate, index) => {
           const reveal = ramp(frame, shelfAt + index * 8, shelfAt + index * 8 + 22, easeOutSoft);
-          const y = 180 + index * 190;
+          const y = 220 + index * 230;
           return reveal > 0 ? (
             <AbsoluteFill key={candidate.tic} style={{ opacity: reveal, transform: `translateX(${lerp(-200, 0, reveal)}px)` }}>
               <svg width={1920} height={1080}>
-                <CandidateDip candidate={candidate} x={1460} y={y} reveal={reveal} />
+                <CandidateDip candidate={candidate} x={1500} y={y} reveal={reveal} />
               </svg>
             </AbsoluteFill>
           ) : null;
         })}
-        {CANDIDATES.length > 0 && <Caption text={`${LAB.candidates.length} new candidates`} x={1670} y={90} frame={frame} at={shelfAt} align="center" size="title" color="var(--class-m)" />}
+        {CANDIDATES.length > 0 && <Caption text="Unconfirmed candidates" x={1840} y={60} frame={frame} at={shelfAt} align="right" size="title" color="var(--class-m)" />}
       </Paper>
     </Impact>
   );
