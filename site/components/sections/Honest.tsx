@@ -20,7 +20,7 @@ export function Honest() {
     <ScrollStage as="section" className="mx-auto grid max-w-7xl gap-10 px-4 py-24 md:grid-cols-2 md:items-center md:px-10 md:py-32" >
       <h2 className="sr-only">The honest part</h2>
       <p className="text-lede max-w-xl">
-        On the sealed blind holdout, the hand-written baseline still beat our champion. The dev gain didn&rsquo;t generalise, and the holdout caught that before we claimed anything.
+        On the sealed holdout the hand-written baseline still won, and it caught that before any claim went out.
       </p>
       <div className="flex flex-col gap-3">
         <HoldoutBar label="Hand-written" score={0.263} tone="bg-ink" at={0.2} />

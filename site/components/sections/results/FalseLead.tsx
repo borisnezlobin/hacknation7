@@ -20,22 +20,21 @@ export function FalseLead() {
       <p className="text-lede max-w-xl">The lab catches its own false leads.</p>
       <div className="mt-12 grid gap-10 sm:grid-cols-2">
         <div className="flex flex-col gap-2">
-          <span className="text-small">Quick test</span>
           <span className="text-figure">0.433</span>
+          <span className="text-small">on a quick test</span>
         </div>
         <div className="stage-step fades-in flex flex-col gap-2" style={stepStyle(0.3, 4)}>
-          <span className="text-small">Full set</span>
           <span className="text-figure text-danger">0.310</span>
+          <span className="text-small">on the full set</span>
         </div>
       </div>
       <div className="mt-14 grid gap-6 md:grid-cols-3">
         <div className="stage-step opens-window" style={stepStyle(0.35, 5)}>
           <Os9Window title="Decision D4" accent="var(--violet)" bodyClassName="p-4">
             <p className="text-title text-lg">Quick runs can&rsquo;t rank pipelines</p>
-            <p className="text-small mt-1">So the lab changed its own rules.</p>
           </Os9Window>
         </div>
-        <Guardrail title="Policy" line="Holdout reads were blocked." at={0.42} />
+        <Guardrail title="Policy" line="A policy blocked a holdout read." at={0.42} />
         <Guardrail title="PI" line="The PI refused to bypass a policy." at={0.49} />
       </div>
     </ScrollStage>

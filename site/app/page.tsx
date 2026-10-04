@@ -1,4 +1,5 @@
 import { Backdrop } from "@/components/Backdrop";
+import { Breakthrough } from "@/components/sections/Breakthrough";
 import { Demo } from "@/components/sections/Demo";
 import { Footer } from "@/components/sections/Footer";
 import { Future } from "@/components/sections/Future";
@@ -29,6 +30,7 @@ export default function Home() {
           <Candidates />
         </section>
         <Honest />
+        <Breakthrough />
         <Future />
       </main>
       <Footer />

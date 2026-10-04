@@ -41,7 +41,7 @@ export function Rediscoveries() {
           5 <span className="text-ink-faint">of 37</span>
         </span>
         <div className="flex flex-col gap-6 md:pb-4">
-          <p className="text-lede max-w-lg">planets announced after the agents&rsquo; knowledge cutoff were found blind. The agents never saw them.</p>
+          <p className="text-lede max-w-lg">planets announced after the agents&rsquo; cutoff were found blind.</p>
           <HoldoutDots />
         </div>
       </div>

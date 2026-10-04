@@ -11,7 +11,7 @@ export function Footer() {
             <LabMark size={40} />
             <span className="text-headline">Planet lab</span>
           </div>
-          <p className="text-body max-w-md">Built for the HackNation 7th Global AI Hackathon, Challenge 03 (Databricks Omnigent).</p>
+          <p className="text-body max-w-md">We built this for HackNation&rsquo;s 7th Global AI Hackathon, Challenge 03 (Databricks Omnigent).</p>
         </div>
         <VideoWindow title="The team" src="/media/team.mp4" poster="/media/team-poster.jpg" playLabel="Meet the team" />
       </div>

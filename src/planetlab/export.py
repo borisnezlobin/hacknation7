@@ -62,13 +62,16 @@ def _run_summaries() -> list[dict]:
     return summaries
 
 
-def _latest_sealed_holdout() -> dict | None:
+def _champion_sealed_holdout() -> dict | None:
+    current = lab.champion()
     runs = sorted((HOLDOUT_DIR / "runs").glob("*.json"), key=lambda p: p.stat().st_mtime)
-    return json.loads(runs[-1].read_text()) if runs else None
+    matching = [json.loads(p.read_text()) for p in runs]
+    matching = [r for r in matching if current and r["pipeline"] == current["pipeline"]]
+    return matching[-1] if matching else None
 
 
 def _rediscoveries() -> list[dict]:
-    sealed = _latest_sealed_holdout()
+    sealed = _champion_sealed_holdout()
     if sealed is None:
         return []
     targets = {(t.tic, round(t.period, 4)): t for t in read_split("holdout_planets")}

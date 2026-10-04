@@ -20,7 +20,6 @@ function EmptyState() {
     <div className="flex flex-col items-center gap-4 px-6 py-14 text-center">
       <Binoculars weight="duotone" className="size-12 text-violet" aria-hidden="true" />
       <p className="text-title max-w-md">The discovery search is still running.</p>
-      <p className="text-small max-w-sm">New planet candidates from unlabelled stars will show up here once the run finishes.</p>
     </div>
   );
 }

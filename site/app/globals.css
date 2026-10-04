@@ -59,12 +59,13 @@ html {
   background: var(--paper);
   color: var(--ink);
   scroll-behavior: smooth;
+  overflow-x: clip;
 }
 
 body {
   background: var(--paper);
   font-family: var(--font-sans);
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 
 @layer components {
@@ -89,6 +90,18 @@ body {
     @apply font-sans font-light text-violet;
     font-size: clamp(3.25rem, 7vw, 6rem);
     line-height: 0.9;
+    font-variant-numeric: tabular-nums;
+  }
+  .text-figure-lead {
+    @apply font-sans font-light whitespace-nowrap;
+    font-size: clamp(3rem, 22cqi, 8.5rem);
+    line-height: 0.9;
+    font-variant-numeric: tabular-nums;
+  }
+  .text-figure-card {
+    @apply font-sans font-light text-violet whitespace-nowrap;
+    font-size: clamp(2.25rem, 20cqi, 4rem);
+    line-height: 0.95;
     font-variant-numeric: tabular-nums;
   }
   .text-title {
@@ -121,10 +134,6 @@ body {
   }
   .text-window-title {
     @apply font-sans font-bold text-black;
-    font-size: 0.8125rem;
-  }
-  .source-link {
-    @apply font-sans text-ink-faint underline decoration-ink-faint/40 underline-offset-2 transition-colors hover:text-violet hover:decoration-violet;
     font-size: 0.8125rem;
   }
 

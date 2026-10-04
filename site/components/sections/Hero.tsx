@@ -13,10 +13,11 @@ export function Hero() {
         <div className="relative z-10 mx-auto flex w-full max-w-7xl flex-1 flex-col justify-center px-4 pt-16 md:px-10">
           <LabMark size={44} className="mb-6" />
           <h1 className="text-hero">Planet lab</h1>
-          <p className="text-lede mt-8 max-w-xl">An AI research lab that runs its own experiments on real TESS data, then checks itself against planets it has never seen.</p>
+          <p className="text-lede mt-8 max-w-xl">Autonomous planet discovery with coordinated agents.</p>
+          <p className="text-body mt-2">Applicable to any domain.</p>
           <a href="#demo" className="os9-button mt-10 inline-flex w-fit items-center gap-2 px-4 py-2.5 text-base focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-violet">
             <ArrowDown weight="bold" className="size-4 text-violet" aria-hidden="true" />
-            Watch the one-minute demo
+            Watch the demo
           </a>
         </div>
         <SpectrumDip className="hero-stripe relative h-[22svh] w-full" bandHeight={14} dipDepth={60} dipCenter={640} dipWidth={200} />
