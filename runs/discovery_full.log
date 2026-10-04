@@ -1,0 +1,131 @@
+{
+ "pipeline": "pipelines/h1_robust_snr.py",
+ "threshold_mode": "5pct",
+ "threshold": 16.657854814484146,
+ "stars_searched": 1499,
+ "signals_over_threshold": 90,
+ "after_catalog_crossmatch": 90,
+ "survivors_after_vetting": 29,
+ "candidates": [
+  {
+   "tic": 712930936,
+   "period": 4.9013,
+   "score": 1211.3,
+   "flags": []
+  },
+  {
+   "tic": 167890999,
+   "period": 3.6817,
+   "score": 102.6,
+   "flags": []
+  },
+  {
+   "tic": 393803502,
+   "period": 0.5492,
+   "score": 91.0,
+   "flags": []
+  },
+  {
+   "tic": 138760334,
+   "period": 0.5352,
+   "score": 84.7,
+   "flags": []
+  },
+  {
+   "tic": 220399293,
+   "period": 0.5016,
+   "score": 53.1,
+   "flags": []
+  },
+  {
+   "tic": 685183728,
+   "period": 0.5943,
+   "score": 50.4,
+   "flags": []
+  },
+  {
+   "tic": 293973585,
+   "period": 0.5648,
+   "score": 43.5,
+   "flags": []
+  },
+  {
+   "tic": 141271498,
+   "period": 0.5064,
+   "score": 37.3,
+   "flags": []
+  },
+  {
+   "tic": 111267727,
+   "period": 13.9291,
+   "score": 33.5,
+   "flags": []
+  },
+  {
+   "tic": 167808083,
+   "period": 0.5486,
+   "score": 30.3,
+   "flags": []
+  },
+  {
+   "tic": 281634577,
+   "period": 0.5872,
+   "score": 27.2,
+   "flags": []
+  },
+  {
+   "tic": 427334322,
+   "period": 0.9274,
+   "score": 26.2,
+   "flags": []
+  },
+  {
+   "tic": 355403614,
+   "period": 13.0693,
+   "score": 25.9,
+   "flags": []
+  },
+  {
+   "tic": 369396275,
+   "period": 0.5191,
+   "score": 22.9,
+   "flags": []
+  },
+  {
+   "tic": 167695881,
+   "period": 13.982,
+   "score": 22.7,
+   "flags": []
+  },
+  {
+   "tic": 408164528,
+   "period": 7.1969,
+   "score": 22.3,
+   "flags": []
+  },
+  {
+   "tic": 167551757,
+   "period": 0.5587,
+   "score": 22.0,
+   "flags": []
+  },
+  {
+   "tic": 165211367,
+   "period": 0.6496,
+   "score": 21.7,
+   "flags": []
+  },
+  {
+   "tic": 40280027,
+   "period": 0.5452,
+   "score": 21.4,
+   "flags": []
+  },
+  {
+   "tic": 276663914,
+   "period": 0.6958,
+   "score": 20.3,
+   "flags": []
+  }
+ ]
+}
