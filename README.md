@@ -1,12 +1,45 @@
 # Planet lab
 
-An Omnigent-orchestrated lab that improves a TESS transit search against a frozen, blind scorer, then checks
-whether the improved search recovers planets announced after its knowledge cutoff.
+Autonomous planet discovery with coordinated agents, built so it cannot fool itself. Applicable to any domain.
 
-**Bottleneck attacked.** Turning a transit-search idea into a measured result normally takes a person an
-afternoon: write the change, run it over enough stars, separate real gains from noise. Here each idea becomes
-a scored, paired comparison against the current best pipeline within one experiment cycle, and several ideas
-run per round.
+Seven Omnigent agents run the scientific loop on real TESS data: they read the literature, propose competing
+hypotheses, write pipelines in parallel, score them against a frozen benchmark, and promote only what survives
+review. Every claim is then tested on planets announced after the agents' knowledge cutoff, which no agent can
+read.
+
+## Why this is a breakthrough
+
+Autonomous science is being funded at scale, and its known failure is false discovery. In 2023 an autonomous
+lab reported 41 new compounds in *Nature*; a 2024 analysis found none of them new
+([Nature](https://www.nature.com/articles/s41586-023-06734-w),
+[Chemistry World](https://www.chemistryworld.com/news/new-analysis-raises-doubts-over-autonomous-labs-materials-discoveries/4018791.article)).
+Irreproducible preclinical research costs about $28B a year in the US alone
+([Freedman et al. 2015](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002165)).
+
+Planet lab caught exactly this failure in itself. Its agents raised the dev score 57% with a statistically
+solid paired gain, and the sealed blind holdout then showed the gain did not generalise. The lab recorded the
+mechanism and the next experiment before any claim went out. A discovery loop that audits its own results is
+the piece that makes autonomous science trustworthy enough to run unattended.
+
+- **Fast.** The median time from a written hypothesis to a scored, paired, significance-tested result was
+  19 minutes. The lab tested 7 hypotheses in 15 scored experiments, backed by 15 cited papers, in about three
+  hours.
+- **Built for the scale astronomy is reaching.** Only 885 of 7,931 TESS candidates are confirmed
+  ([NASA archive via Wikipedia](https://en.wikipedia.org/wiki/Transiting_Exoplanet_Survey_Satellite)), Rubin
+  will send about 10 million alerts a night
+  ([Scientific American](https://www.scientificamerican.com/article/rubin-observatory-data-flood-will-let-the-universe-alert-astronomers-10/)),
+  and Roman is expected to find more than 100,000 transiting planets
+  ([NASA](https://science.nasa.gov/universe/exoplanets/roman-telescope-predicted-to-find-100000-transiting-planets/)).
+  Human vetting cannot keep up; a self-auditing search-and-vet loop can.
+- **Domain-agnostic.** The science lives in three replaceable parts: a pipeline interface, a frozen scorer
+  with injection-recovery, and a sealed holdout. Any problem of finding faint signals in noisy data (ECG
+  arrhythmia, gravitational waves, seismic events, machine faults, solar flares) or of ranking candidates
+  (assays, materials) fits the same loop and the same Omnigent policies.
+- **There is demand.** The US Genesis Mission committed over $5B to AI-driven science, naming autonomous labs
+  ([White House](https://www.whitehouse.gov/releases/2026/07/45502/)), and autonomous-science startups raised
+  over $900M in 2025 ([Lila](https://www.lila.ai/news/series-a-235-million),
+  [Periodic Labs](https://techcrunch.com/2025/09/30/former-openai-and-deepmind-researchers-raise-whopping-300m-seed-to-automate-science/)).
+  Each of those labs needs guardrails like these.
 
 ## Results (2026-10-03 run)
 
