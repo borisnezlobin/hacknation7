@@ -11,9 +11,9 @@ const A_LAB_SOURCES = [
 function TheirClaim() {
   return (
     <div className="@container flex flex-col gap-3">
-      <span className="text-figure-lead text-ink-faint">41 → 0</span>
+      <span className="text-figure-lead text-ink-faint">0%</span>
       <span className="flex items-center gap-2">
-        <span className="text-small">New compounds an autonomous lab claimed in Nature, and the number that held up</span>
+        <span className="text-small">of the 41 new compounds an autonomous lab reported in Nature held up to scrutiny.</span>
         <SourceLinks sources={A_LAB_SOURCES} />
       </span>
     </div>
@@ -29,7 +29,7 @@ function OurCatch() {
       </span>
       <span className="text-small flex items-center gap-2">
         <ShieldCheck weight="fill" className="size-5 shrink-0 text-violet" aria-hidden="true" />
-        Our own dev gain, which our sealed holdout rejected
+        Our sealed holdout rejected our own dev gain.
       </span>
     </div>
   );
