@@ -1,0 +1,173 @@
+{
+  "id": "tech",
+  "voice": "am_michael",
+  "speed": 1.17,
+  "scenes": [
+    {
+      "id": "architecture",
+      "minSeconds": 7.5,
+      "lines": [
+        {
+          "id": "tech-architecture",
+          "at": 0.3,
+          "text": "Planet lab runs on Omnigent: seven Claude agents sharing one research record, where every decision cites evidence."
+        }
+      ]
+    },
+    {
+      "id": "policies",
+      "minSeconds": 7.5,
+      "lines": [
+        {
+          "id": "tech-policies",
+          "at": 0.2,
+          "text": "Policies keep them honest. Engineers can only edit pipelines, the scorer is frozen, and a sealed test set opens only with human approval."
+        }
+      ]
+    },
+    {
+      "id": "fold",
+      "minSeconds": 6.5,
+      "lines": [
+        {
+          "id": "tech-fold",
+          "at": 0.2,
+          "text": "Each pipeline flattens a star's light curve, then folds it at thousands of trial periods until the dips line up."
+        }
+      ]
+    },
+    {
+      "id": "scorer",
+      "minSeconds": 7.0,
+      "lines": [
+        {
+          "id": "tech-scorer",
+          "at": 0.2,
+          "text": "Ideas are scored on known planets and on fake transits we inject, at a fixed five percent false-alarm rate."
+        }
+      ]
+    },
+    {
+      "id": "worked",
+      "minSeconds": 9.0,
+      "lines": [
+        {
+          "id": "tech-worked",
+          "at": 0.2,
+          "text": "What worked: glitches at data gaps outscored real planets, so scoring each signal by depth and transit count raised the dev score from {baselineScore} to {championScore}."
+        }
+      ]
+    },
+    {
+      "id": "failed",
+      "minSeconds": 9.5,
+      "lines": [
+        {
+          "id": "tech-failed",
+          "at": 0.2,
+          "text": "What didn't: on {holdoutPlanets} sealed planets announced after the agents' cutoff, the original search found {holdoutBaseline} and the champion {holdoutChampion}. The gain was overfit."
+        }
+      ]
+    },
+    {
+      "id": "next",
+      "minSeconds": 6.0,
+      "lines": [
+        {
+          "id": "tech-next",
+          "at": 0.2,
+          "text": "Next: shape checks that separate faint planets from noisy stars, proven on the sealed set first."
+        }
+      ]
+    }
+  ],
+  "sound": {
+    "musicGain": 1.0,
+    "sfxGain": 0.7,
+    "musicFrom": {
+      "scene": "architecture",
+      "line": "tech-architecture",
+      "fraction": 0.1
+    },
+    "arpeggioFrom": {
+      "scene": "policies",
+      "at": 0.0
+    },
+    "sfx": [
+      {
+        "scene": "architecture",
+        "sound": "whoosh",
+        "line": "tech-architecture",
+        "fraction": 0.42,
+        "gain": 0.5
+      },
+      {
+        "scene": "policies",
+        "sound": "click",
+        "line": "tech-policies",
+        "fraction": 0.36
+      },
+      {
+        "scene": "policies",
+        "sound": "click",
+        "line": "tech-policies",
+        "fraction": 0.47,
+        "gain": 0.7
+      },
+      {
+        "scene": "policies",
+        "sound": "chime",
+        "line": "tech-policies",
+        "fraction": 0.92,
+        "gain": 0.6
+      },
+      {
+        "scene": "fold",
+        "sound": "chime",
+        "line": "tech-fold",
+        "fraction": 0.82,
+        "gain": 0.6
+      },
+      {
+        "scene": "scorer",
+        "sound": "click",
+        "line": "tech-scorer",
+        "fraction": 0.84
+      },
+      {
+        "scene": "worked",
+        "sound": "sub",
+        "line": "tech-worked",
+        "fraction": 0.68,
+        "gain": 0.5
+      },
+      {
+        "scene": "worked",
+        "sound": "chime",
+        "line": "tech-worked",
+        "fraction": 0.78,
+        "gain": 0.5
+      },
+      {
+        "scene": "failed",
+        "sound": "sub",
+        "line": "tech-failed",
+        "fraction": 0.8,
+        "gain": 0.4
+      },
+      {
+        "scene": "next",
+        "sound": "click",
+        "line": "tech-next",
+        "fraction": 0.62
+      },
+      {
+        "scene": "next",
+        "sound": "chime",
+        "line": "tech-next",
+        "fraction": 0.92,
+        "gain": 0.6
+      }
+    ]
+  }
+}

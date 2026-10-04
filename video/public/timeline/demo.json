@@ -1,0 +1,1068 @@
+{
+ "id": "demo",
+ "fps": 30,
+ "durationInFrames": 1766,
+ "scenes": [
+  {
+   "id": "transit",
+   "from": 0,
+   "durationInFrames": 144,
+   "lines": [
+    {
+     "id": "demo-transit",
+     "text": "When a planet crosses its star, the starlight dips, just a little.",
+     "audio": "audio/narration/demo-transit.wav",
+     "from": 24,
+     "durationInFrames": 104,
+     "words": [
+      [
+       "When",
+       0,
+       4
+      ],
+      [
+       "a",
+       4,
+       7
+      ],
+      [
+       "planet",
+       7,
+       15
+      ],
+      [
+       "crosses",
+       15,
+       26
+      ],
+      [
+       "its",
+       26,
+       32
+      ],
+      [
+       "star,",
+       32,
+       44
+      ],
+      [
+       "the",
+       55,
+       58
+      ],
+      [
+       "starlight",
+       58,
+       71
+      ],
+      [
+       "dips,",
+       71,
+       80
+      ],
+      [
+       "just",
+       80,
+       88
+      ],
+      [
+       "a",
+       88,
+       93
+      ],
+      [
+       "little.",
+       93,
+       98
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "survey",
+   "from": 144,
+   "durationInFrames": 217,
+   "lines": [
+    {
+     "id": "demo-survey",
+     "text": "Tess watches hundreds of thousands of stars, and has already found an Earth-size planet in its star's habitable zone.",
+     "audio": "audio/narration/demo-survey.wav",
+     "from": 6,
+     "durationInFrames": 196,
+     "words": [
+      [
+       "Tess",
+       0,
+       8
+      ],
+      [
+       "watches",
+       8,
+       20
+      ],
+      [
+       "hundreds",
+       20,
+       32
+      ],
+      [
+       "of",
+       32,
+       40
+      ],
+      [
+       "thousands",
+       40,
+       50
+      ],
+      [
+       "of",
+       50,
+       56
+      ],
+      [
+       "stars,",
+       56,
+       68
+      ],
+      [
+       "and",
+       68,
+       86
+      ],
+      [
+       "has",
+       86,
+       90
+      ],
+      [
+       "already",
+       100,
+       110
+      ],
+      [
+       "found",
+       110,
+       116
+      ],
+      [
+       "an",
+       116,
+       121
+      ],
+      [
+       "Earth-size",
+       121,
+       131
+      ],
+      [
+       "planet",
+       131,
+       143
+      ],
+      [
+       "in",
+       143,
+       148
+      ],
+      [
+       "its",
+       148,
+       152
+      ],
+      [
+       "star's",
+       152,
+       167
+      ],
+      [
+       "habitable",
+       167,
+       181
+      ],
+      [
+       "zone.",
+       181,
+       190
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "problem",
+   "from": 361,
+   "durationInFrames": 244,
+   "lines": [
+    {
+     "id": "demo-problem",
+     "text": "But small planets make the faintest dips, and our starting search found just one of sixty-five. Each fix took an expert about a day.",
+     "audio": "audio/narration/demo-problem.wav",
+     "from": 6,
+     "durationInFrames": 223,
+     "words": [
+      [
+       "But",
+       0,
+       4
+      ],
+      [
+       "small",
+       4,
+       12
+      ],
+      [
+       "planets",
+       12,
+       26
+      ],
+      [
+       "make",
+       26,
+       34
+      ],
+      [
+       "the",
+       34,
+       38
+      ],
+      [
+       "faintest",
+       38,
+       51
+      ],
+      [
+       "dips,",
+       51,
+       60
+      ],
+      [
+       "and",
+       62,
+       74
+      ],
+      [
+       "our",
+       74,
+       78
+      ],
+      [
+       "starting",
+       78,
+       89
+      ],
+      [
+       "search",
+       89,
+       100
+      ],
+      [
+       "found",
+       100,
+       110
+      ],
+      [
+       "just",
+       110,
+       119
+      ],
+      [
+       "one",
+       119,
+       125
+      ],
+      [
+       "of",
+       125,
+       128
+      ],
+      [
+       "sixty-five.",
+       128,
+       142
+      ],
+      [
+       "Each",
+       157,
+       170
+      ],
+      [
+       "fix",
+       170,
+       179
+      ],
+      [
+       "took",
+       179,
+       184
+      ],
+      [
+       "an",
+       184,
+       189
+      ],
+      [
+       "expert",
+       189,
+       200
+      ],
+      [
+       "about",
+       200,
+       208
+      ],
+      [
+       "a",
+       208,
+       212
+      ],
+      [
+       "day.",
+       212,
+       217
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "title",
+   "from": 605,
+   "durationInFrames": 107,
+   "lines": [
+    {
+     "id": "demo-title",
+     "text": "Planet lab hands that work to seven AI agents.",
+     "audio": "audio/narration/demo-title.wav",
+     "from": 12,
+     "durationInFrames": 80,
+     "words": [
+      [
+       "Planet",
+       0,
+       9
+      ],
+      [
+       "lab",
+       9,
+       17
+      ],
+      [
+       "hands",
+       17,
+       25
+      ],
+      [
+       "that",
+       25,
+       29
+      ],
+      [
+       "work",
+       29,
+       34
+      ],
+      [
+       "to",
+       34,
+       38
+      ],
+      [
+       "seven",
+       38,
+       47
+      ],
+      [
+       "AI",
+       47,
+       57
+      ],
+      [
+       "agents.",
+       57,
+       74
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "loop",
+   "from": 712,
+   "durationInFrames": 180,
+   "lines": [
+    {
+     "id": "demo-loop",
+     "text": "They read papers, study the misses, build fixes in parallel, and check every gain.",
+     "audio": "audio/narration/demo-loop.wav",
+     "from": 6,
+     "durationInFrames": 132,
+     "words": [
+      [
+       "They",
+       0,
+       5
+      ],
+      [
+       "read",
+       5,
+       10
+      ],
+      [
+       "papers,",
+       10,
+       24
+      ],
+      [
+       "study",
+       33,
+       39
+      ],
+      [
+       "the",
+       39,
+       43
+      ],
+      [
+       "misses,",
+       43,
+       51
+      ],
+      [
+       "build",
+       59,
+       64
+      ],
+      [
+       "fixes",
+       64,
+       75
+      ],
+      [
+       "in",
+       75,
+       82
+      ],
+      [
+       "parallel,",
+       82,
+       94
+      ],
+      [
+       "and",
+       96,
+       101
+      ],
+      [
+       "check",
+       101,
+       109
+      ],
+      [
+       "every",
+       109,
+       119
+      ],
+      [
+       "gain.",
+       119,
+       126
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "grading",
+   "from": 892,
+   "durationInFrames": 161,
+   "lines": [
+    {
+     "id": "demo-grading",
+     "text": "Each idea is graded on how many of 231 known planets it finds.",
+     "audio": "audio/narration/demo-grading.wav",
+     "from": 6,
+     "durationInFrames": 140,
+     "words": [
+      [
+       "Each",
+       0,
+       7
+      ],
+      [
+       "idea",
+       7,
+       17
+      ],
+      [
+       "is",
+       17,
+       25
+      ],
+      [
+       "graded",
+       25,
+       37
+      ],
+      [
+       "on",
+       37,
+       46
+      ],
+      [
+       "how",
+       46,
+       49
+      ],
+      [
+       "many",
+       49,
+       57
+      ],
+      [
+       "of",
+       57,
+       62
+      ],
+      [
+       "231",
+       62,
+       94
+      ],
+      [
+       "known",
+       94,
+       102
+      ],
+      [
+       "planets",
+       102,
+       118
+      ],
+      [
+       "it",
+       118,
+       122
+      ],
+      [
+       "finds.",
+       122,
+       132
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "result",
+   "from": 1053,
+   "durationInFrames": 198,
+   "lines": [
+    {
+     "id": "demo-result",
+     "text": "In one night they tested seven ideas and raised the count from 35 to 90.",
+     "audio": "audio/narration/demo-result.wav",
+     "from": 6,
+     "durationInFrames": 143,
+     "words": [
+      [
+       "In",
+       0,
+       4
+      ],
+      [
+       "one",
+       4,
+       11
+      ],
+      [
+       "night",
+       11,
+       17
+      ],
+      [
+       "they",
+       17,
+       23
+      ],
+      [
+       "tested",
+       23,
+       34
+      ],
+      [
+       "seven",
+       34,
+       44
+      ],
+      [
+       "ideas",
+       44,
+       59
+      ],
+      [
+       "and",
+       59,
+       76
+      ],
+      [
+       "raised",
+       76,
+       85
+      ],
+      [
+       "the",
+       85,
+       89
+      ],
+      [
+       "count",
+       89,
+       95
+      ],
+      [
+       "from",
+       95,
+       102
+      ],
+      [
+       "35",
+       102,
+       115
+      ],
+      [
+       "to",
+       115,
+       128
+      ],
+      [
+       "90.",
+       128,
+       138
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "discovery",
+   "from": 1251,
+   "durationInFrames": 166,
+   "lines": [
+    {
+     "id": "demo-discovery",
+     "text": "Then they searched fifteen hundred unlabelled stars, looking for worlds no one has found.",
+     "audio": "audio/narration/demo-discovery.wav",
+     "from": 6,
+     "durationInFrames": 145,
+     "words": [
+      [
+       "Then",
+       0,
+       5
+      ],
+      [
+       "they",
+       5,
+       8
+      ],
+      [
+       "searched",
+       8,
+       19
+      ],
+      [
+       "fifteen",
+       19,
+       23
+      ],
+      [
+       "hundred",
+       23,
+       40
+      ],
+      [
+       "unlabelled",
+       40,
+       62
+      ],
+      [
+       "stars,",
+       62,
+       73
+      ],
+      [
+       "looking",
+       79,
+       93
+      ],
+      [
+       "for",
+       93,
+       100
+      ],
+      [
+       "worlds",
+       100,
+       112
+      ],
+      [
+       "no",
+       112,
+       121
+      ],
+      [
+       "one",
+       121,
+       127
+      ],
+      [
+       "has",
+       127,
+       131
+      ],
+      [
+       "found.",
+       131,
+       139
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ending",
+   "from": 1417,
+   "durationInFrames": 349,
+   "lines": [
+    {
+     "id": "demo-ending",
+     "text": "Better searches mean more worlds to study, maybe habitable ones. And a lab that needed a building now fits in a dorm room, ready for any science you can score, from planets to medicine.",
+     "audio": "audio/narration/demo-ending.wav",
+     "from": 9,
+     "durationInFrames": 325,
+     "words": [
+      [
+       "Better",
+       0,
+       8
+      ],
+      [
+       "searches",
+       8,
+       22
+      ],
+      [
+       "mean",
+       22,
+       29
+      ],
+      [
+       "more",
+       29,
+       37
+      ],
+      [
+       "worlds",
+       37,
+       48
+      ],
+      [
+       "to",
+       48,
+       54
+      ],
+      [
+       "study,",
+       54,
+       64
+      ],
+      [
+       "maybe",
+       70,
+       80
+      ],
+      [
+       "habitable",
+       80,
+       100
+      ],
+      [
+       "ones.",
+       100,
+       111
+      ],
+      [
+       "And",
+       119,
+       130
+      ],
+      [
+       "a",
+       130,
+       133
+      ],
+      [
+       "lab",
+       133,
+       142
+      ],
+      [
+       "that",
+       142,
+       148
+      ],
+      [
+       "needed",
+       148,
+       154
+      ],
+      [
+       "a",
+       154,
+       160
+      ],
+      [
+       "building",
+       160,
+       167
+      ],
+      [
+       "now",
+       167,
+       175
+      ],
+      [
+       "fits",
+       175,
+       184
+      ],
+      [
+       "in",
+       184,
+       189
+      ],
+      [
+       "a",
+       189,
+       191
+      ],
+      [
+       "dorm",
+       191,
+       200
+      ],
+      [
+       "room,",
+       200,
+       214
+      ],
+      [
+       "ready",
+       216,
+       229
+      ],
+      [
+       "for",
+       229,
+       236
+      ],
+      [
+       "any",
+       236,
+       241
+      ],
+      [
+       "science",
+       241,
+       254
+      ],
+      [
+       "you",
+       254,
+       260
+      ],
+      [
+       "can",
+       260,
+       264
+      ],
+      [
+       "score,",
+       264,
+       277
+      ],
+      [
+       "from",
+       282,
+       290
+      ],
+      [
+       "planets",
+       290,
+       303
+      ],
+      [
+       "to",
+       303,
+       309
+      ],
+      [
+       "medicine.",
+       309,
+       318
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "captions": [
+  {
+   "text": "When a planet crosses its star,",
+   "from": 24,
+   "to": 76
+  },
+  {
+   "text": "the starlight dips,",
+   "from": 79,
+   "to": 104
+  },
+  {
+   "text": "just a little.",
+   "from": 104,
+   "to": 130
+  },
+  {
+   "text": "Tess watches hundreds of thousands of stars,",
+   "from": 150,
+   "to": 218
+  },
+  {
+   "text": "and has already found an Earth-size planet",
+   "from": 218,
+   "to": 293
+  },
+  {
+   "text": "in its star's habitable zone.",
+   "from": 293,
+   "to": 348
+  },
+  {
+   "text": "But small planets make the faintest dips,",
+   "from": 367,
+   "to": 429
+  },
+  {
+   "text": "and our starting search found just one",
+   "from": 429,
+   "to": 492
+  },
+  {
+   "text": "of sixty-five. Each fix took an expert",
+   "from": 492,
+   "to": 567
+  },
+  {
+   "text": "about a day.",
+   "from": 567,
+   "to": 592
+  },
+  {
+   "text": "Planet lab hands that work to seven",
+   "from": 617,
+   "to": 664
+  },
+  {
+   "text": "AI agents.",
+   "from": 664,
+   "to": 699
+  },
+  {
+   "text": "They read papers,",
+   "from": 718,
+   "to": 750
+  },
+  {
+   "text": "study the misses,",
+   "from": 751,
+   "to": 777
+  },
+  {
+   "text": "build fixes in parallel,",
+   "from": 777,
+   "to": 814
+  },
+  {
+   "text": "and check every gain.",
+   "from": 814,
+   "to": 852
+  },
+  {
+   "text": "Each idea is graded on how many",
+   "from": 898,
+   "to": 955
+  },
+  {
+   "text": "of 231 known planets it finds.",
+   "from": 955,
+   "to": 1038
+  },
+  {
+   "text": "In one night they tested seven ideas",
+   "from": 1059,
+   "to": 1118
+  },
+  {
+   "text": "and raised the count from 35 to",
+   "from": 1118,
+   "to": 1187
+  },
+  {
+   "text": "90.",
+   "from": 1187,
+   "to": 1205
+  },
+  {
+   "text": "Then they searched fifteen hundred unlabelled stars,",
+   "from": 1257,
+   "to": 1336
+  },
+  {
+   "text": "looking for worlds no one has found.",
+   "from": 1336,
+   "to": 1404
+  },
+  {
+   "text": "Better searches mean more worlds to study,",
+   "from": 1426,
+   "to": 1496
+  },
+  {
+   "text": "maybe habitable ones.",
+   "from": 1496,
+   "to": 1545
+  },
+  {
+   "text": "And a lab that needed a building",
+   "from": 1545,
+   "to": 1593
+  },
+  {
+   "text": "now fits in a dorm room,",
+   "from": 1593,
+   "to": 1642
+  },
+  {
+   "text": "ready for any science you can score,",
+   "from": 1642,
+   "to": 1708
+  },
+  {
+   "text": "from planets to medicine.",
+   "from": 1708,
+   "to": 1752
+  }
+ ]
+}

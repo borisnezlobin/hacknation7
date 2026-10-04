@@ -1,0 +1,6 @@
+{
+ "pipeline": "pipelines/h1_robust_snr.py",
+ "threshold": 65.96865226921959,
+ "stars_searched": 300,
+ "candidates": []
+}

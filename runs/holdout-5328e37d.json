@@ -1,0 +1,53 @@
+{
+ "run_id": "holdout-5328e37d",
+ "created": "2026-10-04T07:20:48+00:00",
+ "pipeline": "pipelines/baseline.py",
+ "pipeline_sha256": "719a112a4b601e441d5d26dd338c1cf2c4c998212f826106d227419bf90539c0",
+ "split": "holdout",
+ "quick": false,
+ "metrics": {
+  "score": 0.2625,
+  "planet_recall": 0.1892,
+  "injection_recall": 0.3358,
+  "false_alarm_budget": 0.05,
+  "threshold": 16.923226512779088,
+  "strict_threshold": 29.46513131782471,
+  "control_false_alarms": 20,
+  "n_planets": 37,
+  "n_injected": 399,
+  "n_controls": 399,
+  "errors": 0,
+  "median_seconds_per_star": 15.752,
+  "recall_by_depth": {
+   "injected:0-1000": {
+    "recovered": 10,
+    "total": 149
+   },
+   "injected:1000-3000": {
+    "recovered": 41,
+    "total": 116
+   },
+   "injected:3000-10000": {
+    "recovered": 83,
+    "total": 134
+   },
+   "planet:0-1000": {
+    "recovered": 0,
+    "total": 7
+   },
+   "planet:1000-3000": {
+    "recovered": 1,
+    "total": 9
+   },
+   "planet:10000-inf": {
+    "recovered": 2,
+    "total": 6
+   },
+   "planet:3000-10000": {
+    "recovered": 4,
+    "total": 15
+   }
+  },
+  "wall_seconds": 2860.2
+ }
+}

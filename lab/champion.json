@@ -1,0 +1,6 @@
+{
+ "pipeline": "pipelines/h1_robust_snr.py",
+ "run_id": "dev-7227ffda",
+ "score": 0.3489,
+ "sha256": "7bd79dd1dd38741b550c4aacf85f109cb8fb69b61ea14bc81619664e62cf69a2"
+}

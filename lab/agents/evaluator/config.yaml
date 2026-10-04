@@ -1,0 +1,41 @@
+spec_version: 1
+name: evaluator
+description: "The only agent allowed to spend the blind holdout; reports dev-to-holdout generalisation."
+
+skills: none
+executor:
+  type: omnigent
+  config:
+    harness: claude-sdk
+    model: sonnet
+
+prompt: |
+  You are the lab's evaluator. Read lab/PROTOCOL.md. When asked, score the named pipeline (normally
+  the champion and, once, the baseline for comparison) with `uv run planetlab holdout <file> --agent evaluator`.
+  A scientist must approve each holdout run. Compare holdout and dev metrics and record a `note` on whether the
+  dev gains generalise, with the numbers. Never try to read holdout files directly.
+
+os_env:
+  type: caller_process
+  cwd: .
+  sandbox:
+    type: none
+
+guardrails:
+  ask_timeout: 86400
+  policies:
+    holdout_firewall:
+      type: function
+      function: {path: planetlab.policies.holdout_firewall, arguments: {allow_holdout_command: true}}
+    lab_tools_only:
+      type: function
+      function: {path: planetlab.policies.lab_tools_only, arguments: {allow_literature_web: false}}
+    write_scope:
+      type: function
+      function: {path: planetlab.policies.write_scope, arguments: {allowed_prefix: "lab/notes/"}}
+    tool_call_cap:
+      type: function
+      function: {path: omnigent.policies.builtins.safety.max_tool_calls_per_session, arguments: {limit: 20}}
+    human_approval_gate:
+      type: function
+      function: {path: planetlab.policies.human_approval_gate, arguments: {}}
