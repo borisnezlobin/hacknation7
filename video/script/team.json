@@ -1,0 +1,265 @@
+{
+  "id": "team",
+  "voice": "am_michael",
+  "speed": 1.05,
+  "scenes": [
+    {
+      "id": "hello",
+      "minSeconds": 9.0,
+      "lines": [
+        {
+          "id": "team-hello",
+          "at": 0.6,
+          "text": "This is Boris, a UC Berkeley freshman who likes working at the frontier of technology. He previously worked at Lockheed Martin's solar lab."
+        }
+      ]
+    },
+    {
+      "id": "why",
+      "minSeconds": 8.0,
+      "lines": [
+        {
+          "id": "team-why",
+          "at": 0.3,
+          "text": "For this hackathon he didn't want a demo. He wanted a lab, where agents come up with an idea, test it against a scorer they can't touch, and argue about whether it's real."
+        }
+      ]
+    },
+    {
+      "id": "team",
+      "minSeconds": 4.0,
+      "lines": [
+        {
+          "id": "team-team",
+          "at": 0.3,
+          "text": "A research team used to mean a room full of people. This one is one student and seven agents."
+        }
+      ]
+    },
+    {
+      "id": "roster",
+      "minSeconds": 18.0,
+      "lines": [
+        {
+          "id": "team-pi",
+          "at": 0.4,
+          "voice": "bm_george",
+          "text": "I'm the [PI](/pˌiˈI/). I decide what we test."
+        },
+        {
+          "id": "team-literature",
+          "at": 0.25,
+          "after": "team-pi",
+          "voice": "af_heart",
+          "text": "I find the papers."
+        },
+        {
+          "id": "team-analyst",
+          "at": 0.25,
+          "after": "team-literature",
+          "voice": "am_puck",
+          "text": "I work out why we missed."
+        },
+        {
+          "id": "team-engineer",
+          "at": 0.25,
+          "after": "team-analyst",
+          "voice": "am_fenrir",
+          "text": "I build each idea, and there are usually three of me."
+        },
+        {
+          "id": "team-skeptic",
+          "at": 0.25,
+          "after": "team-engineer",
+          "voice": "bf_emma",
+          "text": "I decide whether a gain is real."
+        },
+        {
+          "id": "team-evaluator",
+          "at": 0.25,
+          "after": "team-skeptic",
+          "voice": "am_michael",
+          "text": "I run the final test on planets we've never seen, and only when a human says go."
+        },
+        {
+          "id": "team-vetter",
+          "at": 0.25,
+          "after": "team-evaluator",
+          "voice": "af_bella",
+          "text": "I check new signals before anyone gets excited."
+        }
+      ]
+    },
+    {
+      "id": "close",
+      "minSeconds": 6.0,
+      "lines": [
+        {
+          "id": "team-close",
+          "at": 0.4,
+          "text": "Together, they are Planet lab."
+        }
+      ]
+    }
+  ],
+  "sound": {
+    "musicGain": 0.85,
+    "arpeggioFrom": {
+      "scene": "why",
+      "at": 0.0
+    },
+    "pulseFrom": {
+      "scene": "roster",
+      "at": 0.0
+    },
+    "sfx": [
+      {
+        "scene": "hello",
+        "sound": "whoosh",
+        "at": 0.1
+      },
+      {
+        "scene": "hello",
+        "sound": "sub",
+        "line": "team-hello",
+        "fraction": 0.55
+      },
+      {
+        "scene": "hello",
+        "sound": "chime",
+        "line": "team-hello",
+        "fraction": 0.55,
+        "gain": 0.6
+      },
+      {
+        "scene": "why",
+        "sound": "click",
+        "line": "team-why",
+        "fraction": 0.17
+      },
+      {
+        "scene": "why",
+        "sound": "sub",
+        "line": "team-why",
+        "fraction": 0.24,
+        "gain": 0.7
+      },
+      {
+        "scene": "why",
+        "sound": "whoosh",
+        "line": "team-why",
+        "fraction": 0.42
+      },
+      {
+        "scene": "why",
+        "sound": "chime",
+        "line": "team-why",
+        "fraction": 0.6,
+        "offset": 0.45,
+        "gain": 0.5
+      },
+      {
+        "scene": "why",
+        "sound": "ticks",
+        "line": "team-why",
+        "fraction": 0.78,
+        "gain": 0.5
+      },
+      {
+        "scene": "team",
+        "sound": "ticks",
+        "at": 0.2,
+        "gain": 0.6
+      },
+      {
+        "scene": "team",
+        "sound": "whoosh",
+        "line": "team-team",
+        "fraction": 0.5
+      },
+      {
+        "scene": "team",
+        "sound": "sub",
+        "line": "team-team",
+        "fraction": 0.5,
+        "offset": 0.65
+      },
+      {
+        "scene": "roster",
+        "sound": "click",
+        "line": "team-pi",
+        "fraction": 0.0,
+        "offset": -0.2
+      },
+      {
+        "scene": "roster",
+        "sound": "click",
+        "line": "team-literature",
+        "fraction": 0.0,
+        "offset": -0.2
+      },
+      {
+        "scene": "roster",
+        "sound": "click",
+        "line": "team-analyst",
+        "fraction": 0.0,
+        "offset": -0.2
+      },
+      {
+        "scene": "roster",
+        "sound": "click",
+        "line": "team-engineer",
+        "fraction": 0.0,
+        "offset": -0.2
+      },
+      {
+        "scene": "roster",
+        "sound": "click",
+        "line": "team-skeptic",
+        "fraction": 0.0,
+        "offset": -0.2
+      },
+      {
+        "scene": "roster",
+        "sound": "click",
+        "line": "team-evaluator",
+        "fraction": 0.0,
+        "offset": -0.2
+      },
+      {
+        "scene": "roster",
+        "sound": "click",
+        "line": "team-vetter",
+        "fraction": 0.0,
+        "offset": -0.2
+      },
+      {
+        "scene": "close",
+        "sound": "riser",
+        "line": "team-close",
+        "fraction": 1.0,
+        "gain": 0.35,
+        "offset": 0.8
+      },
+      {
+        "scene": "close",
+        "sound": "sub",
+        "line": "team-close",
+        "fraction": 1.0,
+        "offset": -0.2
+      },
+      {
+        "scene": "close",
+        "sound": "chime",
+        "line": "team-close",
+        "fraction": 1.0,
+        "offset": -0.2
+      }
+    ],
+    "sfxGain": 0.8,
+    "musicFrom": {
+      "scene": "hello",
+      "at": 0.0
+    }
+  }
+}

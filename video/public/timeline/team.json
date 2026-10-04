@@ -1,0 +1,983 @@
+{
+ "id": "team",
+ "fps": 30,
+ "durationInFrames": 1615,
+ "scenes": [
+  {
+   "id": "hello",
+   "from": 0,
+   "durationInFrames": 306,
+   "lines": [
+    {
+     "id": "team-hello",
+     "text": "This is Boris, a UC Berkeley freshman who likes working at the frontier of technology. He previously worked at Lockheed Martin's solar lab.",
+     "audio": "audio/narration/team-hello.wav",
+     "from": 18,
+     "durationInFrames": 273,
+     "words": [
+      [
+       "This",
+       0,
+       7
+      ],
+      [
+       "is",
+       7,
+       13
+      ],
+      [
+       "Boris,",
+       13,
+       27
+      ],
+      [
+       "a",
+       35,
+       46
+      ],
+      [
+       "UC",
+       46,
+       59
+      ],
+      [
+       "Berkeley",
+       59,
+       74
+      ],
+      [
+       "freshman",
+       74,
+       88
+      ],
+      [
+       "who",
+       88,
+       97
+      ],
+      [
+       "likes",
+       97,
+       104
+      ],
+      [
+       "working",
+       104,
+       115
+      ],
+      [
+       "at",
+       115,
+       121
+      ],
+      [
+       "the",
+       121,
+       124
+      ],
+      [
+       "frontier",
+       124,
+       135
+      ],
+      [
+       "of",
+       135,
+       143
+      ],
+      [
+       "technology.",
+       143,
+       160
+      ],
+      [
+       "He",
+       163,
+       185
+      ],
+      [
+       "previously",
+       185,
+       199
+      ],
+      [
+       "worked",
+       199,
+       212
+      ],
+      [
+       "at",
+       212,
+       218
+      ],
+      [
+       "Lockheed",
+       218,
+       233
+      ],
+      [
+       "Martin's",
+       233,
+       243
+      ],
+      [
+       "solar",
+       243,
+       254
+      ],
+      [
+       "lab.",
+       254,
+       265
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "from": 306,
+   "durationInFrames": 336,
+   "lines": [
+    {
+     "id": "team-why",
+     "text": "For this hackathon he didn't want a demo. He wanted a lab, where agents come up with an idea, test it against a scorer they can't touch, and argue about whether it's real.",
+     "audio": "audio/narration/team-why.wav",
+     "from": 9,
+     "durationInFrames": 312,
+     "words": [
+      [
+       "For",
+       0,
+       5
+      ],
+      [
+       "this",
+       5,
+       11
+      ],
+      [
+       "hackathon",
+       11,
+       25
+      ],
+      [
+       "he",
+       31,
+       32
+      ],
+      [
+       "didn't",
+       32,
+       40
+      ],
+      [
+       "want",
+       40,
+       43
+      ],
+      [
+       "a",
+       43,
+       47
+      ],
+      [
+       "demo.",
+       47,
+       57
+      ],
+      [
+       "He",
+       64,
+       79
+      ],
+      [
+       "wanted",
+       79,
+       87
+      ],
+      [
+       "a",
+       87,
+       92
+      ],
+      [
+       "lab,",
+       92,
+       106
+      ],
+      [
+       "where",
+       106,
+       121
+      ],
+      [
+       "agents",
+       121,
+       135
+      ],
+      [
+       "come",
+       135,
+       143
+      ],
+      [
+       "up",
+       143,
+       148
+      ],
+      [
+       "with",
+       148,
+       152
+      ],
+      [
+       "an",
+       152,
+       156
+      ],
+      [
+       "idea,",
+       156,
+       170
+      ],
+      [
+       "test",
+       179,
+       190
+      ],
+      [
+       "it",
+       190,
+       193
+      ],
+      [
+       "against",
+       193,
+       201
+      ],
+      [
+       "a",
+       201,
+       206
+      ],
+      [
+       "scorer",
+       206,
+       217
+      ],
+      [
+       "they",
+       217,
+       224
+      ],
+      [
+       "can't",
+       224,
+       235
+      ],
+      [
+       "touch,",
+       235,
+       247
+      ],
+      [
+       "and",
+       252,
+       260
+      ],
+      [
+       "argue",
+       260,
+       272
+      ],
+      [
+       "about",
+       272,
+       281
+      ],
+      [
+       "whether",
+       281,
+       290
+      ],
+      [
+       "it's",
+       290,
+       298
+      ],
+      [
+       "real.",
+       298,
+       305
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "team",
+   "from": 642,
+   "durationInFrames": 198,
+   "lines": [
+    {
+     "id": "team-team",
+     "text": "A research team used to mean a room full of people. This one is one student and seven agents.",
+     "audio": "audio/narration/team-team.wav",
+     "from": 9,
+     "durationInFrames": 174,
+     "words": [
+      [
+       "A",
+       0,
+       6
+      ],
+      [
+       "research",
+       6,
+       17
+      ],
+      [
+       "team",
+       17,
+       29
+      ],
+      [
+       "used",
+       29,
+       43
+      ],
+      [
+       "to",
+       43,
+       46
+      ],
+      [
+       "mean",
+       46,
+       50
+      ],
+      [
+       "a",
+       50,
+       54
+      ],
+      [
+       "room",
+       54,
+       62
+      ],
+      [
+       "full",
+       62,
+       70
+      ],
+      [
+       "of",
+       70,
+       74
+      ],
+      [
+       "people.",
+       74,
+       83
+      ],
+      [
+       "This",
+       91,
+       105
+      ],
+      [
+       "one",
+       105,
+       110
+      ],
+      [
+       "is",
+       110,
+       115
+      ],
+      [
+       "one",
+       115,
+       122
+      ],
+      [
+       "student",
+       122,
+       136
+      ],
+      [
+       "and",
+       136,
+       143
+      ],
+      [
+       "seven",
+       143,
+       153
+      ],
+      [
+       "agents.",
+       153,
+       166
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "roster",
+   "from": 840,
+   "durationInFrames": 595,
+   "lines": [
+    {
+     "id": "team-pi",
+     "text": "I'm the [PI](/p\u02cci\u02c8I/). I decide what we test.",
+     "audio": "audio/narration/team-pi.wav",
+     "from": 12,
+     "durationInFrames": 75,
+     "words": [
+      [
+       "I'm",
+       0,
+       6
+      ],
+      [
+       "the",
+       6,
+       9
+      ],
+      [
+       "PI.",
+       9,
+       20
+      ],
+      [
+       "I",
+       28,
+       35
+      ],
+      [
+       "decide",
+       35,
+       49
+      ],
+      [
+       "what",
+       49,
+       54
+      ],
+      [
+       "we",
+       54,
+       58
+      ],
+      [
+       "test.",
+       58,
+       68
+      ]
+     ]
+    },
+    {
+     "id": "team-literature",
+     "text": "I find the papers.",
+     "audio": "audio/narration/team-literature.wav",
+     "from": 94,
+     "durationInFrames": 35,
+     "words": [
+      [
+       "I",
+       0,
+       5
+      ],
+      [
+       "find",
+       5,
+       13
+      ],
+      [
+       "the",
+       13,
+       16
+      ],
+      [
+       "papers.",
+       16,
+       25
+      ]
+     ]
+    },
+    {
+     "id": "team-analyst",
+     "text": "I work out why we missed.",
+     "audio": "audio/narration/team-analyst.wav",
+     "from": 137,
+     "durationInFrames": 36,
+     "words": [
+      [
+       "I",
+       0,
+       4
+      ],
+      [
+       "work",
+       4,
+       9
+      ],
+      [
+       "out",
+       9,
+       12
+      ],
+      [
+       "why",
+       12,
+       16
+      ],
+      [
+       "we",
+       16,
+       19
+      ],
+      [
+       "missed.",
+       19,
+       28
+      ]
+     ]
+    },
+    {
+     "id": "team-engineer",
+     "text": "I build each idea, and there are usually three of me.",
+     "audio": "audio/narration/team-engineer.wav",
+     "from": 180,
+     "durationInFrames": 82,
+     "words": [
+      [
+       "I",
+       0,
+       4
+      ],
+      [
+       "build",
+       4,
+       11
+      ],
+      [
+       "each",
+       11,
+       19
+      ],
+      [
+       "idea,",
+       19,
+       30
+      ],
+      [
+       "and",
+       30,
+       41
+      ],
+      [
+       "there",
+       41,
+       44
+      ],
+      [
+       "are",
+       44,
+       48
+      ],
+      [
+       "usually",
+       48,
+       60
+      ],
+      [
+       "three",
+       60,
+       68
+      ],
+      [
+       "of",
+       68,
+       73
+      ],
+      [
+       "me.",
+       73,
+       78
+      ]
+     ]
+    },
+    {
+     "id": "team-skeptic",
+     "text": "I decide whether a gain is real.",
+     "audio": "audio/narration/team-skeptic.wav",
+     "from": 270,
+     "durationInFrames": 58,
+     "words": [
+      [
+       "I",
+       0,
+       5
+      ],
+      [
+       "decide",
+       5,
+       19
+      ],
+      [
+       "whether",
+       19,
+       27
+      ],
+      [
+       "a",
+       27,
+       33
+      ],
+      [
+       "gain",
+       33,
+       37
+      ],
+      [
+       "is",
+       37,
+       44
+      ],
+      [
+       "real.",
+       44,
+       52
+      ]
+     ]
+    },
+    {
+     "id": "team-evaluator",
+     "text": "I run the final test on planets we've never seen, and only when a human says go.",
+     "audio": "audio/narration/team-evaluator.wav",
+     "from": 335,
+     "durationInFrames": 155,
+     "words": [
+      [
+       "I",
+       0,
+       5
+      ],
+      [
+       "run",
+       5,
+       12
+      ],
+      [
+       "the",
+       12,
+       16
+      ],
+      [
+       "final",
+       16,
+       27
+      ],
+      [
+       "test",
+       27,
+       38
+      ],
+      [
+       "on",
+       38,
+       43
+      ],
+      [
+       "planets",
+       43,
+       59
+      ],
+      [
+       "we've",
+       59,
+       67
+      ],
+      [
+       "never",
+       67,
+       74
+      ],
+      [
+       "seen,",
+       74,
+       88
+      ],
+      [
+       "and",
+       95,
+       106
+      ],
+      [
+       "only",
+       106,
+       114
+      ],
+      [
+       "when",
+       114,
+       119
+      ],
+      [
+       "a",
+       119,
+       123
+      ],
+      [
+       "human",
+       123,
+       131
+      ],
+      [
+       "says",
+       131,
+       142
+      ],
+      [
+       "go.",
+       142,
+       149
+      ]
+     ]
+    },
+    {
+     "id": "team-vetter",
+     "text": "I check new signals before anyone gets excited.",
+     "audio": "audio/narration/team-vetter.wav",
+     "from": 497,
+     "durationInFrames": 82,
+     "words": [
+      [
+       "I",
+       0,
+       5
+      ],
+      [
+       "check",
+       5,
+       12
+      ],
+      [
+       "new",
+       12,
+       18
+      ],
+      [
+       "signals",
+       18,
+       31
+      ],
+      [
+       "before",
+       31,
+       43
+      ],
+      [
+       "anyone",
+       43,
+       53
+      ],
+      [
+       "gets",
+       53,
+       64
+      ],
+      [
+       "excited.",
+       64,
+       76
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "close",
+   "from": 1435,
+   "durationInFrames": 180,
+   "lines": [
+    {
+     "id": "team-close",
+     "text": "Together, they are Planet lab.",
+     "audio": "audio/narration/team-close.wav",
+     "from": 12,
+     "durationInFrames": 52,
+     "words": [
+      [
+       "Together,",
+       0,
+       13
+      ],
+      [
+       "they",
+       13,
+       20
+      ],
+      [
+       "are",
+       20,
+       25
+      ],
+      [
+       "Planet",
+       25,
+       35
+      ],
+      [
+       "lab.",
+       35,
+       44
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "captions": [
+  {
+   "text": "This is Boris,",
+   "from": 18,
+   "to": 53
+  },
+  {
+   "text": "a UC Berkeley freshman who likes working",
+   "from": 53,
+   "to": 133
+  },
+  {
+   "text": "at the frontier of technology.",
+   "from": 133,
+   "to": 181
+  },
+  {
+   "text": "He previously worked at Lockheed Martin's solar",
+   "from": 181,
+   "to": 272
+  },
+  {
+   "text": "lab.",
+   "from": 272,
+   "to": 291
+  },
+  {
+   "text": "For this hackathon he didn't want a",
+   "from": 315,
+   "to": 362
+  },
+  {
+   "text": "demo. He wanted a lab,",
+   "from": 362,
+   "to": 421
+  },
+  {
+   "text": "where agents come up with an idea,",
+   "from": 421,
+   "to": 493
+  },
+  {
+   "text": "test it against a scorer they can't",
+   "from": 494,
+   "to": 550
+  },
+  {
+   "text": "touch, and argue about whether it's real.",
+   "from": 550,
+   "to": 628
+  },
+  {
+   "text": "A research team used to mean a",
+   "from": 651,
+   "to": 705
+  },
+  {
+   "text": "room full of people.",
+   "from": 705,
+   "to": 742
+  },
+  {
+   "text": "This one is one student and seven",
+   "from": 742,
+   "to": 804
+  },
+  {
+   "text": "agents.",
+   "from": 804,
+   "to": 825
+  },
+  {
+   "text": "I'm the PI.",
+   "from": 852,
+   "to": 880
+  },
+  {
+   "text": "I decide what we test.",
+   "from": 880,
+   "to": 928
+  },
+  {
+   "text": "I find the papers.",
+   "from": 934,
+   "to": 967
+  },
+  {
+   "text": "I work out why we missed.",
+   "from": 977,
+   "to": 1013
+  },
+  {
+   "text": "I build each idea,",
+   "from": 1020,
+   "to": 1050
+  },
+  {
+   "text": "and there are usually three of me.",
+   "from": 1050,
+   "to": 1106
+  },
+  {
+   "text": "I decide whether a gain is real.",
+   "from": 1110,
+   "to": 1170
+  },
+  {
+   "text": "I run the final test on planets",
+   "from": 1175,
+   "to": 1234
+  },
+  {
+   "text": "we've never seen,",
+   "from": 1234,
+   "to": 1270
+  },
+  {
+   "text": "and only when a human says go.",
+   "from": 1270,
+   "to": 1332
+  },
+  {
+   "text": "I check new signals before anyone gets",
+   "from": 1337,
+   "to": 1401
+  },
+  {
+   "text": "excited.",
+   "from": 1401,
+   "to": 1421
+  },
+  {
+   "text": "Together, they are Planet lab.",
+   "from": 1447,
+   "to": 1499
+  }
+ ]
+}

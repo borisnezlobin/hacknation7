@@ -1,0 +1,30 @@
+{
+  "name": "planet-lab-videos",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "still": "remotion still src/index.ts",
+    "render": "remotion render src/index.ts",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src"
+  },
+  "dependencies": {
+    "@fontsource-variable/hanken-grotesk": "^5.2.0",
+    "@fontsource/ibm-plex-mono": "^5.2.0",
+    "@phosphor-icons/react": "^2.1.10",
+    "@remotion/cli": "4.0.532",
+    "@remotion/media": "4.0.532",
+    "@remotion/tailwind-v4": "4.0.532",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "remotion": "4.0.532",
+    "tailwindcss": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19",
+    "eslint": "^9",
+    "typescript-eslint": "^8",
+    "typescript": "^5"
+  }
+}

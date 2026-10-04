@@ -1,0 +1,228 @@
+{
+  "id": "demo",
+  "voice": "am_michael",
+  "speed": 1.19,
+  "scenes": [
+    {
+      "id": "transit",
+      "minSeconds": 4.8,
+      "lines": [
+        {
+          "id": "demo-transit",
+          "at": 0.8,
+          "text": "When a planet crosses its star, the starlight dips, just a little."
+        }
+      ]
+    },
+    {
+      "id": "survey",
+      "minSeconds": 6.0,
+      "lines": [
+        {
+          "id": "demo-survey",
+          "at": 0.2,
+          "text": "Tess watches hundreds of thousands of stars, and has already found an Earth-size planet in its star's habitable zone."
+        }
+      ]
+    },
+    {
+      "id": "problem",
+      "minSeconds": 7.0,
+      "lines": [
+        {
+          "id": "demo-problem",
+          "at": 0.2,
+          "text": "But small planets make the faintest dips, and our starting search found just {baselineFaint} of {faintTotal}. Each fix took an expert about a day."
+        }
+      ]
+    },
+    {
+      "id": "title",
+      "minSeconds": 3.5,
+      "lines": [
+        {
+          "id": "demo-title",
+          "at": 0.4,
+          "text": "Planet lab hands that work to seven AI agents."
+        }
+      ]
+    },
+    {
+      "id": "loop",
+      "minSeconds": 6.0,
+      "lines": [
+        {
+          "id": "demo-loop",
+          "at": 0.2,
+          "text": "They read papers, study the misses, build fixes in parallel, and check every gain."
+        }
+      ]
+    },
+    {
+      "id": "grading",
+      "minSeconds": 4.2,
+      "lines": [
+        {
+          "id": "demo-grading",
+          "at": 0.2,
+          "text": "Each idea is graded on how many of {devPlanets} known planets it finds."
+        }
+      ]
+    },
+    {
+      "id": "result",
+      "minSeconds": 6.6,
+      "lines": [
+        {
+          "id": "demo-result",
+          "at": 0.2,
+          "text": "In one night they tested seven ideas and raised the count from {baselinePlanets} to {championPlanets}."
+        }
+      ]
+    },
+    {
+      "id": "discovery",
+      "minSeconds": 5.0,
+      "lines": [
+        {
+          "id": "demo-discovery",
+          "at": 0.2,
+          "text": "{discoveryLine}"
+        }
+      ]
+    },
+    {
+      "id": "ending",
+      "minSeconds": 8.0,
+      "lines": [
+        {
+          "id": "demo-ending",
+          "at": 0.3,
+          "text": "Better searches mean more worlds to study, maybe habitable ones. And a lab that needed a building now fits in a dorm room, ready for any science you can score, from planets to medicine."
+        }
+      ]
+    }
+  ],
+  "sound": {
+    "musicGain": 0.9,
+    "sfxGain": 0.8,
+    "musicFrom": {
+      "scene": "survey",
+      "at": 0.0
+    },
+    "arpeggioFrom": {
+      "scene": "title",
+      "at": 0.2
+    },
+    "pulseFrom": {
+      "scene": "loop",
+      "at": 0.0
+    },
+    "sfx": [
+      {
+        "scene": "transit",
+        "sound": "hum",
+        "dipStart": 0.205,
+        "dipEnd": 0.78,
+        "gain": 0.5
+      },
+      {
+        "scene": "survey",
+        "sound": "whoosh",
+        "line": "demo-survey",
+        "fraction": 0.14,
+        "gain": 0.7
+      },
+      {
+        "scene": "survey",
+        "sound": "chime",
+        "line": "demo-survey",
+        "fraction": 0.48,
+        "offset": 0.6,
+        "gain": 0.5
+      },
+      {
+        "scene": "problem",
+        "sound": "ticks",
+        "line": "demo-problem",
+        "fraction": 0.66,
+        "gain": 0.4
+      },
+      {
+        "scene": "title",
+        "sound": "click",
+        "at": 0.0,
+        "gain": 0.6
+      },
+      {
+        "scene": "title",
+        "sound": "chime",
+        "at": 0.6,
+        "gain": 0.6
+      },
+      {
+        "scene": "loop",
+        "sound": "whoosh",
+        "line": "demo-loop",
+        "fraction": 0.48,
+        "gain": 0.6
+      },
+      {
+        "scene": "loop",
+        "sound": "chime",
+        "line": "demo-loop",
+        "fraction": 0.78,
+        "offset": 0.6,
+        "gain": 0.5
+      },
+      {
+        "scene": "grading",
+        "sound": "ticks",
+        "line": "demo-grading",
+        "fraction": 0.55,
+        "gain": 0.4
+      },
+      {
+        "scene": "result",
+        "sound": "whoosh",
+        "line": "demo-result",
+        "fraction": 0.45,
+        "gain": 0.6
+      },
+      {
+        "scene": "result",
+        "sound": "chime",
+        "line": "demo-result",
+        "fraction": 0.45,
+        "offset": 0.5,
+        "gain": 0.6
+      },
+      {
+        "scene": "discovery",
+        "sound": "whoosh",
+        "at": 0.1,
+        "gain": 0.5
+      },
+      {
+        "scene": "ending",
+        "sound": "sub",
+        "line": "demo-ending",
+        "fraction": 0.5,
+        "offset": 0.25,
+        "gain": 0.5
+      },
+      {
+        "scene": "ending",
+        "sound": "riser",
+        "fromEnd": 1.6,
+        "gain": 0.35
+      },
+      {
+        "scene": "ending",
+        "sound": "chime",
+        "fromEnd": 1.4,
+        "gain": 0.7
+      }
+    ]
+  }
+}

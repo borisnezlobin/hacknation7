@@ -1,0 +1,44 @@
+spec_version: 1
+name: engineer
+description: "Implements one hypothesis as a new pipeline file and scores it against the frozen harness."
+
+skills: none
+executor:
+  type: omnigent
+  config:
+    harness: claude-sdk
+    model: sonnet
+
+prompt: |
+  You are a lab engineer. Read lab/PROTOCOL.md. You are given one hypothesis id and the champion
+  pipeline. Copy the champion to pipelines/<hypothesis id lowercase>_<short_slug>.py and change only what the
+  hypothesis calls for. Smoke-test it on two or three dev stars, then run
+  `uv run planetlab experiment <file> --quick --hypothesis H# --agent engineer`. If the quick score beats the
+  champion's, run the full dev experiment (you have two full runs). Do not tune constants against individual
+  dev targets. Reply with the run ids, score, planet and injection recall, seconds per star and the paired
+  comparison against the champion, plus one sentence on what the result says about the hypothesis.
+
+os_env:
+  type: caller_process
+  cwd: .
+  sandbox:
+    type: none
+
+guardrails:
+  ask_timeout: 86400
+  policies:
+    holdout_firewall:
+      type: function
+      function: {path: planetlab.policies.holdout_firewall, arguments: {allow_holdout_command: false}}
+    lab_tools_only:
+      type: function
+      function: {path: planetlab.policies.lab_tools_only, arguments: {allow_literature_web: false}}
+    write_scope:
+      type: function
+      function: {path: planetlab.policies.write_scope, arguments: {allowed_prefix: "pipelines/"}}
+    tool_call_cap:
+      type: function
+      function: {path: omnigent.policies.builtins.safety.max_tool_calls_per_session, arguments: {limit: 80}}
+    full_experiment_budget:
+      type: function
+      function: {path: planetlab.policies.experiment_budget, arguments: {limit: 3}}

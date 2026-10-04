@@ -1,0 +1,1630 @@
+{
+ "run_id": "dev-04596fef",
+ "created": "2026-10-04T03:50:38+00:00",
+ "pipeline": "pipelines/h5_h3_guarded.py",
+ "pipeline_sha256": "a959d4ca7eefd1b6e68f78fc404eb8b1657adf5aeec082e25937b538d1659bfd",
+ "split": "dev",
+ "quick": true,
+ "metrics": {
+  "score": 0.4334,
+  "planet_recall": 0.4875,
+  "injection_recall": 0.3793,
+  "false_alarm_budget": 0.05,
+  "threshold": 11.565412614605183,
+  "strict_threshold": 33.54646157602746,
+  "control_false_alarms": 8,
+  "n_planets": 80,
+  "n_injected": 145,
+  "n_controls": 145,
+  "errors": 0,
+  "median_seconds_per_star": 15.782,
+  "recall_by_depth": {
+   "injected:0-1000": {
+    "recovered": 6,
+    "total": 49
+   },
+   "injected:1000-3000": {
+    "recovered": 15,
+    "total": 45
+   },
+   "injected:3000-10000": {
+    "recovered": 34,
+    "total": 51
+   },
+   "planet:0-1000": {
+    "recovered": 2,
+    "total": 22
+   },
+   "planet:1000-3000": {
+    "recovered": 11,
+    "total": 18
+   },
+   "planet:10000-inf": {
+    "recovered": 12,
+    "total": 18
+   },
+   "planet:3000-10000": {
+    "recovered": 14,
+    "total": 22
+   }
+  },
+  "wall_seconds": 884.0
+ },
+ "outcomes": [
+  {
+   "tic": 289793076,
+   "role": "planet",
+   "period": 3.0440494555695627,
+   "depth_ppm": 22807.01017736247,
+   "recovered": true
+  },
+  {
+   "tic": 266980320,
+   "role": "planet",
+   "period": 6.034463389519887,
+   "depth_ppm": 1750.6457632007427,
+   "recovered": true
+  },
+  {
+   "tic": 391949880,
+   "role": "planet",
+   "period": 4.940480117380858,
+   "depth_ppm": 417.00851672140783,
+   "recovered": false
+  },
+  {
+   "tic": 166739520,
+   "role": "planet",
+   "period": 10.020593207375375,
+   "depth_ppm": 8247.668940577594,
+   "recovered": true
+  },
+  {
+   "tic": 122612091,
+   "role": "planet",
+   "period": 2.216743559386217,
+   "depth_ppm": 4239.74844630544,
+   "recovered": true
+  },
+  {
+   "tic": 219253008,
+   "role": "planet",
+   "period": 5.066180251255082,
+   "depth_ppm": 1586.711889026959,
+   "recovered": true
+  },
+  {
+   "tic": 238059180,
+   "role": "planet",
+   "period": 5.111977761291672,
+   "depth_ppm": 732.971874980349,
+   "recovered": false
+  },
+  {
+   "tic": 422655579,
+   "role": "planet",
+   "period": 2.9036857613259768,
+   "depth_ppm": 4642.274914797759,
+   "recovered": true
+  },
+  {
+   "tic": 260004324,
+   "role": "planet",
+   "period": 3.8143135562502177,
+   "depth_ppm": 460.8504633001785,
+   "recovered": false
+  },
+  {
+   "tic": 278895705,
+   "role": "planet",
+   "period": 8.760976217828196,
+   "depth_ppm": 505.996997358862,
+   "recovered": false
+  },
+  {
+   "tic": 177258735,
+   "role": "planet",
+   "period": 0.7757009693013109,
+   "depth_ppm": 44.139923910628056,
+   "recovered": false
+  },
+  {
+   "tic": 167303382,
+   "role": "planet",
+   "period": 3.6939120429709593,
+   "depth_ppm": 72.41215032290468,
+   "recovered": false
+  },
+  {
+   "tic": 210873792,
+   "role": "planet",
+   "period": 4.849523592590762,
+   "depth_ppm": 1558.4108000863912,
+   "recovered": false
+  },
+  {
+   "tic": 214361331,
+   "role": "planet",
+   "period": 3.2310603046333624,
+   "depth_ppm": 2817.1225488258397,
+   "recovered": true
+  },
+  {
+   "tic": 305424003,
+   "role": "planet",
+   "period": 4.584910986733534,
+   "depth_ppm": 2101.0682794136073,
+   "recovered": false
+  },
+  {
+   "tic": 406941612,
+   "role": "planet",
+   "period": 4.678065931722675,
+   "depth_ppm": 1835.6055249703572,
+   "recovered": true
+  },
+  {
+   "tic": 375223080,
+   "role": "planet",
+   "period": 1.4821380067184766,
+   "depth_ppm": 2102.656829869522,
+   "recovered": true
+  },
+  {
+   "tic": 394561119,
+   "role": "planet",
+   "period": 4.078238766496566,
+   "depth_ppm": 6667.6920161016715,
+   "recovered": true
+  },
+  {
+   "tic": 212253390,
+   "role": "planet",
+   "period": 3.09268584419493,
+   "depth_ppm": 272.6778327716284,
+   "recovered": false
+  },
+  {
+   "tic": 220068921,
+   "role": "planet",
+   "period": 3.3651586,
+   "depth_ppm": 7858.288522908485,
+   "recovered": true
+  },
+  {
+   "tic": 149349867,
+   "role": "planet",
+   "period": 5.912356513519777,
+   "depth_ppm": 402.9090728732009,
+   "recovered": false
+  },
+  {
+   "tic": 149349867,
+   "role": "planet",
+   "period": 3.4072162493047204,
+   "depth_ppm": 289.0451375112903,
+   "recovered": false
+  },
+  {
+   "tic": 10837041,
+   "role": "planet",
+   "period": 0.7827074550330908,
+   "depth_ppm": 526.8676749515395,
+   "recovered": true
+  },
+  {
+   "tic": 260537454,
+   "role": "planet",
+   "period": 6.3187442,
+   "depth_ppm": 28370.0,
+   "recovered": true
+  },
+  {
+   "tic": 262829328,
+   "role": "planet",
+   "period": 1.0649771,
+   "depth_ppm": 16307.5548796493,
+   "recovered": true
+  },
+  {
+   "tic": 372817671,
+   "role": "planet",
+   "period": 5.0183771,
+   "depth_ppm": 2790.6279856055203,
+   "recovered": false
+  },
+  {
+   "tic": 340144218,
+   "role": "planet",
+   "period": 10.3629429,
+   "depth_ppm": 6167.967993791005,
+   "recovered": false
+  },
+  {
+   "tic": 39858507,
+   "role": "planet",
+   "period": 4.628826591562847,
+   "depth_ppm": 5156.2450744780335,
+   "recovered": true
+  },
+  {
+   "tic": 218483943,
+   "role": "planet",
+   "period": 3.759039943692418,
+   "depth_ppm": 716.9285306548585,
+   "recovered": false
+  },
+  {
+   "tic": 142019343,
+   "role": "planet",
+   "period": 4.471981486291261,
+   "depth_ppm": 169.79036073861553,
+   "recovered": false
+  },
+  {
+   "tic": 53287554,
+   "role": "planet",
+   "period": 4.726929399075142,
+   "depth_ppm": 1418.4787666599232,
+   "recovered": false
+  },
+  {
+   "tic": 151724385,
+   "role": "planet",
+   "period": 6.140620703386301,
+   "depth_ppm": 2469.432247442106,
+   "recovered": true
+  },
+  {
+   "tic": 96475638,
+   "role": "planet",
+   "period": 4.061108881051828,
+   "depth_ppm": 521.4793098699839,
+   "recovered": false
+  },
+  {
+   "tic": 272768631,
+   "role": "planet",
+   "period": 7.312090962195565,
+   "depth_ppm": 1281.0187740772922,
+   "recovered": false
+  },
+  {
+   "tic": 426032475,
+   "role": "planet",
+   "period": 7.83745495299467,
+   "depth_ppm": 148.62818302776392,
+   "recovered": false
+  },
+  {
+   "tic": 431016234,
+   "role": "planet",
+   "period": 12.38328473977534,
+   "depth_ppm": 1735.0237681915237,
+   "recovered": false
+  },
+  {
+   "tic": 301258470,
+   "role": "planet",
+   "period": 12.456369170223333,
+   "depth_ppm": 10352.64239020146,
+   "recovered": false
+  },
+  {
+   "tic": 250977648,
+   "role": "planet",
+   "period": 4.608085407362772,
+   "depth_ppm": 435.5578167638541,
+   "recovered": false
+  },
+  {
+   "tic": 111778581,
+   "role": "planet",
+   "period": 11.4212058914,
+   "depth_ppm": 41150.980909196755,
+   "recovered": false
+  },
+  {
+   "tic": 441012828,
+   "role": "planet",
+   "period": 2.7892779746411533,
+   "depth_ppm": 11140.279197973156,
+   "recovered": true
+  },
+  {
+   "tic": 169504920,
+   "role": "planet",
+   "period": 3.1052318937975847,
+   "depth_ppm": 13036.15382920209,
+   "recovered": true
+  },
+  {
+   "tic": 327302178,
+   "role": "planet",
+   "period": 1.0065503224846029,
+   "depth_ppm": 2252.966295513392,
+   "recovered": true
+  },
+  {
+   "tic": 118798035,
+   "role": "planet",
+   "period": 11.531727272140452,
+   "depth_ppm": 3881.3138889539305,
+   "recovered": false
+  },
+  {
+   "tic": 146364192,
+   "role": "planet",
+   "period": 2.3691651278178476,
+   "depth_ppm": 316.0727653636871,
+   "recovered": false
+  },
+  {
+   "tic": 159671133,
+   "role": "planet",
+   "period": 1.3409757792564108,
+   "depth_ppm": 754.7806204174501,
+   "recovered": true
+  },
+  {
+   "tic": 327996774,
+   "role": "planet",
+   "period": 2.5824371068856635,
+   "depth_ppm": 286.02522119696033,
+   "recovered": false
+  },
+  {
+   "tic": 241577487,
+   "role": "planet",
+   "period": 4.570135649838008,
+   "depth_ppm": 341.3785990175247,
+   "recovered": false
+  },
+  {
+   "tic": 241577487,
+   "role": "planet",
+   "period": 1.2377156533335425,
+   "depth_ppm": 240.10120266474712,
+   "recovered": false
+  },
+  {
+   "tic": 200001699,
+   "role": "planet",
+   "period": 0.3236317459834564,
+   "depth_ppm": 488.0446303154429,
+   "recovered": false
+  },
+  {
+   "tic": 200001699,
+   "role": "planet",
+   "period": 6.889620068478693,
+   "depth_ppm": 2202.752854437007,
+   "recovered": true
+  },
+  {
+   "tic": 73983171,
+   "role": "planet",
+   "period": 2.999729220343826,
+   "depth_ppm": 13040.229924350744,
+   "recovered": true
+  },
+  {
+   "tic": 198294279,
+   "role": "planet",
+   "period": 0.5853026774571098,
+   "depth_ppm": 2873.2583445599794,
+   "recovered": true
+  },
+  {
+   "tic": 49729638,
+   "role": "planet",
+   "period": 3.2397806196961545,
+   "depth_ppm": 11226.952723472474,
+   "recovered": true
+  },
+  {
+   "tic": 347866089,
+   "role": "planet",
+   "period": 0.6964039764260391,
+   "depth_ppm": 28716.044637657997,
+   "recovered": true
+  },
+  {
+   "tic": 38691375,
+   "role": "planet",
+   "period": 3.0101624557448803,
+   "depth_ppm": 4536.365711459821,
+   "recovered": true
+  },
+  {
+   "tic": 26040447,
+   "role": "planet",
+   "period": 0.6109883783451151,
+   "depth_ppm": 6686.252674338819,
+   "recovered": true
+  },
+  {
+   "tic": 346069206,
+   "role": "planet",
+   "period": 1.0730267799811437,
+   "depth_ppm": 2069.561781308116,
+   "recovered": true
+  },
+  {
+   "tic": 102181368,
+   "role": "planet",
+   "period": 3.6337831656563537,
+   "depth_ppm": 14884.740967573542,
+   "recovered": false
+  },
+  {
+   "tic": 441919395,
+   "role": "planet",
+   "period": 4.746466191460872,
+   "depth_ppm": 9024.115198185527,
+   "recovered": true
+  },
+  {
+   "tic": 68792475,
+   "role": "planet",
+   "period": 3.994806611439932,
+   "depth_ppm": 6449.167375166013,
+   "recovered": true
+  },
+  {
+   "tic": 301023390,
+   "role": "planet",
+   "period": 3.2569952074924764,
+   "depth_ppm": 8284.259482760364,
+   "recovered": true
+  },
+  {
+   "tic": 309845124,
+   "role": "planet",
+   "period": 2.3516994638008057,
+   "depth_ppm": 90712.37595898096,
+   "recovered": true
+  },
+  {
+   "tic": 301271430,
+   "role": "planet",
+   "period": 8.248515616605527,
+   "depth_ppm": 942.9139871220858,
+   "recovered": false
+  },
+  {
+   "tic": 335919075,
+   "role": "planet",
+   "period": 3.697599256452843,
+   "depth_ppm": 6682.3487270191,
+   "recovered": true
+  },
+  {
+   "tic": 422078739,
+   "role": "planet",
+   "period": 2.2122420379667895,
+   "depth_ppm": 5098.05471608541,
+   "recovered": false
+  },
+  {
+   "tic": 166510722,
+   "role": "planet",
+   "period": 5.018475773073205,
+   "depth_ppm": 3002.7777635741027,
+   "recovered": false
+  },
+  {
+   "tic": 206553642,
+   "role": "planet",
+   "period": 3.4662324885249207,
+   "depth_ppm": 10730.022570357558,
+   "recovered": false
+  },
+  {
+   "tic": 13663443,
+   "role": "planet",
+   "period": 3.013511122686104,
+   "depth_ppm": 7121.021252218219,
+   "recovered": false
+  },
+  {
+   "tic": 913035,
+   "role": "planet",
+   "period": 5.524848543289835,
+   "depth_ppm": 5984.474556150648,
+   "recovered": true
+  },
+  {
+   "tic": 155744976,
+   "role": "planet",
+   "period": 3.880419861293275,
+   "depth_ppm": 1673.2556310872255,
+   "recovered": true
+  },
+  {
+   "tic": 51217656,
+   "role": "planet",
+   "period": 3.044875801890104,
+   "depth_ppm": 21290.987329454365,
+   "recovered": false
+  },
+  {
+   "tic": 169725951,
+   "role": "planet",
+   "period": 8.009437345737666,
+   "depth_ppm": 8078.533772932279,
+   "recovered": false
+  },
+  {
+   "tic": 340383885,
+   "role": "planet",
+   "period": 4.148390647056612,
+   "depth_ppm": 1709.0800830383837,
+   "recovered": false
+  },
+  {
+   "tic": 60091800,
+   "role": "planet",
+   "period": 1.7389103452101264,
+   "depth_ppm": 25800.49079241046,
+   "recovered": true
+  },
+  {
+   "tic": 323624496,
+   "role": "planet",
+   "period": 2.070636484947727,
+   "depth_ppm": 12051.18566016034,
+   "recovered": true
+  },
+  {
+   "tic": 465283863,
+   "role": "planet",
+   "period": 4.5533193590754255,
+   "depth_ppm": 11122.615058772102,
+   "recovered": true
+  },
+  {
+   "tic": 307398951,
+   "role": "planet",
+   "period": 4.446843892998649,
+   "depth_ppm": 9423.917876970478,
+   "recovered": true
+  },
+  {
+   "tic": 55578720,
+   "role": "planet",
+   "period": 6.58355707995906,
+   "depth_ppm": 9592.483467775226,
+   "recovered": false
+  },
+  {
+   "tic": 194721330,
+   "role": "planet",
+   "period": 3.9374688432073057,
+   "depth_ppm": 13808.868957010223,
+   "recovered": false
+  },
+  {
+   "tic": 157703394,
+   "role": "planet",
+   "period": 6.102903372651007,
+   "depth_ppm": 8058.347184778839,
+   "recovered": false
+  },
+  {
+   "tic": 66496377,
+   "role": "injected",
+   "period": 1.947717876089758,
+   "depth_ppm": 560.4749474530066,
+   "recovered": false
+  },
+  {
+   "tic": 307089228,
+   "role": "injected",
+   "period": 2.292852491346281,
+   "depth_ppm": 4258.9909121904275,
+   "recovered": true
+  },
+  {
+   "tic": 13058544,
+   "role": "injected",
+   "period": 2.3261249035615523,
+   "depth_ppm": 2805.9909841821177,
+   "recovered": false
+  },
+  {
+   "tic": 300935952,
+   "role": "injected",
+   "period": 1.1924587564635027,
+   "depth_ppm": 2626.2924940261237,
+   "recovered": true
+  },
+  {
+   "tic": 157010088,
+   "role": "injected",
+   "period": 1.005909332532957,
+   "depth_ppm": 894.5168854242271,
+   "recovered": true
+  },
+  {
+   "tic": 219000891,
+   "role": "injected",
+   "period": 5.73519936113614,
+   "depth_ppm": 2291.086638372265,
+   "recovered": true
+  },
+  {
+   "tic": 177287229,
+   "role": "injected",
+   "period": 5.879944960381641,
+   "depth_ppm": 6472.41462726297,
+   "recovered": false
+  },
+  {
+   "tic": 231280212,
+   "role": "injected",
+   "period": 7.002184502344463,
+   "depth_ppm": 7404.886562001821,
+   "recovered": false
+  },
+  {
+   "tic": 40347159,
+   "role": "injected",
+   "period": 4.673597561585635,
+   "depth_ppm": 970.6545402401113,
+   "recovered": false
+  },
+  {
+   "tic": 419958333,
+   "role": "injected",
+   "period": 2.3711406773987593,
+   "depth_ppm": 7066.614868162797,
+   "recovered": true
+  },
+  {
+   "tic": 269741319,
+   "role": "injected",
+   "period": 0.8883007809192758,
+   "depth_ppm": 300.9541689842756,
+   "recovered": false
+  },
+  {
+   "tic": 152819859,
+   "role": "injected",
+   "period": 5.597219566190794,
+   "depth_ppm": 8901.25034226549,
+   "recovered": true
+  },
+  {
+   "tic": 454151553,
+   "role": "injected",
+   "period": 1.8165592992888822,
+   "depth_ppm": 1130.986435196597,
+   "recovered": true
+  },
+  {
+   "tic": 299832345,
+   "role": "injected",
+   "period": 0.6085477334511992,
+   "depth_ppm": 2590.2688550294083,
+   "recovered": true
+  },
+  {
+   "tic": 248948043,
+   "role": "injected",
+   "period": 11.926200258593957,
+   "depth_ppm": 979.7854746957407,
+   "recovered": false
+  },
+  {
+   "tic": 382428033,
+   "role": "injected",
+   "period": 1.5809866535788002,
+   "depth_ppm": 764.0898679404671,
+   "recovered": false
+  },
+  {
+   "tic": 272317326,
+   "role": "injected",
+   "period": 2.8879142725926807,
+   "depth_ppm": 1191.4330575257284,
+   "recovered": false
+  },
+  {
+   "tic": 78109674,
+   "role": "injected",
+   "period": 6.108399137699861,
+   "depth_ppm": 2161.3747491084737,
+   "recovered": false
+  },
+  {
+   "tic": 206551767,
+   "role": "injected",
+   "period": 1.3175789477492992,
+   "depth_ppm": 748.6311472233838,
+   "recovered": true
+  },
+  {
+   "tic": 673222071,
+   "role": "injected",
+   "period": 10.941969604958079,
+   "depth_ppm": 4026.700551417116,
+   "recovered": false
+  },
+  {
+   "tic": 219251013,
+   "role": "injected",
+   "period": 0.7513493394454899,
+   "depth_ppm": 2302.7713013996176,
+   "recovered": true
+  },
+  {
+   "tic": 100723803,
+   "role": "injected",
+   "period": 2.456396096101531,
+   "depth_ppm": 7168.521331955335,
+   "recovered": true
+  },
+  {
+   "tic": 33476829,
+   "role": "injected",
+   "period": 1.5253063029394454,
+   "depth_ppm": 764.3160188658452,
+   "recovered": false
+  },
+  {
+   "tic": 261332709,
+   "role": "injected",
+   "period": 5.845208719615441,
+   "depth_ppm": 1217.5746804362104,
+   "recovered": false
+  },
+  {
+   "tic": 427449567,
+   "role": "injected",
+   "period": 0.7118282982578917,
+   "depth_ppm": 7273.534471522861,
+   "recovered": true
+  },
+  {
+   "tic": 259574697,
+   "role": "injected",
+   "period": 1.322951722235902,
+   "depth_ppm": 581.2613825638365,
+   "recovered": false
+  },
+  {
+   "tic": 141978885,
+   "role": "injected",
+   "period": 2.382786918726883,
+   "depth_ppm": 964.3001129527726,
+   "recovered": true
+  },
+  {
+   "tic": 255760026,
+   "role": "injected",
+   "period": 4.6555127469739785,
+   "depth_ppm": 1311.7421642683146,
+   "recovered": false
+  },
+  {
+   "tic": 231956640,
+   "role": "injected",
+   "period": 4.420091920403135,
+   "depth_ppm": 622.5537672601577,
+   "recovered": true
+  },
+  {
+   "tic": 235048515,
+   "role": "injected",
+   "period": 3.518646632568991,
+   "depth_ppm": 9088.193897826177,
+   "recovered": true
+  },
+  {
+   "tic": 200744694,
+   "role": "injected",
+   "period": 3.699882681375717,
+   "depth_ppm": 631.4705283079419,
+   "recovered": false
+  },
+  {
+   "tic": 364588968,
+   "role": "injected",
+   "period": 2.339973007260231,
+   "depth_ppm": 5449.280404070818,
+   "recovered": true
+  },
+  {
+   "tic": 37906344,
+   "role": "injected",
+   "period": 0.957403636804665,
+   "depth_ppm": 1933.762646083286,
+   "recovered": true
+  },
+  {
+   "tic": 76924371,
+   "role": "injected",
+   "period": 10.072016297140229,
+   "depth_ppm": 301.8783021370466,
+   "recovered": false
+  },
+  {
+   "tic": 63770955,
+   "role": "injected",
+   "period": 7.841732670423195,
+   "depth_ppm": 2984.147890614715,
+   "recovered": false
+  },
+  {
+   "tic": 238188573,
+   "role": "injected",
+   "period": 1.5373731524472474,
+   "depth_ppm": 5353.190303190992,
+   "recovered": true
+  },
+  {
+   "tic": 393452106,
+   "role": "injected",
+   "period": 7.278096783023467,
+   "depth_ppm": 2858.1772739600033,
+   "recovered": true
+  },
+  {
+   "tic": 158963232,
+   "role": "injected",
+   "period": 7.866810996630311,
+   "depth_ppm": 8986.358543207594,
+   "recovered": true
+  },
+  {
+   "tic": 160331214,
+   "role": "injected",
+   "period": 1.0744319090255356,
+   "depth_ppm": 1197.0579401946682,
+   "recovered": false
+  },
+  {
+   "tic": 37002690,
+   "role": "injected",
+   "period": 6.7888123539733485,
+   "depth_ppm": 1879.7683376568068,
+   "recovered": false
+  },
+  {
+   "tic": 150442491,
+   "role": "injected",
+   "period": 0.9238288107233533,
+   "depth_ppm": 3564.9194993683072,
+   "recovered": false
+  },
+  {
+   "tic": 38846361,
+   "role": "injected",
+   "period": 1.9305140207794498,
+   "depth_ppm": 4167.954323153495,
+   "recovered": true
+  },
+  {
+   "tic": 55783254,
+   "role": "injected",
+   "period": 3.690052431048837,
+   "depth_ppm": 444.2944199668838,
+   "recovered": false
+  },
+  {
+   "tic": 32871777,
+   "role": "injected",
+   "period": 9.423784254890807,
+   "depth_ppm": 890.482379254768,
+   "recovered": false
+  },
+  {
+   "tic": 66825255,
+   "role": "injected",
+   "period": 5.500991709614303,
+   "depth_ppm": 3302.5812673145447,
+   "recovered": false
+  },
+  {
+   "tic": 150273708,
+   "role": "injected",
+   "period": 7.076384028443664,
+   "depth_ppm": 3735.140262201922,
+   "recovered": false
+  },
+  {
+   "tic": 152966973,
+   "role": "injected",
+   "period": 5.362051509241465,
+   "depth_ppm": 4902.225177058897,
+   "recovered": false
+  },
+  {
+   "tic": 219379050,
+   "role": "injected",
+   "period": 1.3091755035974713,
+   "depth_ppm": 9162.85390775527,
+   "recovered": true
+  },
+  {
+   "tic": 183618903,
+   "role": "injected",
+   "period": 1.6368711895900145,
+   "depth_ppm": 571.7775074953603,
+   "recovered": false
+  },
+  {
+   "tic": 206590893,
+   "role": "injected",
+   "period": 1.5883875704877193,
+   "depth_ppm": 727.9974213111333,
+   "recovered": false
+  },
+  {
+   "tic": 9343674,
+   "role": "injected",
+   "period": 0.812062307548393,
+   "depth_ppm": 6031.261756474363,
+   "recovered": false
+  },
+  {
+   "tic": 150272064,
+   "role": "injected",
+   "period": 4.491041960937965,
+   "depth_ppm": 490.128435765623,
+   "recovered": true
+  },
+  {
+   "tic": 2055631098,
+   "role": "injected",
+   "period": 0.629516846408373,
+   "depth_ppm": 775.968864211827,
+   "recovered": false
+  },
+  {
+   "tic": 150245430,
+   "role": "injected",
+   "period": 8.885588063916728,
+   "depth_ppm": 457.87705816895215,
+   "recovered": false
+  },
+  {
+   "tic": 435905694,
+   "role": "injected",
+   "period": 11.607989212611457,
+   "depth_ppm": 749.3702048851402,
+   "recovered": false
+  },
+  {
+   "tic": 293166195,
+   "role": "injected",
+   "period": 3.18532622906098,
+   "depth_ppm": 847.809365656753,
+   "recovered": false
+  },
+  {
+   "tic": 115276431,
+   "role": "injected",
+   "period": 0.7879140767519289,
+   "depth_ppm": 647.961103626399,
+   "recovered": false
+  },
+  {
+   "tic": 207142638,
+   "role": "injected",
+   "period": 0.7286205863012992,
+   "depth_ppm": 724.4739607733791,
+   "recovered": false
+  },
+  {
+   "tic": 153797142,
+   "role": "injected",
+   "period": 9.813924332965424,
+   "depth_ppm": 649.4883220862897,
+   "recovered": false
+  },
+  {
+   "tic": 269592768,
+   "role": "injected",
+   "period": 7.68824142275825,
+   "depth_ppm": 625.0913213445474,
+   "recovered": false
+  },
+  {
+   "tic": 201795195,
+   "role": "injected",
+   "period": 2.292697365625111,
+   "depth_ppm": 1448.4169308465148,
+   "recovered": false
+  },
+  {
+   "tic": 65348166,
+   "role": "injected",
+   "period": 0.9466349022645352,
+   "depth_ppm": 423.15376267481184,
+   "recovered": false
+  },
+  {
+   "tic": 180977580,
+   "role": "injected",
+   "period": 1.0390225338070305,
+   "depth_ppm": 2968.173901270051,
+   "recovered": true
+  },
+  {
+   "tic": 220578075,
+   "role": "injected",
+   "period": 1.4837646408995766,
+   "depth_ppm": 2695.7285332062734,
+   "recovered": true
+  },
+  {
+   "tic": 25195611,
+   "role": "injected",
+   "period": 3.6963795106783053,
+   "depth_ppm": 762.526435615769,
+   "recovered": false
+  },
+  {
+   "tic": 158761437,
+   "role": "injected",
+   "period": 0.6220233594482306,
+   "depth_ppm": 1149.4310323020295,
+   "recovered": false
+  },
+  {
+   "tic": 38844867,
+   "role": "injected",
+   "period": 4.6266733502668895,
+   "depth_ppm": 9279.047604260699,
+   "recovered": true
+  },
+  {
+   "tic": 349769211,
+   "role": "injected",
+   "period": 4.079857977742536,
+   "depth_ppm": 3200.8863467832784,
+   "recovered": true
+  },
+  {
+   "tic": 375060774,
+   "role": "injected",
+   "period": 1.0369638671254044,
+   "depth_ppm": 2752.6347838430993,
+   "recovered": true
+  },
+  {
+   "tic": 146538744,
+   "role": "injected",
+   "period": 4.496926830277933,
+   "depth_ppm": 1285.9949584158599,
+   "recovered": false
+  },
+  {
+   "tic": 33714306,
+   "role": "injected",
+   "period": 8.208209014138431,
+   "depth_ppm": 9288.008661000886,
+   "recovered": false
+  },
+  {
+   "tic": 389561487,
+   "role": "injected",
+   "period": 4.141136549018707,
+   "depth_ppm": 3557.751546999003,
+   "recovered": true
+  },
+  {
+   "tic": 179200539,
+   "role": "injected",
+   "period": 12.022762409852307,
+   "depth_ppm": 677.8296991422591,
+   "recovered": false
+  },
+  {
+   "tic": 1397232,
+   "role": "injected",
+   "period": 2.143683477556771,
+   "depth_ppm": 888.0901227839184,
+   "recovered": true
+  },
+  {
+   "tic": 259511379,
+   "role": "injected",
+   "period": 0.6136033595327678,
+   "depth_ppm": 7543.7485583437,
+   "recovered": true
+  },
+  {
+   "tic": 313140384,
+   "role": "injected",
+   "period": 0.9906617891222506,
+   "depth_ppm": 464.88159685596077,
+   "recovered": false
+  },
+  {
+   "tic": 260657325,
+   "role": "injected",
+   "period": 2.4426864881774843,
+   "depth_ppm": 352.3509372887071,
+   "recovered": false
+  },
+  {
+   "tic": 13325481,
+   "role": "injected",
+   "period": 5.8376456390952995,
+   "depth_ppm": 1154.7562742981406,
+   "recovered": false
+  },
+  {
+   "tic": 33443886,
+   "role": "injected",
+   "period": 10.469217117026835,
+   "depth_ppm": 8198.46889922339,
+   "recovered": true
+  },
+  {
+   "tic": 302001453,
+   "role": "injected",
+   "period": 1.3124880537546038,
+   "depth_ppm": 5825.587660307058,
+   "recovered": true
+  },
+  {
+   "tic": 408043239,
+   "role": "injected",
+   "period": 1.1821326368141005,
+   "depth_ppm": 8664.267940992384,
+   "recovered": true
+  },
+  {
+   "tic": 40185768,
+   "role": "injected",
+   "period": 0.6693984433065918,
+   "depth_ppm": 6524.381831503536,
+   "recovered": true
+  },
+  {
+   "tic": 55523316,
+   "role": "injected",
+   "period": 2.6182573307607315,
+   "depth_ppm": 7232.21527338978,
+   "recovered": true
+  },
+  {
+   "tic": 150300921,
+   "role": "injected",
+   "period": 10.833335240798698,
+   "depth_ppm": 967.6690077435524,
+   "recovered": false
+  },
+  {
+   "tic": 237914244,
+   "role": "injected",
+   "period": 10.060188381200268,
+   "depth_ppm": 3853.295026485496,
+   "recovered": false
+  },
+  {
+   "tic": 200512455,
+   "role": "injected",
+   "period": 5.663287859733181,
+   "depth_ppm": 4234.271390596594,
+   "recovered": false
+  },
+  {
+   "tic": 259516710,
+   "role": "injected",
+   "period": 1.833285186871417,
+   "depth_ppm": 819.3937864222763,
+   "recovered": false
+  },
+  {
+   "tic": 435904338,
+   "role": "injected",
+   "period": 3.991671069902966,
+   "depth_ppm": 1220.4012267328492,
+   "recovered": false
+  },
+  {
+   "tic": 32069889,
+   "role": "injected",
+   "period": 2.496267700103587,
+   "depth_ppm": 589.0169468312582,
+   "recovered": false
+  },
+  {
+   "tic": 279738483,
+   "role": "injected",
+   "period": 2.3577859210363172,
+   "depth_ppm": 9565.850771192865,
+   "recovered": false
+  },
+  {
+   "tic": 197888604,
+   "role": "injected",
+   "period": 2.432816775393829,
+   "depth_ppm": 2906.5457611690013,
+   "recovered": false
+  },
+  {
+   "tic": 38764107,
+   "role": "injected",
+   "period": 9.428324128938572,
+   "depth_ppm": 407.5711642412731,
+   "recovered": false
+  },
+  {
+   "tic": 167657481,
+   "role": "injected",
+   "period": 1.8792575097896025,
+   "depth_ppm": 4900.991683334246,
+   "recovered": true
+  },
+  {
+   "tic": 348843213,
+   "role": "injected",
+   "period": 0.6775803224019074,
+   "depth_ppm": 4680.198721936293,
+   "recovered": false
+  },
+  {
+   "tic": 294982707,
+   "role": "injected",
+   "period": 1.0402738788800183,
+   "depth_ppm": 551.9137321380762,
+   "recovered": false
+  },
+  {
+   "tic": 279480624,
+   "role": "injected",
+   "period": 8.857854183466348,
+   "depth_ppm": 1391.830887429959,
+   "recovered": false
+  },
+  {
+   "tic": 139704531,
+   "role": "injected",
+   "period": 4.11730958137008,
+   "depth_ppm": 1011.1539644792001,
+   "recovered": false
+  },
+  {
+   "tic": 300741936,
+   "role": "injected",
+   "period": 0.6363765704229551,
+   "depth_ppm": 1255.9464676023538,
+   "recovered": false
+  },
+  {
+   "tic": 207137052,
+   "role": "injected",
+   "period": 0.6667825730164666,
+   "depth_ppm": 3465.230029329444,
+   "recovered": true
+  },
+  {
+   "tic": 318015261,
+   "role": "injected",
+   "period": 8.075457689242121,
+   "depth_ppm": 398.78904510885974,
+   "recovered": false
+  },
+  {
+   "tic": 272427894,
+   "role": "injected",
+   "period": 10.908911595530062,
+   "depth_ppm": 1270.3332175846313,
+   "recovered": false
+  },
+  {
+   "tic": 375090636,
+   "role": "injected",
+   "period": 0.7937267042234355,
+   "depth_ppm": 579.0791261815996,
+   "recovered": false
+  },
+  {
+   "tic": 150145560,
+   "role": "injected",
+   "period": 8.34998520647519,
+   "depth_ppm": 897.0567698471908,
+   "recovered": false
+  },
+  {
+   "tic": 32453376,
+   "role": "injected",
+   "period": 7.541168214789037,
+   "depth_ppm": 2627.835072590123,
+   "recovered": true
+  },
+  {
+   "tic": 1033758,
+   "role": "injected",
+   "period": 0.6495842409286225,
+   "depth_ppm": 1795.3785170229587,
+   "recovered": true
+  },
+  {
+   "tic": 268752063,
+   "role": "injected",
+   "period": 3.654663328685919,
+   "depth_ppm": 2901.3828788092405,
+   "recovered": false
+  },
+  {
+   "tic": 234504552,
+   "role": "injected",
+   "period": 3.168683465495279,
+   "depth_ppm": 467.4160572044223,
+   "recovered": false
+  },
+  {
+   "tic": 244248630,
+   "role": "injected",
+   "period": 6.678149055391983,
+   "depth_ppm": 1068.1418329430137,
+   "recovered": false
+  },
+  {
+   "tic": 34469733,
+   "role": "injected",
+   "period": 1.2353891974813658,
+   "depth_ppm": 6292.645736547491,
+   "recovered": true
+  },
+  {
+   "tic": 231017181,
+   "role": "injected",
+   "period": 8.803315509347264,
+   "depth_ppm": 705.3966927951926,
+   "recovered": false
+  },
+  {
+   "tic": 316807416,
+   "role": "injected",
+   "period": 1.3731628754089842,
+   "depth_ppm": 497.31556775039684,
+   "recovered": false
+  },
+  {
+   "tic": 143355132,
+   "role": "injected",
+   "period": 6.972201626219497,
+   "depth_ppm": 3526.3589513748325,
+   "recovered": false
+  },
+  {
+   "tic": 24910683,
+   "role": "injected",
+   "period": 1.3793716548735881,
+   "depth_ppm": 1432.8746469762084,
+   "recovered": false
+  },
+  {
+   "tic": 32949633,
+   "role": "injected",
+   "period": 12.782648166795097,
+   "depth_ppm": 3687.1807761869545,
+   "recovered": true
+  },
+  {
+   "tic": 339884169,
+   "role": "injected",
+   "period": 3.5206320066299095,
+   "depth_ppm": 1762.174302672667,
+   "recovered": false
+  },
+  {
+   "tic": 251846934,
+   "role": "injected",
+   "period": 8.68880409086672,
+   "depth_ppm": 8810.117372444012,
+   "recovered": true
+  },
+  {
+   "tic": 33840165,
+   "role": "injected",
+   "period": 8.792759688750527,
+   "depth_ppm": 2132.7218114222273,
+   "recovered": false
+  },
+  {
+   "tic": 279479484,
+   "role": "injected",
+   "period": 8.64712929966544,
+   "depth_ppm": 1118.322173083079,
+   "recovered": false
+  },
+  {
+   "tic": 32396274,
+   "role": "injected",
+   "period": 7.76234838444313,
+   "depth_ppm": 7329.351581145998,
+   "recovered": true
+  },
+  {
+   "tic": 220421715,
+   "role": "injected",
+   "period": 2.0572677953460774,
+   "depth_ppm": 585.8903213451813,
+   "recovered": false
+  },
+  {
+   "tic": 264683559,
+   "role": "injected",
+   "period": 1.290073281274608,
+   "depth_ppm": 9193.345420501648,
+   "recovered": true
+  },
+  {
+   "tic": 30113667,
+   "role": "injected",
+   "period": 12.807735196591697,
+   "depth_ppm": 3331.5368220712885,
+   "recovered": false
+  },
+  {
+   "tic": 220623957,
+   "role": "injected",
+   "period": 2.7110329613477577,
+   "depth_ppm": 2411.9216207252216,
+   "recovered": false
+  },
+  {
+   "tic": 149126727,
+   "role": "injected",
+   "period": 4.618795221961227,
+   "depth_ppm": 3096.2908403001193,
+   "recovered": false
+  },
+  {
+   "tic": 350445234,
+   "role": "injected",
+   "period": 0.8764934271960729,
+   "depth_ppm": 6203.5847619224405,
+   "recovered": true
+  },
+  {
+   "tic": 284905152,
+   "role": "injected",
+   "period": 6.258414546089542,
+   "depth_ppm": 1709.9266040710822,
+   "recovered": false
+  },
+  {
+   "tic": 302215605,
+   "role": "injected",
+   "period": 2.6428168156557192,
+   "depth_ppm": 1040.757859974237,
+   "recovered": false
+  },
+  {
+   "tic": 293268111,
+   "role": "injected",
+   "period": 1.1419390679235808,
+   "depth_ppm": 5842.607930550477,
+   "recovered": true
+  },
+  {
+   "tic": 349679418,
+   "role": "injected",
+   "period": 0.6112091151092784,
+   "depth_ppm": 3484.7535936896684,
+   "recovered": true
+  },
+  {
+   "tic": 167009142,
+   "role": "injected",
+   "period": 3.6843279711093495,
+   "depth_ppm": 2104.74678180916,
+   "recovered": false
+  },
+  {
+   "tic": 140998053,
+   "role": "injected",
+   "period": 9.04226744670294,
+   "depth_ppm": 2009.8832143334448,
+   "recovered": false
+  },
+  {
+   "tic": 4256913,
+   "role": "injected",
+   "period": 6.396472293410672,
+   "depth_ppm": 2342.3150589062084,
+   "recovered": true
+  },
+  {
+   "tic": 183636681,
+   "role": "injected",
+   "period": 0.7980844682656656,
+   "depth_ppm": 2223.191853364193,
+   "recovered": true
+  },
+  {
+   "tic": 177308409,
+   "role": "injected",
+   "period": 3.1509455293638178,
+   "depth_ppm": 3908.185131066376,
+   "recovered": false
+  },
+  {
+   "tic": 197787678,
+   "role": "injected",
+   "period": 1.4375171606381536,
+   "depth_ppm": 4217.150411361027,
+   "recovered": true
+  },
+  {
+   "tic": 152864160,
+   "role": "injected",
+   "period": 2.10313185186111,
+   "depth_ppm": 864.8492885139228,
+   "recovered": false
+  },
+  {
+   "tic": 11084706,
+   "role": "injected",
+   "period": 2.853459476663362,
+   "depth_ppm": 8191.467354890667,
+   "recovered": true
+  },
+  {
+   "tic": 302458044,
+   "role": "injected",
+   "period": 3.4055206406686604,
+   "depth_ppm": 5514.611196119594,
+   "recovered": true
+  },
+  {
+   "tic": 358105272,
+   "role": "injected",
+   "period": 2.0131502468633267,
+   "depth_ppm": 1796.5966892563022,
+   "recovered": true
+  },
+  {
+   "tic": 88404141,
+   "role": "injected",
+   "period": 1.5611289190836393,
+   "depth_ppm": 644.0185629963777,
+   "recovered": false
+  },
+  {
+   "tic": 66646533,
+   "role": "injected",
+   "period": 0.6956637726825895,
+   "depth_ppm": 307.80995953479044,
+   "recovered": false
+  },
+  {
+   "tic": 1398729,
+   "role": "injected",
+   "period": 0.9433391588092964,
+   "depth_ppm": 801.4703580102108,
+   "recovered": false
+  },
+  {
+   "tic": 408118455,
+   "role": "injected",
+   "period": 1.656506811109434,
+   "depth_ppm": 9311.200307311208,
+   "recovered": true
+  },
+  {
+   "tic": 278180619,
+   "role": "injected",
+   "period": 12.646778575690043,
+   "depth_ppm": 1199.7296649965945,
+   "recovered": false
+  },
+  {
+   "tic": 59213148,
+   "role": "injected",
+   "period": 7.420129894442691,
+   "depth_ppm": 770.3465657917999,
+   "recovered": false
+  }
+ ]
+}

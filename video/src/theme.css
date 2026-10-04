@@ -1,0 +1,104 @@
+@import "tailwindcss";
+@import "@fontsource-variable/hanken-grotesk/wght.css";
+@import "@fontsource/ibm-plex-mono/400.css";
+@import "@fontsource/ibm-plex-mono/500.css";
+
+:root {
+  --paper: #e8e7e2;
+  --paper-shade: #d9d8d1;
+  --paper-light: #f3f2ee;
+  --ink: #23205a;
+  --ink-muted: #5d5b78;
+  --ink-faint: #8e8ca3;
+  --violet: #3b2fb4;
+  --violet-deep: #1d1468;
+  --cobalt: #2a4fd6;
+  --sky: #4b96e3;
+  --stem: #a9c43a;
+  --meadow: #9cc81e;
+  --platinum: #dddddd;
+  --platinum-light: #f4f4f4;
+  --platinum-dark: #8f8f8f;
+  --class-o: #3b2fb4;
+  --class-b: #2a4fd6;
+  --class-a: #4b96e3;
+  --class-f: #f2c21b;
+  --class-g: #f39a1e;
+  --class-k: #e8501f;
+  --class-m: #c4161c;
+  --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-paper-shade: var(--paper-shade);
+  --color-paper-light: var(--paper-light);
+  --color-ink: var(--ink);
+  --color-ink-muted: var(--ink-muted);
+  --color-ink-faint: var(--ink-faint);
+  --color-violet: var(--violet);
+  --color-violet-deep: var(--violet-deep);
+  --color-cobalt: var(--cobalt);
+  --color-sky: var(--sky);
+  --color-stem: var(--stem);
+  --color-platinum: var(--platinum);
+  --color-platinum-light: var(--platinum-light);
+  --color-platinum-dark: var(--platinum-dark);
+  --font-sans: "Hanken Grotesk Variable", sans-serif;
+  --font-mono: "IBM Plex Mono", monospace;
+}
+
+@layer components {
+  .text-hero {
+    @apply font-sans font-normal text-violet;
+    font-size: 168px;
+    line-height: 0.95;
+  }
+  .text-headline {
+    @apply font-sans font-medium text-violet;
+    font-size: 84px;
+    line-height: 1;
+    text-wrap: balance;
+  }
+  .text-title {
+    @apply font-sans font-semibold text-ink;
+    font-size: 44px;
+    line-height: 1.1;
+  }
+  .text-body {
+    @apply font-sans text-ink-muted;
+    font-size: 30px;
+    line-height: 1.35;
+  }
+  .text-caption {
+    @apply font-sans font-medium text-ink;
+    font-size: 38px;
+    line-height: 1.25;
+    text-wrap: balance;
+  }
+  .text-data {
+    @apply font-mono text-ink;
+    font-size: 26px;
+    font-feature-settings: "tnum" 1;
+  }
+  .text-figure {
+    @apply font-sans font-light text-violet;
+    font-size: 260px;
+    line-height: 0.85;
+    font-feature-settings: "tnum" 1;
+  }
+  .text-annotation {
+    @apply font-sans font-semibold;
+    font-size: 40px;
+    line-height: 1.1;
+  }
+  .text-annotation-title {
+    @apply font-sans font-medium;
+    font-size: 76px;
+    line-height: 1;
+  }
+  .text-window-title {
+    @apply font-sans font-bold text-black;
+    font-size: 20px;
+  }
+}

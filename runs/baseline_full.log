@@ -1,0 +1,50 @@
+{
+ "record_id": "R2",
+ "run_id": "dev-8f6a421c",
+ "metrics": {
+  "score": 0.2224,
+  "planet_recall": 0.1515,
+  "injection_recall": 0.2932,
+  "false_alarm_budget": 0.05,
+  "threshold": 17.065532446658565,
+  "strict_threshold": 23.96240159301207,
+  "control_false_alarms": 20,
+  "n_planets": 231,
+  "n_injected": 399,
+  "n_controls": 399,
+  "errors": 0,
+  "median_seconds_per_star": 11.672,
+  "recall_by_depth": {
+   "injected:0-1000": {
+    "recovered": 5,
+    "total": 126
+   },
+   "injected:1000-3000": {
+    "recovered": 40,
+    "total": 142
+   },
+   "injected:3000-10000": {
+    "recovered": 72,
+    "total": 131
+   },
+   "planet:0-1000": {
+    "recovered": 1,
+    "total": 65
+   },
+   "planet:1000-3000": {
+    "recovered": 9,
+    "total": 36
+   },
+   "planet:10000-inf": {
+    "recovered": 15,
+    "total": 66
+   },
+   "planet:3000-10000": {
+    "recovered": 10,
+    "total": 64
+   }
+  },
+  "wall_seconds": 1089.6
+ },
+ "vs_champion": null
+}

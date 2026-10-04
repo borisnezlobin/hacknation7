@@ -1,0 +1,971 @@
+{
+ "id": "tech",
+ "fps": 30,
+ "durationInFrames": 1784,
+ "scenes": [
+  {
+   "id": "architecture",
+   "from": 0,
+   "durationInFrames": 244,
+   "lines": [
+    {
+     "id": "tech-architecture",
+     "text": "Planet lab runs on Omnigent: seven Claude agents sharing one research record, where every decision cites evidence.",
+     "audio": "audio/narration/tech-architecture.wav",
+     "from": 9,
+     "durationInFrames": 220,
+     "words": [
+      [
+       "Planet",
+       0,
+       10
+      ],
+      [
+       "lab",
+       10,
+       20
+      ],
+      [
+       "runs",
+       20,
+       34
+      ],
+      [
+       "on",
+       34,
+       40
+      ],
+      [
+       "Omnigent:",
+       40,
+       54
+      ],
+      [
+       "seven",
+       69,
+       82
+      ],
+      [
+       "Claude",
+       82,
+       94
+      ],
+      [
+       "agents",
+       94,
+       104
+      ],
+      [
+       "sharing",
+       104,
+       115
+      ],
+      [
+       "one",
+       115,
+       124
+      ],
+      [
+       "research",
+       124,
+       136
+      ],
+      [
+       "record,",
+       136,
+       149
+      ],
+      [
+       "where",
+       149,
+       163
+      ],
+      [
+       "every",
+       163,
+       173
+      ],
+      [
+       "decision",
+       173,
+       187
+      ],
+      [
+       "cites",
+       187,
+       199
+      ],
+      [
+       "evidence.",
+       199,
+       211
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "policies",
+   "from": 244,
+   "durationInFrames": 283,
+   "lines": [
+    {
+     "id": "tech-policies",
+     "text": "Policies keep them honest. Engineers can only edit pipelines, the scorer is frozen, and a sealed test set opens only with human approval.",
+     "audio": "audio/narration/tech-policies.wav",
+     "from": 6,
+     "durationInFrames": 262,
+     "words": [
+      [
+       "Policies",
+       0,
+       16
+      ],
+      [
+       "keep",
+       16,
+       22
+      ],
+      [
+       "them",
+       22,
+       26
+      ],
+      [
+       "honest.",
+       26,
+       39
+      ],
+      [
+       "Engineers",
+       53,
+       70
+      ],
+      [
+       "can",
+       70,
+       77
+      ],
+      [
+       "only",
+       77,
+       85
+      ],
+      [
+       "edit",
+       85,
+       94
+      ],
+      [
+       "pipelines,",
+       94,
+       112
+      ],
+      [
+       "the",
+       120,
+       128
+      ],
+      [
+       "scorer",
+       128,
+       139
+      ],
+      [
+       "is",
+       139,
+       146
+      ],
+      [
+       "frozen,",
+       146,
+       158
+      ],
+      [
+       "and",
+       168,
+       176
+      ],
+      [
+       "a",
+       176,
+       181
+      ],
+      [
+       "sealed",
+       181,
+       189
+      ],
+      [
+       "test",
+       189,
+       200
+      ],
+      [
+       "set",
+       200,
+       208
+      ],
+      [
+       "opens",
+       208,
+       218
+      ],
+      [
+       "only",
+       218,
+       230
+      ],
+      [
+       "with",
+       230,
+       236
+      ],
+      [
+       "human",
+       236,
+       245
+      ],
+      [
+       "approval.",
+       245,
+       255
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fold",
+   "from": 527,
+   "durationInFrames": 209,
+   "lines": [
+    {
+     "id": "tech-fold",
+     "text": "Each pipeline flattens a star's light curve, then folds it at thousands of trial periods until the dips line up.",
+     "audio": "audio/narration/tech-fold.wav",
+     "from": 6,
+     "durationInFrames": 188,
+     "words": [
+      [
+       "Each",
+       0,
+       7
+      ],
+      [
+       "pipeline",
+       7,
+       18
+      ],
+      [
+       "flattens",
+       18,
+       35
+      ],
+      [
+       "a",
+       35,
+       40
+      ],
+      [
+       "star's",
+       40,
+       50
+      ],
+      [
+       "light",
+       50,
+       56
+      ],
+      [
+       "curve,",
+       56,
+       67
+      ],
+      [
+       "then",
+       68,
+       85
+      ],
+      [
+       "folds",
+       85,
+       97
+      ],
+      [
+       "it",
+       97,
+       101
+      ],
+      [
+       "at",
+       101,
+       105
+      ],
+      [
+       "thousands",
+       105,
+       116
+      ],
+      [
+       "of",
+       116,
+       122
+      ],
+      [
+       "trial",
+       122,
+       133
+      ],
+      [
+       "periods",
+       133,
+       150
+      ],
+      [
+       "until",
+       150,
+       158
+      ],
+      [
+       "the",
+       158,
+       163
+      ],
+      [
+       "dips",
+       163,
+       169
+      ],
+      [
+       "line",
+       169,
+       179
+      ],
+      [
+       "up.",
+       179,
+       187
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scorer",
+   "from": 736,
+   "durationInFrames": 212,
+   "lines": [
+    {
+     "id": "tech-scorer",
+     "text": "Ideas are scored on known planets and on fake transits we inject, at a fixed five percent false-alarm rate.",
+     "audio": "audio/narration/tech-scorer.wav",
+     "from": 6,
+     "durationInFrames": 191,
+     "words": [
+      [
+       "Ideas",
+       0,
+       14
+      ],
+      [
+       "are",
+       14,
+       18
+      ],
+      [
+       "scored",
+       18,
+       28
+      ],
+      [
+       "on",
+       28,
+       34
+      ],
+      [
+       "known",
+       34,
+       42
+      ],
+      [
+       "planets",
+       42,
+       57
+      ],
+      [
+       "and",
+       57,
+       64
+      ],
+      [
+       "on",
+       64,
+       68
+      ],
+      [
+       "fake",
+       68,
+       76
+      ],
+      [
+       "transits",
+       91,
+       96
+      ],
+      [
+       "we",
+       96,
+       108
+      ],
+      [
+       "inject,",
+       116,
+       125
+      ],
+      [
+       "at",
+       125,
+       128
+      ],
+      [
+       "a",
+       128,
+       136
+      ],
+      [
+       "fixed",
+       136,
+       146
+      ],
+      [
+       "five",
+       146,
+       157
+      ],
+      [
+       "percent",
+       157,
+       170
+      ],
+      [
+       "false-alarm",
+       170,
+       181
+      ],
+      [
+       "rate.",
+       181,
+       188
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "worked",
+   "from": 948,
+   "durationInFrames": 344,
+   "lines": [
+    {
+     "id": "tech-worked",
+     "text": "What worked: glitches at data gaps outscored real planets, so scoring each signal by depth and transit count raised the dev score from 0.22 to 0.35.",
+     "audio": "audio/narration/tech-worked.wav",
+     "from": 6,
+     "durationInFrames": 322,
+     "words": [
+      [
+       "What",
+       0,
+       5
+      ],
+      [
+       "worked:",
+       5,
+       15
+      ],
+      [
+       "glitches",
+       22,
+       41
+      ],
+      [
+       "at",
+       41,
+       44
+      ],
+      [
+       "data",
+       44,
+       52
+      ],
+      [
+       "gaps",
+       52,
+       62
+      ],
+      [
+       "outscored",
+       62,
+       80
+      ],
+      [
+       "real",
+       87,
+       103
+      ],
+      [
+       "planets,",
+       106,
+       119
+      ],
+      [
+       "so",
+       119,
+       133
+      ],
+      [
+       "scoring",
+       133,
+       143
+      ],
+      [
+       "each",
+       143,
+       154
+      ],
+      [
+       "signal",
+       154,
+       160
+      ],
+      [
+       "by",
+       160,
+       169
+      ],
+      [
+       "depth",
+       169,
+       174
+      ],
+      [
+       "and",
+       174,
+       189
+      ],
+      [
+       "transit",
+       202,
+       207
+      ],
+      [
+       "count",
+       207,
+       217
+      ],
+      [
+       "raised",
+       217,
+       222
+      ],
+      [
+       "the",
+       229,
+       238
+      ],
+      [
+       "dev",
+       238,
+       245
+      ],
+      [
+       "score",
+       245,
+       256
+      ],
+      [
+       "from",
+       256,
+       272
+      ],
+      [
+       "0.22",
+       272,
+       287
+      ],
+      [
+       "to",
+       287,
+       295
+      ],
+      [
+       "0.35.",
+       295,
+       311
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "failed",
+   "from": 1292,
+   "durationInFrames": 301,
+   "lines": [
+    {
+     "id": "tech-failed",
+     "text": "What didn't: on thirty-seven sealed planets announced after the agents' cutoff, the original search found seven and the champion five. The gain was overfit.",
+     "audio": "audio/narration/tech-failed.wav",
+     "from": 6,
+     "durationInFrames": 280,
+     "words": [
+      [
+       "What",
+       0,
+       6
+      ],
+      [
+       "didn't:",
+       6,
+       15
+      ],
+      [
+       "on",
+       20,
+       29
+      ],
+      [
+       "thirty-seven",
+       29,
+       43
+      ],
+      [
+       "sealed",
+       43,
+       60
+      ],
+      [
+       "planets",
+       60,
+       74
+      ],
+      [
+       "announced",
+       74,
+       86
+      ],
+      [
+       "after",
+       86,
+       97
+      ],
+      [
+       "the",
+       97,
+       102
+      ],
+      [
+       "agents'",
+       102,
+       116
+      ],
+      [
+       "cutoff,",
+       116,
+       126
+      ],
+      [
+       "the",
+       133,
+       141
+      ],
+      [
+       "original",
+       141,
+       152
+      ],
+      [
+       "search",
+       152,
+       163
+      ],
+      [
+       "found",
+       163,
+       175
+      ],
+      [
+       "seven",
+       175,
+       187
+      ],
+      [
+       "and",
+       187,
+       199
+      ],
+      [
+       "the",
+       199,
+       202
+      ],
+      [
+       "champion",
+       202,
+       213
+      ],
+      [
+       "five.",
+       213,
+       226
+      ],
+      [
+       "The",
+       236,
+       247
+      ],
+      [
+       "gain",
+       247,
+       256
+      ],
+      [
+       "was",
+       256,
+       263
+      ],
+      [
+       "overfit.",
+       263,
+       277
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "next",
+   "from": 1593,
+   "durationInFrames": 191,
+   "lines": [
+    {
+     "id": "tech-next",
+     "text": "Next: shape checks that separate faint planets from noisy stars, proven on the sealed set first.",
+     "audio": "audio/narration/tech-next.wav",
+     "from": 6,
+     "durationInFrames": 170,
+     "words": [
+      [
+       "Next:",
+       0,
+       10
+      ],
+      [
+       "shape",
+       16,
+       24
+      ],
+      [
+       "checks",
+       24,
+       32
+      ],
+      [
+       "that",
+       32,
+       39
+      ],
+      [
+       "separate",
+       39,
+       52
+      ],
+      [
+       "faint",
+       52,
+       62
+      ],
+      [
+       "planets",
+       62,
+       75
+      ],
+      [
+       "from",
+       75,
+       81
+      ],
+      [
+       "noisy",
+       81,
+       91
+      ],
+      [
+       "stars,",
+       91,
+       106
+      ],
+      [
+       "proven",
+       112,
+       128
+      ],
+      [
+       "on",
+       128,
+       133
+      ],
+      [
+       "the",
+       133,
+       136
+      ],
+      [
+       "sealed",
+       136,
+       145
+      ],
+      [
+       "set",
+       145,
+       153
+      ],
+      [
+       "first.",
+       153,
+       161
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "captions": [
+  {
+   "text": "Planet lab runs on Omnigent:",
+   "from": 9,
+   "to": 71
+  },
+  {
+   "text": "seven Claude agents sharing one research record,",
+   "from": 78,
+   "to": 158
+  },
+  {
+   "text": "where every decision cites evidence.",
+   "from": 158,
+   "to": 228
+  },
+  {
+   "text": "Policies keep them honest.",
+   "from": 250,
+   "to": 297
+  },
+  {
+   "text": "Engineers can only edit pipelines,",
+   "from": 303,
+   "to": 370
+  },
+  {
+   "text": "the scorer is frozen,",
+   "from": 370,
+   "to": 416
+  },
+  {
+   "text": "and a sealed test set opens only",
+   "from": 418,
+   "to": 480
+  },
+  {
+   "text": "with human approval.",
+   "from": 480,
+   "to": 513
+  },
+  {
+   "text": "Each pipeline flattens a star's light curve,",
+   "from": 533,
+   "to": 601
+  },
+  {
+   "text": "then folds it at thousands of trial",
+   "from": 601,
+   "to": 666
+  },
+  {
+   "text": "periods until the dips line up.",
+   "from": 666,
+   "to": 728
+  },
+  {
+   "text": "Ideas are scored on known planets and",
+   "from": 742,
+   "to": 806
+  },
+  {
+   "text": "on fake transits we inject,",
+   "from": 806,
+   "to": 867
+  },
+  {
+   "text": "at a fixed five percent false-alarm rate.",
+   "from": 867,
+   "to": 938
+  },
+  {
+   "text": "What worked: glitches at data gaps outscored",
+   "from": 954,
+   "to": 1041
+  },
+  {
+   "text": "real planets, so scoring each signal by",
+   "from": 1041,
+   "to": 1123
+  },
+  {
+   "text": "depth and transit count raised the dev",
+   "from": 1123,
+   "to": 1199
+  },
+  {
+   "text": "score from 0.22 to 0.35.",
+   "from": 1199,
+   "to": 1273
+  },
+  {
+   "text": "What didn't: on thirty-seven sealed planets announced",
+   "from": 1298,
+   "to": 1384
+  },
+  {
+   "text": "after the agents' cutoff,",
+   "from": 1384,
+   "to": 1431
+  },
+  {
+   "text": "the original search found seven and the",
+   "from": 1431,
+   "to": 1500
+  },
+  {
+   "text": "champion five. The gain was overfit.",
+   "from": 1500,
+   "to": 1583
+  },
+  {
+   "text": "Next: shape checks that separate faint planets",
+   "from": 1599,
+   "to": 1674
+  },
+  {
+   "text": "from noisy stars,",
+   "from": 1674,
+   "to": 1711
+  },
+  {
+   "text": "proven on the sealed set first.",
+   "from": 1711,
+   "to": 1768
+  }
+ ]
+}

@@ -1,0 +1,225 @@
+@import "tailwindcss";
+@import "@fontsource-variable/hanken-grotesk/wght.css";
+@import "@fontsource/ibm-plex-mono/400.css";
+@import "@fontsource/ibm-plex-mono/500.css";
+
+:root {
+  --paper: #e8e7e2;
+  --paper-shade: #d9d8d1;
+  --paper-light: #f3f2ee;
+  --ink: #23205a;
+  --ink-muted: #5d5b78;
+  --ink-faint: #8e8ca3;
+  --violet: #3b2fb4;
+  --violet-deep: #1d1468;
+  --stem: #a9c43a;
+  --platinum: #dddddd;
+  --platinum-light: #f4f4f4;
+  --platinum-dark: #8f8f8f;
+  --class-o: #3b2fb4;
+  --class-b: #2a4fd6;
+  --class-a: #4b96e3;
+  --class-f: #f2c21b;
+  --class-g: #f39a1e;
+  --class-k: #e8501f;
+  --class-m: #c4161c;
+  --danger: #c4161c;
+  --gain: #f39a1e;
+  --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
+  --window-shadow: inset 1px 1px 0 #fff, inset -1px -1px 0 #888, 0 0 0 1px #3a3a3a, 6px 10px 30px rgb(30 28 70 / 0.22);
+  --pinstripes: repeating-linear-gradient(to bottom, #fff 0px, #fff 1px, #bdbdbd 1px, #bdbdbd 2px);
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-paper-shade: var(--paper-shade);
+  --color-paper-light: var(--paper-light);
+  --color-ink: var(--ink);
+  --color-ink-muted: var(--ink-muted);
+  --color-ink-faint: var(--ink-faint);
+  --color-violet: var(--violet);
+  --color-violet-deep: var(--violet-deep);
+  --color-platinum: var(--platinum);
+  --color-platinum-dark: var(--platinum-dark);
+  --color-danger: var(--danger);
+  --color-gain: var(--gain);
+  --color-class-o: var(--class-o);
+  --color-class-b: var(--class-b);
+  --color-class-a: var(--class-a);
+  --color-class-f: var(--class-f);
+  --color-class-g: var(--class-g);
+  --color-class-k: var(--class-k);
+  --color-class-m: var(--class-m);
+  --font-sans: "Hanken Grotesk Variable", sans-serif;
+  --font-mono: "IBM Plex Mono", monospace;
+  --ease-soft: var(--ease-out-soft);
+}
+
+html {
+  background: var(--paper);
+  color: var(--ink);
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--paper);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+@layer components {
+  .text-hero {
+    @apply font-sans font-normal text-violet;
+    font-size: clamp(4.5rem, 15vw, 13rem);
+    line-height: 0.92;
+  }
+  .text-headline {
+    @apply font-sans font-medium text-violet;
+    font-size: clamp(2.5rem, 6vw, 5.25rem);
+    line-height: 1;
+    text-wrap: balance;
+  }
+  .text-figure {
+    @apply font-sans font-light text-violet;
+    font-size: clamp(5rem, 14vw, 13rem);
+    line-height: 0.85;
+    font-variant-numeric: tabular-nums;
+  }
+  .text-figure-sm {
+    @apply font-sans font-light text-violet;
+    font-size: clamp(3.25rem, 7vw, 6rem);
+    line-height: 0.9;
+    font-variant-numeric: tabular-nums;
+  }
+  .text-title {
+    @apply font-sans font-semibold text-ink;
+    font-size: clamp(1.375rem, 2.4vw, 2rem);
+    line-height: 1.15;
+    text-wrap: balance;
+  }
+  .text-lede {
+    @apply font-sans font-medium text-ink;
+    font-size: clamp(1.25rem, 2.2vw, 1.875rem);
+    line-height: 1.3;
+    text-wrap: pretty;
+  }
+  .text-body {
+    @apply font-sans text-ink-muted;
+    font-size: 1.125rem;
+    line-height: 1.5;
+    text-wrap: pretty;
+  }
+  .text-small {
+    @apply font-sans text-ink-muted;
+    font-size: 0.9375rem;
+    line-height: 1.4;
+  }
+  .text-data {
+    @apply font-mono text-ink;
+    font-size: 0.875rem;
+    font-variant-numeric: tabular-nums;
+  }
+  .text-window-title {
+    @apply font-sans font-bold text-black;
+    font-size: 0.8125rem;
+  }
+  .source-link {
+    @apply font-sans text-ink-faint underline decoration-ink-faint/40 underline-offset-2 transition-colors hover:text-violet hover:decoration-violet;
+    font-size: 0.8125rem;
+  }
+
+  .os9-window {
+    background: var(--platinum);
+    box-shadow: var(--window-shadow);
+  }
+  .os9-body {
+    background: var(--paper-light);
+    box-shadow: inset 1px 1px 0 #8a8a8a, inset -1px -1px 0 #fff;
+  }
+  .os9-stripes {
+    background: var(--pinstripes);
+    box-shadow: inset 0 0 0 1px #c9c9c9;
+  }
+  .os9-widget {
+    background: linear-gradient(135deg, #f6f6f6, #b9b9b9);
+    box-shadow: 0 0 0 1px #3c3c3c, inset 1px 1px 0 #fff;
+  }
+  .os9-button {
+    @apply font-sans font-semibold text-black;
+    background: linear-gradient(#fafafa, #d6d6d6);
+    box-shadow: 0 0 0 1px #3c3c3c, inset 1px 1px 0 #fff, inset -1px -1px 0 #9a9a9a;
+  }
+  .os9-button:active {
+    background: linear-gradient(#cfcfcf, #e8e8e8);
+  }
+
+  .grain {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    mix-blend-mode: multiply;
+    opacity: 0.14;
+  }
+  .hairline-grid {
+    background-image:
+      linear-gradient(to right, rgb(29 20 104 / 0.07) 1px, transparent 1px),
+      linear-gradient(to bottom, rgb(29 20 104 / 0.07) 1px, transparent 1px);
+    background-size: 96px 96px;
+  }
+}
+
+/* Scroll-driven motion. A ScrollStage writes --p (0..1) on its element; children read it. */
+@layer utilities {
+  .stage-step {
+    --t: clamp(0, calc((var(--p, 1) - var(--at, 0)) * var(--rate, 6)), 1);
+  }
+  .opens-window {
+    opacity: var(--t);
+    transform: translateY(calc((1 - var(--t)) * 24px)) scale(calc(0.9 + var(--t) * 0.1));
+    transform-origin: 50% 0%;
+  }
+  .fades-in {
+    opacity: calc(0.15 + var(--t) * 0.85);
+  }
+  .lights-up {
+    transform: scale(calc(0.45 + var(--t) * 0.55));
+    opacity: calc(0.25 + var(--t) * 0.75);
+  }
+  .drifts {
+    transform: translate3d(calc((var(--p, 0.5) - 0.5) * var(--dx, 0px)), calc((var(--p, 0.5) - 0.5) * var(--dy, -120px)), 0) rotate(calc((var(--p, 0.5) - 0.5) * var(--spin, 20deg)));
+  }
+  .grows-x {
+    transform: scaleX(var(--t));
+    transform-origin: 0 50%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .stage-step {
+    --t: 1;
+  }
+  .drifts {
+    transform: none;
+  }
+}
+
+@layer utilities {
+  .loop-hand {
+    transform: rotate(calc(clamp(0, (var(--p, 1) - 0.08) / 0.72, 1) * 360deg));
+  }
+  .loop-spin {
+    transform: rotate(calc(var(--p, 0) * -540deg));
+  }
+  .hero-bloom .bloom-planet {
+    transform: translateX(calc(var(--p, 0) * -170px));
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .loop-hand,
+  .loop-spin,
+  .hero-bloom .bloom-planet {
+    transform: none;
+  }
+}

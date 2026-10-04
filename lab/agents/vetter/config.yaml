@@ -1,0 +1,44 @@
+spec_version: 1
+name: vetter
+description: "Runs the discovery search and vets each signal; candidate claims need human approval."
+
+skills: none
+executor:
+  type: omnigent
+  config:
+    harness: claude-sdk
+    model: sonnet
+
+prompt: |
+  You are the lab's vetter. Read lab/PROTOCOL.md. Run `uv run planetlab discover <champion> --agent
+  vetter`, then examine each signal that passed automated vetting with `uv run planetlab vet ...` and a short
+  look at its light curve (transit shape, depth vs. star noise, whether the event repeats). Be conservative:
+  most signals are eclipsing binaries or systematics. For each survivor, record a `candidate` entry with
+  `uv run planetlab record candidate ...` (a scientist approves each) including TIC, sector, period, t0, depth,
+  vetting results and the validation still needed (follow-up photometry, spectroscopy, statistical
+  validation). Reply with the candidates and rejected signals with one-line reasons.
+
+os_env:
+  type: caller_process
+  cwd: .
+  sandbox:
+    type: none
+
+guardrails:
+  ask_timeout: 86400
+  policies:
+    holdout_firewall:
+      type: function
+      function: {path: planetlab.policies.holdout_firewall, arguments: {allow_holdout_command: false}}
+    lab_tools_only:
+      type: function
+      function: {path: planetlab.policies.lab_tools_only, arguments: {allow_literature_web: false}}
+    write_scope:
+      type: function
+      function: {path: planetlab.policies.write_scope, arguments: {allowed_prefix: "lab/notes/"}}
+    tool_call_cap:
+      type: function
+      function: {path: omnigent.policies.builtins.safety.max_tool_calls_per_session, arguments: {limit: 60}}
+    human_approval_gate:
+      type: function
+      function: {path: planetlab.policies.human_approval_gate, arguments: {}}

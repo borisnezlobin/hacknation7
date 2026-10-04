@@ -1,0 +1,29 @@
+omnigent: Starting up…
+omnigent: Starting the local server…
+omnigent: Preparing your agent…
+omnigent: Connecting…
+omnigent: Launching your agent…
+Omnigent session: http://127.0.0.1:6767/c/054f38338fa142889d2f066c8ff264cb
+I'm stopping without doing anything, because the research record shows round 3 has already been run. Running the round as you asked would duplicate entries or add a fourth round.
+
+**Already in the record (`planetlab show --last 15`):**
+- **The round-2 decision you asked for (D4) is already there.** It says H4's quick run scored 0.409, below the 0.414 gate. H5 scored 0.433 quick, but its full run R9/R10 (dev-999d74ff) scored 0.310 against the champion's 0.349: 1 target gained, 26 lost (net -25). D4 concludes that quick runs, which set their threshold from only 145 controls, are too noisy to rank pipelines. A quick gain of about +0.006 to +0.02 does not predict a full-run gain. That covers what you wanted recorded.
+- **Round 3 has already been planned and run (P3, R11, R12, D5).** It used full runs, not quick ones. The analyst proposed H6 and H7, and neither beat H1:
+  - H6 (noise measured on flux binned to the transit duration) scored 0.342. The false-alarm threshold dropped from 16.66 to 15.52, but planet scores dropped about as much.
+  - H7 (finer duration grid) scored 0.329. Its threshold rose to 18.08, and it gained 1 target and lost 14.
+  - D5 concludes that changing how the detection score is scaled moves control-star and planet scores together. The next step should be checks that separate real transits from false alarms (transit shape, consistency between transits), not more rescaling.
+- **The summary note (N2) is already written.** It reports baseline 0.222 → H1 0.349 on dev (+0.127, +57% relative), what each round learned, and the next experiment.
+- **The latest entry is A1:** you approved holdout scoring of H1 at 23:33. That fits the CPU being busy with holdout and discovery runs now.
+
+**Why I didn't run it again:**
+- A second round-2 decision would just repeat D4.
+- Another analyst and two engineers would make a fourth round, and the protocol allows three. They would also queue behind the holdout and discovery runs for about 45 minutes. Two rounds in a row have already failed to improve the champion, and D4 shows quick runs can't tell pipelines apart anyway.
+- H1 stays champion. I promoted nothing and did not dispatch the evaluator or vetter.
+
+**Next experiment (from D5/N2):** two harness fixes come first. The run files need to save each control star's top score and any per-star errors. The experiment command also needs fixing: it crashes on every full run with a "KeyError 'outcomes'" error while comparing to the champion. Then run H1 with checks after the search (consistent depth across transits, odd/even, box vs trapezoid shape) on the full dev split. Run the never-fully-tested H4 (soft penalty on the number of transit events) as the second arm.
+
+If your instructions were written before that session ran, nothing more is needed. If you do want a fourth, quick-only round on top of this, tell me and I'll dispatch it.
+
+Separately, the Google Calendar connector needs authorising in your claude.ai connector settings before I can use it.
+
+LAB-ROUNDS-COMPLETE
