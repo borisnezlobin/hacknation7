@@ -6,12 +6,12 @@ export const STAKES: Stake[] = [
   {
     figure: "$28B",
     lead: true,
-    line: "of US research a year fails to reproduce. We retest claims blind.",
+    line: "of US research a year can't be reproduced. Planet lab re-checks every result on data its agents never saw, before anyone builds on it.",
     sources: [{ label: "Freedman et al. 2015", href: "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002165" }],
   },
   {
     figure: "6 of 53",
-    line: "landmark cancer studies held up on retest. We retest every result.",
+    line: "landmark cancer studies held up when another lab repeated them. Planet lab repeats its own test on unseen data before claiming anything.",
     sources: [{ label: "eLife", href: "https://elifesciences.org/articles/67527" }],
   },
   {
@@ -30,7 +30,7 @@ export const STAKES: Stake[] = [
   },
   {
     figure: "$5B+",
-    line: "of US funding backs AI-run science in 2026, and it needs guardrails.",
+    line: "of US funding backs AI-run science in 2026. Planet lab adds the checks that catch an AI lab's false results.",
     sources: [
       { label: "White House", href: "https://www.whitehouse.gov/releases/2026/07/45502/" },
     ],
