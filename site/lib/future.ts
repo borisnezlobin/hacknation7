@@ -22,7 +22,7 @@ export const STAKES: Stake[] = [
   {
     figure: "885",
     figureNote: "of 7,931",
-    line: "TESS planet candidates are confirmed. Agents can speed up the vetting.",
+    line: "TESS planet candidates are confirmed. Planet lab speeds up the vetting and lets people focus on the most promising signals.",
     sources: [
       { label: "TESS", href: "https://en.wikipedia.org/wiki/Transiting_Exoplanet_Survey_Satellite" },
       { label: "Cale et al. 2018", href: "https://arxiv.org/abs/1803.04003" },

@@ -54,7 +54,7 @@ export function Future() {
       </ScrollStage>
       <SpectrumDip className="my-16 h-16 w-full md:h-24" bandHeight={10} dipDepth={30} dipCenter={300} dipWidth={120} />
       <div className="mx-auto max-w-7xl px-4 pb-40 md:px-10">
-        <p className="text-lede mb-14 max-w-2xl">The same loop finds faint periodic signals in any noisy data.</p>
+        <p className="text-lede mb-14 max-w-2xl">Planet lab&rsquo;s loop finds faint periodic signals in any noisy data.</p>
         <ul className="grid gap-x-10 gap-y-14 sm:grid-cols-2 lg:grid-cols-3">
           {APPLICATIONS.map((application) => (
             <ApplicationCell key={application.figure} application={application} />
