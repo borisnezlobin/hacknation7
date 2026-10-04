@@ -22,7 +22,7 @@ function countOf(kind: RecordKind): number {
 
 function Timeline() {
   return (
-    <div className="relative w-full" style={{ height: KINDS.length * LANE_HEIGHT }} role="img" aria-label="Lab record entries over three and a half hours, by kind">
+    <div className="relative w-full" style={{ height: KINDS.length * LANE_HEIGHT }} role="img" aria-label="Lab record entries over under four hours, by kind">
       {KINDS.map((kind) => (
         <span key={kind} className="absolute inset-x-0 border-t border-dashed border-ink-faint/40" style={{ top: KIND_STYLE[kind].lane * LANE_HEIGHT + LANE_HEIGHT / 2 }} />
       ))}
@@ -54,7 +54,7 @@ export function RecordTimeline() {
   return (
     <ScrollStage className="mx-auto max-w-7xl px-4 py-28 md:px-10 md:py-40">
       <p className="text-lede max-w-xl">
-        In 3½ hours on its own, the lab logged every step to <code className="text-data text-lg">lab/record.jsonl</code>.
+        Every step is logged to <code className="text-data text-lg">lab/record.jsonl</code>.
       </p>
       <div className="mt-12 grid grid-cols-2 gap-8 sm:grid-cols-4">
         {(["hypothesis", "evidence", "result", "decision"] as RecordKind[]).map((kind) => (

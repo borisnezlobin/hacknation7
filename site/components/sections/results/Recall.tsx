@@ -30,7 +30,7 @@ export function Recall() {
         <div className="flex flex-col gap-10">
           <div>
             <span className="text-figure">39%</span>
-            <p className="text-lede mt-4 max-w-sm">of 231 known planets found, up from 15%.</p>
+            <p className="text-lede mt-4 max-w-sm">of 231 known planets were found, <span className="text-gain">2.6×</span> as many as the baseline.</p>
           </div>
           <SkepticWindow />
         </div>

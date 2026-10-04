@@ -4,13 +4,13 @@ import type { Icon } from "@phosphor-icons/react";
 export type LoopStep = { name: string; does: string; color: string; icon: Icon };
 
 export const LOOP_STEPS: LoopStep[] = [
-  { name: "Question", does: "A scientist asks", color: "var(--ink)", icon: Question },
+  { name: "Question", does: "From a scientist", color: "var(--ink)", icon: Question },
   { name: "Literature", does: "Cites papers", color: "var(--class-b)", icon: BookOpenText },
-  { name: "Analyst", does: "Competing hypotheses", color: "var(--class-a)", icon: MagnifyingGlass },
+  { name: "Analyst", does: "Rival hypotheses", color: "var(--class-a)", icon: MagnifyingGlass },
   { name: "PI", does: "Plans within a budget", color: "var(--class-o)", icon: Compass },
-  { name: "Engineers", does: "Write pipelines in parallel", color: "var(--class-f)", icon: Wrench },
-  { name: "Frozen scorer", does: "No agent can edit it", color: "var(--class-k)", icon: LockSimple },
-  { name: "Skeptic", does: "Checks the gain is real", color: "var(--class-g)", icon: Detective },
+  { name: "Engineers", does: "Parallel pipelines", color: "var(--class-f)", icon: Wrench },
+  { name: "Frozen scorer", does: "Locked code", color: "var(--class-k)", icon: LockSimple },
+  { name: "Skeptic", does: "Tests the gain", color: "var(--class-g)", icon: Detective },
   { name: "Decision", does: "Promote or reject", color: "var(--violet-deep)", icon: Gavel },
 ];
 

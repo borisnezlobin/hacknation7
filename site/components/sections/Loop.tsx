@@ -53,7 +53,7 @@ function ListNode({ step, index }: { step: LoopStep; index: number }) {
 
 function Ring() {
   return (
-    <div className="relative mx-auto hidden aspect-square w-[min(72svh,640px)] md:block">
+    <div className="relative mx-auto hidden aspect-square w-full max-w-[min(72svh,640px)] lg:block">
       <svg viewBox="0 0 100 100" className="absolute inset-0 size-full overflow-visible" aria-hidden="true">
         <circle cx="50" cy="50" r="42" fill="none" stroke="var(--violet-deep)" strokeWidth="0.4" strokeDasharray="0.4 2.2" strokeLinecap="round" opacity="0.6" />
       </svg>
@@ -77,7 +77,7 @@ function Ring() {
 
 function StepList() {
   return (
-    <ol className="relative flex flex-col gap-5 md:hidden">
+    <ol className="relative flex flex-col gap-5 lg:hidden">
       <span aria-hidden="true" className="absolute top-6 bottom-6 left-6 w-px border-l border-dashed border-violet-deep/40" />
       {LOOP_STEPS.map((step, index) => (
         <ListNode key={step.name} step={step} index={index} />
@@ -104,13 +104,13 @@ function PolicyWindows() {
 export function Loop() {
   return (
     <section aria-labelledby="loop-heading">
-      <ScrollStage mode="pinned" className="relative md:h-[260svh]">
-        <div className="mx-auto flex max-w-7xl flex-col gap-10 px-4 py-24 md:sticky md:top-0 md:h-svh md:flex-row md:items-center md:gap-16 md:px-10 md:py-0">
-          <div className="md:w-80 md:shrink-0">
+      <ScrollStage mode="pinned" className="relative lg:h-[260svh]">
+        <div className="mx-auto flex max-w-7xl flex-col gap-10 px-4 py-24 md:px-10 lg:sticky lg:top-0 lg:h-svh lg:flex-row lg:items-center lg:gap-16 lg:py-0">
+          <div className="lg:w-80 lg:shrink-0">
             <h2 id="loop-heading" className="text-headline">The research loop</h2>
             <p className="text-body mt-6 flex items-center gap-3">
               <LabMark size={22} />
-              Seven specialist agents on Databricks Omnigent.
+              Seven specialist agents run on Databricks Omnigent.
             </p>
           </div>
           <div className="flex-1">
