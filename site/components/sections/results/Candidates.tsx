@@ -45,17 +45,19 @@ function CandidateCard({ candidate }: { candidate: Candidate }) {
 
 export function Candidates() {
   return (
-    <section aria-labelledby="candidates-heading" className="mx-auto max-w-7xl px-4 pb-28 md:px-10 md:pb-40">
-      <h3 id="candidates-heading" className="text-title mb-2">New candidate</h3>
-      <p className="text-body mb-8 max-w-2xl">
-        The lab searched 1,499 unlabelled stars, and one transit-shaped signal survived vetting. It is unconfirmed and needs follow-up observations.
-      </p>
+    <section aria-labelledby="candidates-heading" className="mx-auto grid max-w-7xl items-center gap-10 px-4 pb-28 pt-4 md:grid-cols-2 md:px-10 md:pb-40 md:pt-8">
+      <div>
+        <h2 id="candidates-heading" className="text-headline mb-6">Real Breakthrough Potential</h2>
+        <p className="text-title max-w-xl">
+          We searched 1,499 unlabelled stars and found a signal nobody had catalogued before. It could be a new planet, and it needs human review to find out.
+        </p>
+      </div>
       {CANDIDATES.length === 0 ? (
         <Os9Window title="Discovery search" accent="var(--stem)">
           <EmptyState />
         </Os9Window>
       ) : (
-        <div className="grid max-w-md grid-cols-1 gap-4">
+        <div className="grid grid-cols-1 gap-4">
           {CANDIDATES.map((candidate) => (
             <CandidateCard key={candidate.tic} candidate={candidate} />
           ))}

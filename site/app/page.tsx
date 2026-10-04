@@ -19,18 +19,18 @@ export default function Home() {
       <Backdrop />
       <Hero />
       <main>
+        <Candidates />
         <Demo />
-        <Loop />
         <section aria-label="Results">
           <ScoreJump />
           <Recall />
           <RecordTimeline />
           <Rediscoveries />
           <FalseLead />
-          <Candidates />
         </section>
         <Honest />
         <Breakthrough />
+        <Loop />
         <Future />
       </main>
       <Footer />

@@ -81,7 +81,7 @@ export function DiscoveryScene({ scene }: { scene: TimelineScene }) {
         <Caption text={`${UNLABELLED.toLocaleString("en-US")} unlabelled stars`} x={FIELD.left} y={FIELD.top - 110} frame={frame} at={line.from} size="title" />
         {CANDIDATES.map((candidate, index) => {
           const reveal = ramp(frame, shelfAt + index * 8, shelfAt + index * 8 + 22, easeOutSoft);
-          const y = 220 + index * 230;
+          const y = (CANDIDATES.length === 1 ? 420 : 220) + index * 230;
           return reveal > 0 ? (
             <AbsoluteFill key={candidate.tic} style={{ opacity: reveal, transform: `translateX(${lerp(-200, 0, reveal)}px)` }}>
               <svg width={1920} height={1080}>
@@ -90,7 +90,7 @@ export function DiscoveryScene({ scene }: { scene: TimelineScene }) {
             </AbsoluteFill>
           ) : null;
         })}
-        {CANDIDATES.length > 0 && <Caption text="Unconfirmed candidates" x={1840} y={60} frame={frame} at={shelfAt} align="right" size="title" color="var(--class-m)" />}
+        {CANDIDATES.length > 0 && <Caption text={CANDIDATES.length === 1 ? "Unconfirmed candidate" : "Unconfirmed candidates"} x={1840} y={60} frame={frame} at={shelfAt} align="right" size="title" color="var(--class-m)" />}
       </Paper>
     </Impact>
   );

@@ -1,7 +1,7 @@
 {
  "id": "demo",
  "fps": 30,
- "durationInFrames": 1783,
+ "durationInFrames": 1795,
  "scenes": [
   {
    "id": "transit",
@@ -648,14 +648,14 @@
   {
    "id": "discovery",
    "from": 1251,
-   "durationInFrames": 183,
+   "durationInFrames": 195,
    "lines": [
     {
      "id": "demo-discovery",
-     "text": "Then they searched fifteen hundred unlabelled stars, and flagged new planet candidates for follow-up.",
+     "text": "Then they searched fifteen hundred unlabelled stars, and flagged one new transit candidate for follow-up.",
      "audio": "audio/narration/demo-discovery.wav",
      "from": 6,
-     "durationInFrames": 162,
+     "durationInFrames": 174,
      "words": [
       [
        "Then",
@@ -675,21 +675,21 @@
       [
        "fifteen",
        20,
-       26
+       28
       ],
       [
        "hundred",
-       26,
+       28,
        42
       ],
       [
        "unlabelled",
        42,
-       64
+       65
       ],
       [
        "stars,",
-       64,
+       65,
        74
       ],
       [
@@ -700,32 +700,37 @@
       [
        "flagged",
        107,
-       110
+       113
+      ],
+      [
+       "one",
+       113,
+       119
       ],
       [
        "new",
-       110,
-       121
+       119,
+       132
       ],
       [
-       "planet",
-       121,
-       136
+       "transit",
+       132,
+       146
       ],
       [
-       "candidates",
-       136,
-       144
+       "candidate",
+       146,
+       156
       ],
       [
        "for",
-       144,
-       154
+       156,
+       166
       ],
       [
        "follow-up.",
-       154,
-       161
+       166,
+       173
       ]
      ]
     }
@@ -733,7 +738,7 @@
   },
   {
    "id": "ending",
-   "from": 1434,
+   "from": 1446,
    "durationInFrames": 349,
    "lines": [
     {
@@ -1030,39 +1035,44 @@
    "to": 1339
   },
   {
-   "text": "and flagged new planet candidates for follow-up.",
+   "text": "and flagged one new transit candidate for",
    "from": 1349,
-   "to": 1426
+   "to": 1423
+  },
+  {
+   "text": "follow-up.",
+   "from": 1423,
+   "to": 1438
   },
   {
    "text": "Better searches mean more worlds to study,",
-   "from": 1443,
-   "to": 1513
+   "from": 1455,
+   "to": 1525
   },
   {
    "text": "maybe habitable ones.",
-   "from": 1513,
-   "to": 1562
+   "from": 1525,
+   "to": 1574
   },
   {
    "text": "And a lab that needed a building",
-   "from": 1562,
-   "to": 1610
+   "from": 1574,
+   "to": 1622
   },
   {
    "text": "now fits in a dorm room,",
-   "from": 1610,
-   "to": 1659
+   "from": 1622,
+   "to": 1671
   },
   {
    "text": "ready for any science you can score,",
-   "from": 1659,
-   "to": 1725
+   "from": 1671,
+   "to": 1737
   },
   {
    "text": "from planets to medicine.",
-   "from": 1725,
-   "to": 1769
+   "from": 1737,
+   "to": 1781
   }
  ]
 }
