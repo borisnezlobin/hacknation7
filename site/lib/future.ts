@@ -11,7 +11,7 @@ export const STAKES: Stake[] = [
   },
   {
     figure: "6 of 53",
-    line: "Only this many landmark cancer studies held up when another lab repeated them. Planet lab runs that repeat on every result. A result counts only if it also works on data held back from the agents.",
+    line: "Only this many landmark cancer studies held up when another lab repeated them. Planet lab repeats every test on data its agents never saw.",
     sources: [{ label: "eLife", href: "https://elifesciences.org/articles/67527" }],
   },
   {
